@@ -18,9 +18,13 @@ d3.csv('Input/domain_data.csv')
   .row(function (d) { return d.GENENAME })
   .get(function (error, rows) {
     
+    var nest = d3.nest()
+      .key(function(d) {return d})
+      .map(rows);
+
     //Create the options for the datalist
     d3.select('datalist').selectAll('option')
-      .data(rows) // Data join
+      .data(d3.keys(nest)) // Data join, find keys from mapped nested array
       .enter() // Enter data selection
       .append('option') // Append to options
       .attr('value', function (d) { return d; }); // Add name to option
