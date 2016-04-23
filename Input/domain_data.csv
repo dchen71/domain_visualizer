@@ -1,0 +1,2653 @@
+GENENAME,UniprotID,Reviewed,Evidence,Features,Start,End,Descriptions
+Adamts20,P59511,Reviewed,transcript,Domain,255,464,Peptidase M12B
+Adamts20,P59511,Reviewed,transcript,Domain,465,552,Disintegrin
+Adamts20,P59511,Reviewed,transcript,Domain,553,608,TSP type-1 1
+Adamts20,P59511,Reviewed,transcript,Domain,843,901,TSP type-1 2
+Adamts20,P59511,Reviewed,transcript,Domain,906,962,TSP type-1 3
+Adamts20,P59511,Reviewed,transcript,Domain,962,1015,TSP type-1 4
+Adamts20,P59511,Reviewed,transcript,Domain,1017,1074,TSP type-1 5
+Adamts20,P59511,Reviewed,transcript,Domain,1075,1131,TSP type-1 6
+Adamts20,P59511,Reviewed,transcript,Domain,1148,1202,TSP type-1 7
+Adamts20,P59511,Reviewed,transcript,Domain,1203,1260,TSP type-1 8
+Adamts20,P59511,Reviewed,transcript,Domain,1300,1351,TSP type-1 9
+Adamts20,P59511,Reviewed,transcript,Domain,1354,1411,TSP type-1 10
+Adamts20,P59511,Reviewed,transcript,Domain,1412,1465,TSP type-1 11
+Adamts20,P59511,Reviewed,transcript,Domain,1468,1526,TSP type-1 12
+Adamts20,P59511,Reviewed,transcript,Domain,1527,1584,TSP type-1 13
+Adamts20,P59511,Reviewed,transcript,Domain,1585,1648,TSP type-1 14
+Adamts20,P59511,Reviewed,transcript,Domain,1650,1706,TSP type-1 15
+Adamts20,P59511,Reviewed,transcript,Domain,1707,1906,GON
+Adamts20,P59511,Reviewed,transcript,Region,721,842,Spacer
+Adamts20,P59511,Reviewed,transcript,Compositional bias,609,720,Cys-rich
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,909,1005,Ig-like (immunoglobulin-like)
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,1198,1292,Ig-like (immunoglobulin-like)
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,1298,1392,Ig-like (immunoglobulin-like)
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,1670,1706,PLAC
+Adck5,E9PUK2,Unreviewed,protein,Domain,189,304,ABC1
+Adck5,Q80V03,Reviewed,transcript,Domain,179,419,Protein kinase
+Adcy6,F8VQ52,Unreviewed,protein,Domain,377,506,Guanylate cyclase
+Adcy6,F8VQ52,Unreviewed,protein,Domain,979,1118,Guanylate cyclase
+Adcy6,Q01341,NA,NA,NA,NA,NA,NA
+Adcy8,Q3UUN2,Unreviewed,transcript,Domain,412,539,Guanylate cyclase
+Adcy8,Q3UUN2,Unreviewed,transcript,Domain,950,1090,Guanylate cyclase
+Adcy8,Q3UUN2,Unreviewed,transcript,Coiled coil,898,921,NA
+Adcy8,P97490,NA,NA,NA,NA,NA,NA
+Adgrb1,Q3UHD1,Reviewed,protein,Domain,261,315,TSP type-1 1
+Adgrb1,Q3UHD1,Reviewed,protein,Domain,354,407,TSP type-1 2
+Adgrb1,Q3UHD1,Reviewed,protein,Domain,409,462,TSP type-1 3
+Adgrb1,Q3UHD1,Reviewed,protein,Domain,467,520,TSP type-1 4
+Adgrb1,Q3UHD1,Reviewed,protein,Domain,522,575,TSP type-1 5
+Adgrb1,Q3UHD1,Reviewed,protein,Domain,881,938,GPS
+Adgrb1,Q3UHD1,Reviewed,protein,Motif,231,233,NA
+Adgrb1,Q3UHD1,Reviewed,protein,Compositional bias,1382,1449,Pro-rich
+Adm2,Q7TNK8,NA,NA,NA,NA,NA,NA
+Adsl,P54822,Reviewed,protein,Region,20,21,Substrate binding; shared with neighboring subunit
+Adsl,P54822,Reviewed,protein,Region,85,87,Substrate binding
+Adsl,P54822,Reviewed,protein,Region,111,112,Substrate binding
+Aen,Q9CZI9,Reviewed,transcript,Domain,109,265,Exonuclease
+Aen,Q9CZI9,Reviewed,transcript,Motif,25,33,Nucleolar localization signal
+Aen,Q9CZI9,Reviewed,transcript,Motif,164,187,Nuclear localization signal
+Agbl1,Q09M05,Reviewed,protein,Compositional bias,256,283,Asp-rich
+Akap13,E9Q394,Unreviewed,protein,Domain,1754,1801,Phorbol-ester/DAG-type
+Akap13,E9Q394,Unreviewed,protein,Domain,1957,2154,DH (DBL-homology)
+Akap13,E9Q394,Unreviewed,protein,Domain,2194,2296,PH
+Akap13,E9Q394,Unreviewed,protein,Coiled coil,1721,1755,NA
+Akap13,E9Q394,Unreviewed,protein,Coiled coil,2310,2341,NA
+Akap13,E9Q394,Unreviewed,protein,Coiled coil,2534,2579,NA
+Akap13,E9Q394,Unreviewed,protein,Coiled coil,2583,2642,NA
+Akap13,E9Q474,NA,NA,NA,NA,NA,NA
+Alg12,Q8VDB2,NA,NA,NA,NA,NA,NA
+Alg12,Q8VCA2,NA,NA,NA,NA,NA,NA
+Alg8,Q6P8H8,NA,NA,NA,NA,NA,NA
+Alpk3,D3YUT2,Unreviewed,protein,Domain,77,173,Ig-like (immunoglobulin-like)
+Alpk3,D3YUT2,Unreviewed,protein,Domain,1251,1339,Ig-like (immunoglobulin-like)
+Alpk3,D3YUT2,Unreviewed,protein,Domain,1367,1600,Alpha-type protein kinase
+Amigo2,Q4VBE6,Unreviewed,protein,Domain,302,378,Ig-like (immunoglobulin-like)
+Amigo2,Q80ZD9,Reviewed,protein,Domain,39,67,LRRNT
+Amigo2,Q80ZD9,Reviewed,protein,Repeat,68,89,LRR 1
+Amigo2,Q80ZD9,Reviewed,protein,Repeat,93,114,LRR 2
+Amigo2,Q80ZD9,Reviewed,protein,Repeat,117,138,LRR 3
+Amigo2,Q80ZD9,Reviewed,protein,Repeat,141,162,LRR 4
+Amigo2,Q80ZD9,Reviewed,protein,Repeat,165,186,LRR 5
+Amigo2,Q80ZD9,Reviewed,protein,Repeat,192,213,LRR 6
+Amigo2,Q80ZD9,Reviewed,protein,Domain,227,283,LRRCT
+Amigo2,Q80ZD9,Reviewed,protein,Domain,288,378,NA
+Ankrd33,Q8BXP5,Reviewed,transcript,Repeat,29,58,ANK 1
+Ankrd33,Q8BXP5,Reviewed,transcript,Repeat,64,93,ANK 2
+Ankrd33,Q8BXP5,Reviewed,transcript,Repeat,98,132,ANK 3
+Ankrd33,D5G1T0,Unreviewed,transcript,Domain,17,182,ANK_REP_REGION
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,25,54,ANK 1
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,59,88,ANK 2
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,92,121,ANK 3
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,125,154,ANK 4
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,158,187,ANK 5
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,191,220,ANK 6
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,228,257,ANK 7
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,263,293,ANK 8
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,297,326,ANK 9
+Ankrd42,Q3V096,Reviewed,transcript,Repeat,330,360,ANK 10
+Ankrd42,Q3V096,Reviewed,transcript,Coiled coil,395,484,NA
+Ankrd54,A7YB12,Unreviewed,protein,Domain,108,215,ANK_REP_REGION
+Ankrd54,Q91WK7,Reviewed,protein,Repeat,108,137,ANK 1
+Ankrd54,Q91WK7,Reviewed,protein,Repeat,141,170,ANK 2
+Ankrd54,Q91WK7,Reviewed,protein,Repeat,174,203,ANK 3
+Ankrd54,Q91WK7,Reviewed,protein,Repeat,207,239,ANK 4
+Ankrd54,Q91WK7,Reviewed,protein,Region,140,240,LYN-binding
+Ankrd54,Q91WK7,Reviewed,protein,Motif,98,116,Nuclear localization signal (NLS)
+Ankrd54,Q91WK7,Reviewed,protein,Motif,282,292,Nuclear export signal (NES)
+Aqp11,Q8BHH1,Reviewed,protein,Motif,99,101,NPA 1
+Aqp11,Q8BHH1,Reviewed,protein,Motif,216,218,NPA 2
+Aqp2,P56402,Reviewed,protein,Motif,68,70,NPA 1
+Aqp2,P56402,Reviewed,protein,Motif,184,186,NPA 2
+Aqp2,Q3UQD4,NA,NA,NA,NA,NA,NA
+Aqp5,Q9WTY4,Reviewed,protein,Motif,69,71,NPA 1
+Aqp5,Q9WTY4,Reviewed,protein,Motif,185,187,NPA 2
+Aqp6,Q8C4A0,Reviewed,transcript,Motif,79,81,NPA 1
+Aqp6,Q8C4A0,Reviewed,transcript,Motif,193,195,NPA 2
+Arap1,Q4LDD4,Reviewed,protein,Domain,6,70,SAM
+Arap1,Q4LDD4,Reviewed,protein,Domain,329,421,PH 1
+Arap1,Q4LDD4,Reviewed,protein,Domain,442,531,PH 2
+Arap1,Q4LDD4,Reviewed,protein,Domain,537,662,Arf-GAP
+Arap1,Q4LDD4,Reviewed,protein,Domain,745,852,PH 3
+Arap1,Q4LDD4,Reviewed,protein,Domain,956,1141,Rho-GAP
+Arap1,Q4LDD4,Reviewed,protein,Domain,1174,1263,Ras-associating
+Arap1,Q4LDD4,Reviewed,protein,Domain,1276,1398,PH 4
+Arap1,Q4LDD4,Reviewed,protein,Zinc finger,552,575,C4-type
+Arap1,E9PUB0,Unreviewed,protein,Domain,31,138,PH
+Arap1,E9PUB0,Unreviewed,protein,Domain,242,427,Rho-GAP
+Arap1,E9PUB0,Unreviewed,protein,Domain,460,549,Ras-associating
+Arap1,E9PUB0,Unreviewed,protein,Domain,562,673,PH
+Arfgap3,Q9D8S3,Reviewed,protein,Domain,10,126,Arf-GAP
+Arfgap3,Q9D8S3,Reviewed,protein,Compositional bias,348,408,Ser-rich
+Arfgap3,Q9D8S3,Reviewed,protein,Zinc finger,25,48,C4-type
+Arhgap39,G3X932,Unreviewed,protein,Domain,65,99,WW
+Arhgap39,G3X932,Unreviewed,protein,Domain,717,869,MyTH4
+Arhgap39,G3X932,Unreviewed,protein,Domain,916,1104,Rho-GAP
+Arhgap39,P59281,Reviewed,protein,Domain,25,58,WW 1
+Arhgap39,P59281,Reviewed,protein,Domain,63,97,WW 2
+Arhgap39,P59281,Reviewed,protein,Domain,715,867,MyTH4
+Arhgap39,P59281,Reviewed,protein,Domain,914,1102,Rho-GAP
+Arhgap39,H7BX46,Unreviewed,protein,Domain,65,99,WW
+Arhgap39,H7BX46,Unreviewed,protein,Domain,717,874,MyTH4
+Arhgap39,H7BX46,Unreviewed,protein,Domain,885,1073,Rho-GAP
+Arhgap8,Q9CXP4,Reviewed,transcript,Domain,13,168,CRAL-TRIO
+Arhgap8,Q9CXP4,Reviewed,transcript,Domain,195,381,Rho-GAP
+Arhgef17,Q80U35,Reviewed,protein,Domain,1059,1247,DH
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,196,199,Poly-Arg
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,230,234,Poly-Ser
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,251,255,Poly-Glu
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,700,703,Poly-Arg
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,955,1047,Pro-rich
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,1986,1990,Poly-Pro
+Arhgef17,Q80U35,Reviewed,protein,Compositional bias,2035,2038,Poly-Gly
+Arid2,E9Q7E2,Unreviewed,protein,Domain,13,105,ARID
+Arid2,E9Q7E2,Unreviewed,protein,Domain,524,603,RFX-type winged-helix DNA-binding
+Arid2,Q9D982,Unreviewed,protein,Domain,13,105,ARID
+Arrdc4,A0A0B4J1F4,Reviewed,transcript,Motif,347,350,PPXY 1Curated
+Arrdc4,A0A0B4J1F4,Reviewed,transcript,Motif,392,395,PPXY 2Curated
+Arrdc4,Q8VD69,Reviewed,transcript,Motif,347,350,PPXY 1Curated
+Arrdc4,Q8VD69,Reviewed,transcript,Motif,392,395,PPXY 2Curated
+Arsa,P50428,NA,NA,NA,NA,NA,NA
+Art1,Q545U9,NA,NA,NA,NA,NA,NA
+Art1,Q60935,NA,NA,NA,NA,NA,NA
+Art2b,O35975,NA,NA,NA,NA,NA,NA
+Asap1,H3BKE6,Unreviewed,protein,Domain,336,428,PH
+Asap1,H3BKE6,Unreviewed,protein,Domain,612,689,ANK_REP_REGION
+Asap1,H3BKE6,Unreviewed,protein,Domain,1025,1087,SH3
+Asap1,Q3UJA5,Unreviewed,transcript,Domain,336,428,PH
+Asap1,Q3UJA5,Unreviewed,transcript,Domain,612,689,ANK_REP_REGION
+Asap1,Q3UJA5,Unreviewed,transcript,Domain,1025,1087,SH3
+Asap1,Q9QWY8,Reviewed,protein,Domain,339,431,PH
+Asap1,Q9QWY8,Reviewed,protein,Domain,454,577,Arf-GAP
+Asap1,Q9QWY8,Reviewed,protein,Repeat,615,647,ANK 1
+Asap1,Q9QWY8,Reviewed,protein,Repeat,651,680,ANK 2
+Asap1,Q9QWY8,Reviewed,protein,Domain,1085,1147,SH3
+Asap1,Q9QWY8,Reviewed,protein,Compositional bias,798,1011,Pro-rich
+Asap1,Q9QWY8,Reviewed,protein,Zinc finger,469,492,C4-type
+Asap1,H3BL41,Unreviewed,protein,Domain,316,408,PH
+Asap1,H3BL41,Unreviewed,protein,Domain,592,669,ANK_REP_REGION
+Asap1,H3BL41,Unreviewed,protein,Domain,1062,1124,SH3
+Asap1,E9QMJ1,Unreviewed,protein,Domain,304,396,PH
+Asap1,E9QMJ1,Unreviewed,protein,Domain,580,657,ANK_REP_REGION
+Asap1,E9QMJ1,Unreviewed,protein,Domain,1050,1112,SH3
+Asap1,Q3TXY1,Unreviewed,transcript,Domain,71,133,SH3
+Asic1,Q6NXK8,Reviewed,protein,Motif,442,444,Selectivity filterCurated
+Atad2,G3X963,Unreviewed,protein,Domain,982,1037,Bromo
+Atad2,Q6IQY4,NA,NA,NA,NA,NA,NA
+Atad2,Q8CDM1,Reviewed,protein,Domain,650,720,Bromo
+Atad2,Q8CDM1,Reviewed,protein,Coiled coil,619,643,NA
+Atad2,Q8CDM1,Reviewed,protein,Coiled coil,735,761,NA
+Atad2,Q8CDM1,Reviewed,protein,Compositional bias,13,22,Poly-Ser
+Atad2,Q8CDM1,Reviewed,protein,Compositional bias,891,894,Poly-Ser
+Atf4,Q06507,Reviewed,protein,Domain,276,339,bZIP
+Atf4,Q06507,Reviewed,protein,Region,278,298,Basic motif
+Atf4,Q06507,Reviewed,protein,Region,303,339,Interaction with GABBR1
+Atf4,Q06507,Reviewed,protein,Region,304,332,Leucine-zipper
+Atf4,Q06507,Reviewed,protein,Motif,214,223,BetaTrCP degron motif
+Atf4,Q8CF69,Unreviewed,transcript,Domain,277,340,BZIP (basic-leucine zipper)
+Atf4,Q8CF69,Unreviewed,transcript,Coiled coil,295,343,NA
+Atg16l2,G9M4M8,Unreviewed,transcript,Domain,336,623,WD_REPEATS_REGION
+Atg16l2,G9M4M8,Unreviewed,transcript,Coiled coil,122,209,NA
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,338,377,WD 1
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,382,421,WD 2
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,424,458,WD 3
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,459,502,WD 4
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,504,543,WD 5
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,550,589,WD 6
+Atg16l2,Q6KAU8,Reviewed,transcript,Repeat,593,623,WD 7
+Atg16l2,Q6KAU8,Reviewed,transcript,Coiled coil,116,229,NA
+Atxn10,P28658,NA,NA,NA,NA,NA,NA
+AU021063,NA,NA,NA,NA,NA,NA,NA
+B3gnt6,Q3USF0,NA,NA,NA,NA,NA,NA
+Baiap2l2,Q80Y61,Reviewed,protein,Domain,1,239,IMD
+Baiap2l2,Q80Y61,Reviewed,protein,Domain,324,387,SH3
+BC024139,Q8BVJ3,Unreviewed,protein,Domain,625,700,GAR
+BC024139,Q8BVJ3,Unreviewed,protein,Coiled coil,254,281,NA
+BC048679,D3YXE9,NA,NA,NA,NA,NA,NA
+BC048679,Q6XL63,Unreviewed,transcript,Domain,32,79,NLPC_P60
+Bcdin3d,Q91YP1,Reviewed,transcript,Domain,53,275,Bin3-type SAM
+Bik,O70337,Reviewed,protein,Region,127,148,NA
+Bik,O70337,Reviewed,protein,Motif,51,65,BH3
+Bin2,S4R270,Unreviewed,protein,Domain,28,244,BAR
+Bin2,S4R270,Unreviewed,protein,Coiled coil,156,190,NA
+Blm,O88700,Reviewed,protein,Domain,684,859,Helicase ATP-binding
+Blm,O88700,Reviewed,protein,Domain,885,1032,Helicase C-terminal
+Blm,O88700,Reviewed,protein,Domain,1217,1297,HRDC
+Blm,O88700,Reviewed,protein,Motif,803,806,DEAH box
+Blm,O88700,Reviewed,protein,Motif,1333,1348,NA
+Blm,O88700,Reviewed,protein,Compositional bias,219,231,Poly-Glu
+Blm,O88700,Reviewed,protein,Compositional bias,564,574,Poly-Asp
+Blm,O88700,Reviewed,protein,Compositional bias,1312,1317,Poly-Glu
+Blm,E9PZ97,Unreviewed,protein,Domain,687,862,Helicase ATP-binding
+Blm,E9PZ97,Unreviewed,protein,Domain,888,1035,Helicase C-terminal
+Blm,E9PZ97,Unreviewed,protein,Domain,1220,1300,HRDC
+Bnc1,F8VPY0,Unreviewed,inferred,Domain,354,382,C2H2-type
+Bnc1,F8VPY0,Unreviewed,inferred,Domain,716,744,C2H2-type
+Bop1,P97452,Reviewed,protein,Repeat,397,436,WD 1
+Bop1,P97452,Reviewed,protein,Repeat,438,478,WD 2
+Bop1,P97452,Reviewed,protein,Repeat,518,560,WD 3
+Bop1,P97452,Reviewed,protein,Repeat,563,601,WD 4
+Bop1,P97452,Reviewed,protein,Repeat,604,643,WD 5
+Bop1,P97452,Reviewed,protein,Repeat,647,686,WD 6
+Bop1,P97452,Reviewed,protein,Repeat,702,732,WD 7
+Bop1,P97452,Reviewed,protein,Region,251,413,Sufficient for nucleolar localization
+Capn5,O08688,Reviewed,protein,Domain,26,343,Calpain catalytic
+Capn5,O08688,Reviewed,protein,Domain,518,619,C2
+Capn5,O08688,Reviewed,protein,Region,344,496,Domain III
+Capn5,Q3TPL4,Unreviewed,protein,Domain,26,343,Calpain catalytic
+Capn5,Q3UTF3,Unreviewed,transcript,Domain,1,89,C2
+Card10,E9PUV9,Unreviewed,protein,Domain,72,164,CARD
+Card10,E9PUV9,Unreviewed,protein,Coiled coil,203,240,NA
+Card10,E9PUV9,Unreviewed,protein,Coiled coil,276,303,NA
+Card10,E9PUV9,Unreviewed,protein,Coiled coil,323,350,NA
+Card10,E9PUV9,Unreviewed,protein,Coiled coil,389,479,NA
+Card10,P58660,Reviewed,protein,Domain,23,115,CARD
+Card10,P58660,Reviewed,protein,Coiled coil,138,450,NA
+Card10,P58660,Reviewed,protein,Compositional bias,558,565,Poly-Ser
+Cbx6,Q9DBY5,Reviewed,protein,Domain,11,69,Chromo
+Ccdc134,Q8C7V8,Reviewed,protein,Coiled coil,196,218,NA
+Ccdc134,Q8C7V8,Reviewed,protein,Compositional bias,201,218,Arg/Glu/Lys-rich (mixed charge)
+Ccdc166,Q0P5Z5,Unreviewed,transcript,Domain,67,142,DUF4515
+Ccdc166,Q0P5Z5,Unreviewed,transcript,Coiled coil,40,67,NA
+Ccdc166,Q0P5Z5,Unreviewed,transcript,Coiled coil,115,139,NA
+Ccdc166,S4R181,Unreviewed,inferred,Domain,67,257,DUF4515
+Ccdc166,S4R181,Unreviewed,inferred,Coiled coil,40,67,NA
+Ccdc166,S4R181,Unreviewed,inferred,Coiled coil,115,139,NA
+Ccdc166,S4R181,Unreviewed,inferred,Coiled coil,226,263,NA
+Ccdc184,Q8BMK5,Reviewed,transcript,Coiled coil,39,68,NA
+Ccdc65,Q8VHI7,Reviewed,protein,Coiled coil,99,163,NA
+Ccdc65,Q8VHI7,Reviewed,protein,Coiled coil,253,280,NA
+Ccdc89,Q9DA73,Reviewed,protein,Coiled coil,36,346,NA
+Cckbr,P56481,NA,NA,NA,NA,NA,NA
+Cckbr,Q3ZB46,Unreviewed,protein,Domain,71,396,G_PROTEIN_RECEP_F1_2
+Ccnt1,Q9QWV9,Reviewed,protein,Coiled coil,384,425,NA
+Ccnt1,Q9QWV9,Reviewed,protein,Motif,253,270,NA
+Ccnt1,Q9QWV9,Reviewed,protein,Compositional bias,319,322,Poly-Ser
+Ccnt1,Q9QWV9,Reviewed,protein,Compositional bias,505,529,His-rich
+Ccnt1,Q9QWV9,Reviewed,protein,Compositional bias,565,569,Poly-Ser
+Ccnt1,Q9QWV9,Reviewed,protein,Compositional bias,706,723,Pro-rich
+Cdc42ep1,Q91W92,Reviewed,protein,Domain,38,52,CRIB
+Cdc42ep1,Q91W92,Reviewed,protein,Repeat,235,241,1
+Cdc42ep1,Q91W92,Reviewed,protein,Repeat,242,248,2
+Cdc42ep1,Q91W92,Reviewed,protein,Repeat,255,261,3
+Cdc42ep1,Q91W92,Reviewed,protein,Region,235,284,3 X 7 AA tandem repeats of [PT]-[AT]-A-[ENT]-[PT]-[PTS]-[AG]
+Cdpf1,Q8CEZ9,NA,NA,NA,NA,NA,NA
+Cdpf1,Q8R3A2,NA,NA,NA,NA,NA,NA
+Cela1,Q91X79,Reviewed,protein,Domain,27,264,Peptidase S1
+Celsr1,O35161,Reviewed,protein,Domain,261,368,Cadherin 1
+Celsr1,O35161,Reviewed,protein,Domain,369,474,Cadherin 2
+Celsr1,O35161,Reviewed,protein,Domain,475,580,Cadherin 3
+Celsr1,O35161,Reviewed,protein,Domain,581,702,Cadherin 4
+Celsr1,O35161,Reviewed,protein,Domain,703,804,Cadherin 5
+Celsr1,O35161,Reviewed,protein,Domain,805,907,Cadherin 6
+Celsr1,O35161,Reviewed,protein,Domain,908,1014,Cadherin 7
+Celsr1,O35161,Reviewed,protein,Domain,1015,1116,Cadherin 8
+Celsr1,O35161,Reviewed,protein,Domain,1121,1239,Cadherin 9
+Celsr1,O35161,Reviewed,protein,Domain,1318,1376,EGF-like 1; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1378,1414,EGF-like 2; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1418,1456,EGF-like 3; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1457,1661,Laminin G-like 1
+Celsr1,O35161,Reviewed,protein,Domain,1664,1700,EGF-like 4; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1704,1885,Laminin G-like 2
+Celsr1,O35161,Reviewed,protein,Domain,1887,1922,EGF-like 5; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1923,1961,EGF-like 6; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1962,1994,EGF-like 7; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,1996,2031,EGF-like 8; calcium-binding
+Celsr1,O35161,Reviewed,protein,Domain,2018,2065,Laminin EGF-like
+Celsr1,O35161,Reviewed,protein,Domain,2423,2475,GPS
+Celsr1,O35161,Reviewed,protein,Compositional bias,2674,2678,Poly-Leu
+Cemip,Q5M9P4,NA,NA,NA,NA,NA,NA
+Cemip,Q8BI06,Reviewed,protein,Domain,44,166,G8
+Cemip,Q8BI06,Reviewed,protein,Repeat,572,594,PbH1 1
+Cemip,Q8BI06,Reviewed,protein,Repeat,595,617,PbH1 2
+Cemip,Q8BI06,Reviewed,protein,Repeat,719,741,PbH1 3
+Cemip,Q8BI06,Reviewed,protein,Repeat,798,819,PbH1 4
+Cemip,Q8BI06,Reviewed,protein,Region,295,591,Necessary for its endoplasmic reticulum (ER) retention and interaction with HSPA5
+Cenpm,Q9CQA0,NA,NA,NA,NA,NA,NA
+Cerk,Q8K4Q7,Reviewed,transcript,Domain,128,278,DAGKc
+Cerk,Q8K4Q7,Reviewed,transcript,Region,1,125,Required for binding to sulfatide and phosphoinositides
+Cerk,Q8K4Q7,Reviewed,transcript,Region,195,198,Substrate binding
+Cers5,Q9D6K9,Reviewed,protein,Domain,139,340,TLC
+Chadl,E9Q7T7,Reviewed,protein,Domain,30,61,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,85,107,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,108,131,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,132,155,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,156,179,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,181,203,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,204,227,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,229,252,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,253,275,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,276,299,NA
+Chadl,E9Q7T7,Reviewed,protein,Domain,309,357,NA
+Chadl,E9Q7T7,Reviewed,protein,Domain,394,428,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,423,446,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,448,470,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,471,494,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,496,518,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,519,542,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,544,566,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,567,590,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,591,614,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,616,639,NA
+Chadl,E9Q7T7,Reviewed,protein,Repeat,641,665,NA
+Chadl,E9Q7T7,Reviewed,protein,Domain,674,722,NA
+Chd2,E9PZM4,Reviewed,protein,Domain,261,353,Chromo 1
+Chd2,E9PZM4,Reviewed,protein,Domain,378,456,Chromo 2
+Chd2,E9PZM4,Reviewed,protein,Domain,496,666,Helicase ATP-binding
+Chd2,E9PZM4,Reviewed,protein,Domain,795,946,Helicase C-terminal
+Chd2,E9PZM4,Reviewed,protein,Motif,617,620,DEAH box
+Chd2,E9PZM4,Reviewed,protein,Compositional bias,13,75,Ser-rich
+Chd2,E9PZM4,Reviewed,protein,Compositional bias,209,215,Poly-Asp
+Chd2,E9PZM4,Reviewed,protein,Compositional bias,966,1066,Glu-rich
+Chd2,E9PZM4,Reviewed,protein,Compositional bias,1303,1439,Lys-rich
+Chd2,E9PZM4,Reviewed,protein,Compositional bias,1562,1565,Poly-Glu
+Chd2,E9PZM4,Reviewed,protein,Compositional bias,1596,1720,His-rich
+Chkb,O55229,Reviewed,protein,Region,77,79,Substrate binding
+Chkb,Q54AG5,NA,NA,NA,NA,NA,NA
+Chrac1,Q9JKP8,Reviewed,protein,Coiled coil,104,120,NA
+Clpb,Q3URM1,Unreviewed,protein,Domain,133,276,ANK_REP_REGION
+Clpb,Q60649,Reviewed,protein,Repeat,133,162,ANK 1
+Clpb,Q60649,Reviewed,protein,Repeat,166,195,ANK 2
+Clpb,Q60649,Reviewed,protein,Repeat,235,265,ANK 3
+Clpb,Q60649,Reviewed,protein,Repeat,268,297,ANK 4
+Clpb,E9PY58,Unreviewed,protein,Domain,133,306,ANK_REP_REGION
+Cnga4,Q3UW12,Reviewed,transcript,Coiled coil,493,536,
+Cnga4,Q3UW12,Reviewed,transcript,Motif,292,302,IQ-type
+Cntn1,P12960,Reviewed,protein,Domain,41,131,Ig-like C2-type 1
+Cntn1,P12960,Reviewed,protein,Domain,137,223,Ig-like C2-type 2
+Cntn1,P12960,Reviewed,protein,Domain,241,326,Ig-like C2-type 3
+Cntn1,P12960,Reviewed,protein,Domain,331,407,Ig-like C2-type 4
+Cntn1,P12960,Reviewed,protein,Domain,413,500,Ig-like C2-type 5
+Cntn1,P12960,Reviewed,protein,Domain,504,603,Ig-like C2-type 6
+Cntn1,P12960,Reviewed,protein,Domain,608,706,Fibronectin type-III 1
+Cntn1,P12960,Reviewed,protein,Domain,711,808,Fibronectin type-III 2
+Cntn1,P12960,Reviewed,protein,Domain,813,908,Fibronectin type-III 3
+Cntn1,P12960,Reviewed,protein,Domain,909,1002,Fibronectin type-III 4
+Cntn1,P12960,Reviewed,protein,Compositional bias,604,611,Gly/Pro-rich
+Coa4,Q8BT51,Reviewed,inferred,Domain,27,67,CHCH
+Coa4,Q8BT51,Reviewed,inferred,Motif,34,44,Cx9C motif 1
+Coa4,Q8BT51,Reviewed,inferred,Motif,54,64,Cx9C motif 2
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,32,122,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,159,331,VWFA
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,356,445,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,446,537,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,538,625,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,627,716,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,738,827,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,829,919,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,920,1011,Fibronectin type-III
+Col14a1,B7ZNH7,Unreviewed,protein,Domain,1030,1203,VWFA
+Col14a1,Q80X19,Reviewed,protein,Domain,32,122,Fibronectin type-III 1
+Col14a1,Q80X19,Reviewed,protein,Domain,159,331,VWFA 1
+Col14a1,Q80X19,Reviewed,protein,Domain,356,445,Fibronectin type-III 2
+Col14a1,Q80X19,Reviewed,protein,Domain,446,537,Fibronectin type-III 3
+Col14a1,Q80X19,Reviewed,protein,Domain,538,625,Fibronectin type-III 4
+Col14a1,Q80X19,Reviewed,protein,Domain,627,716,Fibronectin type-III 5
+Col14a1,Q80X19,Reviewed,protein,Domain,738,830,Fibronectin type-III 6
+Col14a1,Q80X19,Reviewed,protein,Domain,832,922,Fibronectin type-III 7
+Col14a1,Q80X19,Reviewed,protein,Domain,923,1014,Fibronectin type-III 8
+Col14a1,Q80X19,Reviewed,protein,Domain,1033,1206,VWFA 2
+Col14a1,Q80X19,Reviewed,protein,Domain,1230,1425,Laminin G-like
+Col14a1,Q80X19,Reviewed,protein,Domain,1463,1511,Collagen-like 1
+Col14a1,Q80X19,Reviewed,protein,Domain,1515,1571,Collagen-like 2
+Col14a1,Q80X19,Reviewed,protein,Domain,1572,1610,Collagen-like 3
+Col14a1,Q80X19,Reviewed,protein,Domain,1655,1706,Collagen-like 4
+Col14a1,Q80X19,Reviewed,protein,Domain,1708,1758,Collagen-like 5
+Col14a1,Q80X19,Reviewed,protein,Region,1218,1459,Nonhelical region (NC4)
+Col14a1,Q80X19,Reviewed,protein,Region,1460,1611,Triple-helical region 1 (COL2)
+Col14a1,Q80X19,Reviewed,protein,Region,1655,1780,Triple-helical region 2 (COL1)
+Col14a1,Q80X19,Reviewed,protein,Motif,1608,1610,NA
+Col22a1,E9Q7P1,Unreviewed,protein,Domain,47,222,VWFA
+Col2a1,P28481,Reviewed,protein,Domain,32,89,VWFC
+Col2a1,P28481,Reviewed,protein,Domain,1253,1487,Fibrillar collagen NC1
+Col2a1,P28481,Reviewed,protein,Region,201,1214,Triple-helical region
+Col2a1,P28481,Reviewed,protein,Region,1215,1241,Nonhelical region (C-terminal)
+Commd5,Q8R395,Reviewed,protein,Domain,151,215,COMM
+Cpne8,Q9DB19,NA,NA,NA,NA,NA,NA
+Cpne8,Q9DC53,Reviewed,transcript,Domain,23,130,C2 1
+Cpne8,Q9DC53,Reviewed,transcript,Domain,157,262,C2 2
+Cpne8,Q9DC53,Reviewed,transcript,Domain,322,523,VWFA
+Cpsf1,Q9EPU4,NA,NA,NA,NA,NA,NA
+Cpt1b,Q924X2,Reviewed,protein,Region,555,567,Coenzyme A binding
+Crebzf,Q91ZR3,Reviewed,protein,Domain,208,271,bZIP
+Crebzf,Q91ZR3,Reviewed,protein,Region,223,230,Basic motif
+Crebzf,Q91ZR3,Reviewed,protein,Region,236,271,Leucine-zipper
+Crebzf,Q91ZR3,Reviewed,protein,Motif,307,310,HCFC1-binding motif (HBM)
+Creld2,Q9CYA0,Reviewed,protein,Domain,134,176,EGF-like 1
+Creld2,Q9CYA0,Reviewed,protein,Repeat,191,238,FU 1
+Creld2,Q9CYA0,Reviewed,protein,Repeat,251,298,FU 2
+Creld2,Q9CYA0,Reviewed,protein,Domain,288,329,EGF-like 2; calcium-binding
+Crtc3,Q91X84,NA,NA,NA,NA,NA,NA
+Csdc2,Q91YQ3,Reviewed,protein,Domain,69,136,CSD
+Csf2rb,P26955,Reviewed,protein,Domain,136,243,Fibronectin type-III 1
+Csf2rb,P26955,Reviewed,protein,Domain,343,439,Fibronectin type-III 2
+Csf2rb,P26955,Reviewed,protein,Motif,428,432,WSXWS motif
+Csf2rb,P26955,Reviewed,protein,Motif,477,485,Box 1 motif
+Csf2rb2,Q3U1Z1,Unreviewed,transcript,Domain,234,329,Fibronectin type-III
+Csf2rb2,P26954,Reviewed,protein,Domain,139,244,Fibronectin type-III 1
+Csf2rb2,P26954,Reviewed,protein,Domain,343,438,Fibronectin type-III 2
+Csf2rb2,P26954,Reviewed,protein,Motif,427,431,WSXWS motif
+Csf2rb2,P26954,Reviewed,protein,Motif,476,484,Box 1 motif
+Csf2rb2,P26954,Reviewed,protein,Compositional bias,27,30,Poly-Glu
+Csf2rb2,P26954,Reviewed,protein,Compositional bias,137,140,Poly-Pro
+Csnk1e,Q9JMK2,Reviewed,protein,Domain,9,277,Protein kinase
+Csnk1e,Q3TYE1,Unreviewed,protein,Domain,9,277,Protein kinase
+Csrnp2,Q8BGQ2,Reviewed,transcript,Compositional bias,213,251,Cys-rich
+Ctsc,P97821,NA,NA,NA,NA,NA,NA
+Ctsc,Q3UBY5,Unreviewed,protein,Domain,230,457,Pept_C1
+Ctsc,Q8BQL3,Unreviewed,transcript,Domain,230,457,Pept_C1
+Ctsc,Q3U7T5,Unreviewed,transcript,Domain,25,106,CathepsinC_exc
+Cyb5r3,Q9DCN2,Reviewed,protein,Domain,40,152,FAD-binding FR-type
+Cyhr1,H3BIV6,Unreviewed,protein,Domain,106,151,RING-type
+Cyhr1,H3BIV6,Unreviewed,protein,Domain,152,210,TRAF-type
+Cyhr1,Q9QXA1,Reviewed,protein,Zinc finger,17,63,RING-type; degenerate
+Cyhr1,Q9QXA1,Reviewed,protein,Zinc finger,59,132,TRAF-type
+Cyth4,Q3U0C0,Unreviewed,protein,Domain,54,241,SEC7
+Cyth4,Q3U0C0,Unreviewed,protein,Domain,259,375,PH
+Cyth4,Q3U0C0,Unreviewed,protein,Coiled coil,19,53,NA
+Cyth4,Q3U6Y6,Unreviewed,transcript,Domain,54,241,SEC7
+Cyth4,Q3U6Y6,Unreviewed,transcript,Domain,259,375,PH
+Cyth4,Q3U6Y6,Unreviewed,transcript,Coiled coil,19,53,NA
+Cyth4,Q3U8A6,Unreviewed,transcript,Domain,54,241,SEC7
+Cyth4,Q3U8A6,Unreviewed,transcript,Domain,259,375,PH
+Cyth4,Q3U8A6,Unreviewed,transcript,Coiled coil,19,53,NA
+Cyth4,Q80YW0,Reviewed,protein,Domain,54,241,SEC7
+Cyth4,Q80YW0,Reviewed,protein,Domain,259,375,PH
+Cyth4,Q80YW0,Reviewed,protein,Region,268,275,"Phosphatidylinositol 3,4,5-trisphosphate binding"
+Cyth4,Q80YW0,Reviewed,protein,Region,386,393,C-terminal autoinhibitory region
+Cyth4,Q80YW0,Reviewed,protein,Coiled coil,13,56,NA
+D15Ertd621e,B6YY24,Unreviewed,protein,Domain,8,312,FAM91_N
+D15Ertd621e,B6YY24,Unreviewed,protein,Domain,375,820,FAM91_C
+D15Ertd621e,Q3UVG3,NA,NA,NA,NA,NA,NA
+Dbx2,F8VQH7,Unreviewed,inferred,Domain,224,284,Homeobox DNA-binding
+Dbx2,Q8BZD0,Unreviewed,transcript,Domain,92,152,Homeobox DNA-binding
+Dchs1,E9PVD3,Reviewed,protein,Domain,37,137,Cadherin 1
+Dchs1,E9PVD3,Reviewed,protein,Domain,138,249,Cadherin 2
+Dchs1,E9PVD3,Reviewed,protein,Domain,250,356,Cadherin 3
+Dchs1,E9PVD3,Reviewed,protein,Domain,369,466,Cadherin 4
+Dchs1,E9PVD3,Reviewed,protein,Domain,476,572,Cadherin 5
+Dchs1,E9PVD3,Reviewed,protein,Domain,573,679,Cadherin 6
+Dchs1,E9PVD3,Reviewed,protein,Domain,680,784,Cadherin 7
+Dchs1,E9PVD3,Reviewed,protein,Domain,785,888,Cadherin 8
+Dchs1,E9PVD3,Reviewed,protein,Domain,889,994,Cadherin 9
+Dchs1,E9PVD3,Reviewed,protein,Domain,995,1105,Cadherin 10
+Dchs1,E9PVD3,Reviewed,protein,Domain,1100,1205,Cadherin 11
+Dchs1,E9PVD3,Reviewed,protein,Domain,1218,1317,Cadherin 12
+Dchs1,E9PVD3,Reviewed,protein,Domain,1326,1429,Cadherin 13
+Dchs1,E9PVD3,Reviewed,protein,Domain,1430,1539,Cadherin 14
+Dchs1,E9PVD3,Reviewed,protein,Domain,1539,1642,Cadherin 15
+Dchs1,E9PVD3,Reviewed,protein,Domain,1643,1744,Cadherin 16
+Dchs1,E9PVD3,Reviewed,protein,Domain,1745,1848,Cadherin 17
+Dchs1,E9PVD3,Reviewed,protein,Domain,1849,1953,Cadherin 18
+Dchs1,E9PVD3,Reviewed,protein,Domain,1976,2061,Cadherin 19
+Dchs1,E9PVD3,Reviewed,protein,Domain,2062,2164,Cadherin 20
+Dchs1,E9PVD3,Reviewed,protein,Domain,2165,2270,Cadherin 21
+Dchs1,E9PVD3,Reviewed,protein,Domain,2270,2369,Cadherin 22
+Dchs1,E9PVD3,Reviewed,protein,Domain,2370,2475,Cadherin 23
+Dchs1,E9PVD3,Reviewed,protein,Domain,2476,2595,Cadherin 24
+Dchs1,E9PVD3,Reviewed,protein,Domain,2596,2699,Cadherin 25
+Dchs1,E9PVD3,Reviewed,protein,Domain,2700,2806,Cadherin 26
+Dchs1,E9PVD3,Reviewed,protein,Domain,2807,2926,Cadherin 27
+Ddias,E9QLR9,Unreviewed,inferred,Domain,10,102,Rep_fac-A_C
+Ddn,Q80TS7,Reviewed,protein,Region,113,131,Nuclear localization
+Ddn,Q80TS7,Reviewed,protein,Region,186,236,Interaction with MAGI2
+Ddn,Q80TS7,Reviewed,protein,Region,341,435,Interaction with ACTN1
+Ddn,Q80TS7,Reviewed,protein,Region,407,708,Interaction with CD2AP and NPHS1
+Ddn,Q80TS7,Reviewed,protein,Coiled coil,103,134,NA
+Ddx23,D3Z0M9,Unreviewed,protein,Domain,390,418,Q_MOTIF
+Ddx23,D3Z0M9,Unreviewed,protein,Domain,421,626,Helicase ATP-binding
+Ddx23,D3Z0M9,Unreviewed,protein,Domain,650,798,Helicase C-terminal
+Ddx23,D3Z0M9,Unreviewed,protein,Coiled coil,163,200,NA
+Ddx23,D3Z0M9,Unreviewed,protein,Coiled coil,322,349,NA
+Dennd3,A2RT67,Reviewed,protein,Domain,84,161,UDENN
+Dennd3,A2RT67,Reviewed,protein,Domain,187,373,DENN
+Dennd3,A2RT67,Reviewed,protein,Domain,436,499,dDENN
+Dennd3,A2RT67,Reviewed,protein,Repeat,1025,1063,WD 1
+Dennd3,A2RT67,Reviewed,protein,Repeat,1066,1107,WD 2
+Dennd3,A2RT67,Reviewed,protein,Repeat,1241,1274,WD 3
+Dennd6b,Q9D9V7,NA,NA,NA,NA,NA,NA
+Deptor,B2ZRS7,Unreviewed,inferred,Domain,24,107,DEP
+Deptor,B2ZRS7,Unreviewed,inferred,Domain,134,207,DEP
+Deptor,B2ZRS7,Unreviewed,inferred,Domain,318,395,PDZ (DHR)
+Deptor,Q570Y9,Reviewed,protein,Domain,36,119,DEP 1
+Deptor,Q570Y9,Reviewed,protein,Domain,146,219,DEP 2
+Deptor,Q570Y9,Reviewed,protein,Domain,330,407,PDZ
+Deptor,Q570Y9,Reviewed,protein,Compositional bias,235,299,Ser-rich
+Deptor,B2ZRS3,Unreviewed,inferred,Domain,36,119,DEP
+Deptor,B2ZRS3,Unreviewed,inferred,Domain,146,219,DEP
+Deptor,B2ZRS3,Unreviewed,inferred,Domain,330,407,PDZ (DHR)
+Det1,Q9D0A0,NA,NA,NA,NA,NA,NA
+Dgat1,Q54AA6,NA,NA,NA,NA,NA,NA
+Dgat1,Q9Z2A7,Reviewed,protein,Region,1,100,Involved in homomerization
+Dip2b,Q3UH60,Reviewed,protein,Domain,14,130,DMAP-interaction
+Dip2b,Q3UH60,Reviewed,protein,Compositional bias,226,231,Poly-Ser
+Dip2b,Q3UH60,Reviewed,protein,Compositional bias,1116,1119,Poly-Ala
+Dip2b,Q3UH60,Reviewed,protein,Compositional bias,1501,1504,Poly-Val
+Dip2b,Q3UH60,Reviewed,protein,Compositional bias,1532,1538,Poly-Val
+Dip2b,B2RQC7,Unreviewed,protein,Domain,128,580,AMP-binding
+Dip2b,B2RQC7,Unreviewed,protein,Domain,759,1233,AMP-binding
+Dlg2,D3YWU0,Unreviewed,protein,Domain,18,99,PDZ (DHR)
+Dlg2,D3YWU0,Unreviewed,protein,Domain,133,203,SH3
+Dlg2,D3YWU0,Unreviewed,protein,Domain,291,466,Guanylate kinase-like
+Dlg2,Q91XM9,Reviewed,protein,Domain,98,185,PDZ 1
+Dlg2,Q91XM9,Reviewed,protein,Domain,193,280,PDZ 2
+Dlg2,Q91XM9,Reviewed,protein,Domain,421,502,PDZ 3
+Dlg2,Q91XM9,Reviewed,protein,Domain,536,606,SH3
+Dlg2,Q91XM9,Reviewed,protein,Domain,662,837,Guanylate kinase-like
+Dnajb7,Q9QYI8,Reviewed,transcript,Domain,3,69,J
+Dnajc22,Q8CHS2,Reviewed,protein,Domain,277,339,J
+Dnal4,Q9DCM4,NA,NA,NA,NA,NA,NA
+Dnal4,Q8CDT8,NA,NA,NA,NA,NA,NA
+Dscc1,Q14AI0,NA,NA,NA,NA,NA,NA
+Dscc1,Q8C1P7,NA,NA,NA,NA,NA,NA
+E230029C05Rik,NA,NA,NA,NA,NA,NA,NA
+E430025E21Rik,Q8C2E7,NA,NA,NA,NA,NA,NA
+Eef1d,P57776,Reviewed,protein,Region,80,115,Leucine-zipper
+Eef1d,P57776,Reviewed,protein,Region,173,281,Catalytic (GEF)
+Eef1d,Q80T06,Unreviewed,protein,Domain,195,281,EF1_GNE
+Eef1d,Q80T06,Unreviewed,protein,Coiled coil,84,118,NA
+Eef1d,Q91VK2,Unreviewed,protein,Domain,190,276,EF1_GNE
+Eef1d,Q91VK2,Unreviewed,protein,Coiled coil,79,113,NA
+Efcab6,Q6P1E8,Reviewed,protein,Domain,96,131,EF-hand 1
+Efcab6,Q6P1E8,Reviewed,protein,Domain,197,232,EF-hand 2
+Efcab6,Q6P1E8,Reviewed,protein,Domain,321,356,EF-hand 3
+Efcab6,Q6P1E8,Reviewed,protein,Domain,427,462,EF-hand 4
+Efcab6,Q6P1E8,Reviewed,protein,Domain,528,563,EF-hand 5
+Efcab6,Q6P1E8,Reviewed,protein,Domain,655,690,EF-hand 6
+Efcab6,Q6P1E8,Reviewed,protein,Domain,763,798,EF-hand 7
+Efcab6,Q6P1E8,Reviewed,protein,Domain,905,940,EF-hand 8
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1086,1121,EF-hand 9
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1193,1228,EF-hand 10
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1229,1264,EF-hand 11
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1338,1373,EF-hand 12
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1374,1409,EF-hand 13
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1449,1484,EF-hand 14
+Efcab6,Q6P1E8,Reviewed,protein,Domain,1485,1516,EF-hand 15
+Efcab6,Q6P1E8,Reviewed,protein,Region,1318,1516,Interaction with PARK7
+Efcab6,Q6P1E8,Reviewed,protein,Region,1422,1516,Interaction with AR
+Efr3a,Q8BG67,NA,NA,NA,NA,NA,NA
+Eftud1,Q8C0D5,Reviewed,protein,Domain,17,272,tr-type G
+Eif3l,Q8QZY1,NA,NA,NA,NA,NA,NA
+Elfn2,Q68FM6,Reviewed,protein,Repeat,56,77,LRR 1
+Elfn2,Q68FM6,Reviewed,protein,Repeat,80,101,LRR 2
+Elfn2,Q68FM6,Reviewed,protein,Repeat,104,125,LRR 3
+Elfn2,Q68FM6,Reviewed,protein,Repeat,128,149,LRR 4
+Elfn2,Q68FM6,Reviewed,protein,Repeat,152,173,LRR 5
+Elfn2,Q68FM6,Reviewed,protein,Domain,185,247,LRRCT
+Elfn2,Q68FM6,Reviewed,protein,Domain,292,379,Fibronectin type-III
+Elfn2,Q68FM6,Reviewed,protein,Compositional bias,564,573,Poly-Gly
+Elfn2,Q68FM6,Reviewed,protein,Compositional bias,692,696,Poly-Gly
+Endou,Q3V188,Reviewed,transcript,Domain,20,63,SMB 1
+Endou,Q3V188,Reviewed,transcript,Domain,85,128,SMB 2
+Enpp2,Q9R1E6,Reviewed,protein,Domain,54,97,SMB 1
+Enpp2,Q9R1E6,Reviewed,protein,Domain,98,142,SMB 2
+Enpp2,Q9R1E6,Reviewed,protein,Region,144,501,Phosphodiesterase
+Enpp2,Q9R1E6,Reviewed,protein,Region,210,213,Substrate binding
+Enpp2,Q9R1E6,Reviewed,protein,Region,243,254,Substrate binding
+Enpp2,Q9R1E6,Reviewed,protein,Region,597,862,Nuclease
+Enpp2,Q9R1E6,Reviewed,protein,Region,829,850,Required for secretion
+Enpp2,Q9R1E6,Reviewed,protein,Motif,126,128,NA
+Enpp2,G3UXY9,Unreviewed,protein,Domain,54,97,SMB (somatomedin-B)
+Enpp2,G3UXY9,Unreviewed,protein,Domain,98,142,SMB (somatomedin-B)
+Enthd1,E9Q1Z2,Unreviewed,protein,Domain,9,141,ENTH (epsin N-terminal homology)
+Ep300,B2RWS6,Reviewed,protein,Domain,567,646,KIX
+Ep300,B2RWS6,Reviewed,protein,Domain,1066,1138,Bromo
+Ep300,B2RWS6,Reviewed,protein,Domain,1286,1662,CBP/p300-type HAT
+Ep300,B2RWS6,Reviewed,protein,Region,2,149,Interaction with RORA
+Ep300,B2RWS6,Reviewed,protein,Region,2,139,Interaction with ALX1
+Ep300,B2RWS6,Reviewed,protein,Region,1016,1028,CRD1; mediates transcriptional repression
+Ep300,B2RWS6,Reviewed,protein,Region,1396,1398,Interaction with histone
+Ep300,B2RWS6,Reviewed,protein,Region,1397,1399,Acetyl-CoA binding
+Ep300,B2RWS6,Reviewed,protein,Region,1409,1410,Acetyl-CoA binding
+Ep300,B2RWS6,Reviewed,protein,Region,2042,2237,Interaction with NCOA2
+Ep300,B2RWS6,Reviewed,protein,Coiled coil,1510,1539,NA
+Ep300,B2RWS6,Reviewed,protein,Motif,11,17,NA
+Ep300,B2RWS6,Reviewed,protein,Compositional bias,660,942,Pro-rich
+Ep300,B2RWS6,Reviewed,protein,Compositional bias,798,801,Poly-Ser
+Ep300,B2RWS6,Reviewed,protein,Compositional bias,1518,1525,Poly-Glu
+Ep300,B2RWS6,Reviewed,protein,Zinc finger,332,418,TAZ-type 1
+Ep300,B2RWS6,Reviewed,protein,Zinc finger,1663,1706,ZZ-type
+Ep300,B2RWS6,Reviewed,protein,Zinc finger,1727,1808,TAZ-type 2
+Ep300,Q8BJ14,Unreviewed,transcript,Domain,332,418,TAZ-type
+Ep300,Q8BJ14,Unreviewed,transcript,Domain,567,646,KIX
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,41,78,Plectin 1
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,79,116,Plectin 2
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,117,154,Plectin 3
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,155,192,Plectin 4
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,285,322,Plectin 5
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,323,360,Plectin 6
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,362,398,Plectin 7
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,399,436,Plectin 8
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,437,470,Plectin 9
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,611,648,Plectin 10
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,649,686,Plectin 11
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,687,724,Plectin 12
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,725,762,Plectin 13
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,766,800,Plectin 14
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,931,968,Plectin 15
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,969,1006,Plectin 16
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1007,1044,Plectin 17
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1224,1284,Plectin 18
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1285,1322,Plectin 19
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1323,1360,Plectin 20
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1361,1398,Plectin 21
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1402,1436,Plectin 22
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1572,1609,Plectin 23
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1610,1647,Plectin 24
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1648,1685,Plectin 25
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1686,1723,Plectin 26
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1727,1761,Plectin 27
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1898,1935,Plectin 28
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1936,1973,Plectin 29
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,1974,2011,Plectin 30
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2012,2049,Plectin 31
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2225,2267,Plectin 32
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2268,2305,Plectin 33
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2306,2343,Plectin 34
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2344,2381,Plectin 35
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2385,2419,Plectin 36
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2740,2782,Plectin 37
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2783,2820,Plectin 38
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2821,2858,Plectin 39
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2859,2896,Plectin 40
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,2900,2934,Plectin 41
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3255,3297,Plectin 42
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3298,3335,Plectin 43
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3336,3373,Plectin 44
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3374,3411,Plectin 45
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3415,3449,Plectin 46
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3770,3812,Plectin 47
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3813,3850,Plectin 48
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3851,3888,Plectin 49
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3889,3926,Plectin 50
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,3930,3964,Plectin 51
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4285,4327,Plectin 52
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4328,4365,Plectin 53
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4366,4403,Plectin 54
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4404,4441,Plectin 55
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4445,4479,Plectin 56
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4800,4842,Plectin 57
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4843,4880,Plectin 58
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4881,4918,Plectin 59
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4919,4956,Plectin 60
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,4960,4994,Plectin 61
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5315,5357,Plectin 62
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5358,5395,Plectin 63
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5396,5433,Plectin 64
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5434,5471,Plectin 65
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5475,5509,Plectin 66
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5830,5872,Plectin 67
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5873,5910,Plectin 68
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5911,5948,Plectin 69
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5949,5986,Plectin 70
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,5990,6024,Plectin 71
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,6345,6387,Plectin 72
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,6388,6425,Plectin 73
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,6426,6463,Plectin 74
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,6464,6501,Plectin 75
+Eppk1,Q8R0W0,Reviewed,protein,Repeat,6505,6539,Plectin 76
+Eppk1,Q8R0W0,Reviewed,protein,Coiled coil,545,565,NA
+Eppk1,Q8R0W0,Reviewed,protein,Coiled coil,851,886,NA
+Eppk1,Q8R0W0,Reviewed,protein,Coiled coil,1819,1851,NA
+Exosc4,Q542B0,Unreviewed,protein,Domain,21,152,RNase_PH
+Exosc4,Q542B0,Unreviewed,protein,Domain,156,219,RNase_PH_C
+Exosc4,Q921I9,NA,NA,NA,NA,NA,NA
+Ext1,P97464,Reviewed,protein,Region,544,549,Substrate binding
+Ext1,P97464,Reviewed,protein,Region,565,567,Substrate binding
+Ext1,P97464,Reviewed,protein,Region,650,654,Substrate binding
+Ext1,P97464,Reviewed,protein,Region,688,701,Substrate binding
+Ext1,Q3V1P4,Unreviewed,protein,Domain,480,729,Glyco_transf_64
+Faim2,Q8K097,NA,NA,NA,NA,NA,NA
+Fam109b,Q14B98,Reviewed,protein,Domain,17,121,PH
+Fam109b,Q14B98,Reviewed,protein,Coiled coil,124,150,NA
+Fam109b,Q14B98,Reviewed,protein,Motif,223,235,F&H
+Fam118a,Q91YN1,NA,NA,NA,NA,NA,NA
+Fam135b,Q9DAI6,NA,NA,NA,NA,NA,NA
+Fam160a2,Q3U2I3,NA,NA,NA,NA,NA,NA
+Fam160a2,J3QP99,NA,NA,NA,NA,NA,NA
+Fam169b,Q8CHT6,NA,NA,NA,NA,NA,NA
+Fam174b,Q8K064,NA,NA,NA,NA,NA,NA
+Fam186b,D3Z420,NA,NA,NA,NA,NA,NA
+Fam227a,Q8CA61,NA,NA,NA,NA,NA,NA
+Fam227a,Q9D3V8,Unreviewed,transcript,Coiled coil,504,528,NA
+Fam83a,Q8K2P2,NA,NA,NA,NA,NA,NA
+Fam83f,Q3UKU4,NA,NA,NA,NA,NA,NA
+Fam83h,Q148V8,Reviewed,protein,Region,1,286,Mediates interaction with CSNK1A1 and is required for FAM83H activity in keratin cytoskeleton organization
+Fam84b,D3YXJ5,Unreviewed,protein,Domain,115,149,LRAT
+Fam84b,D3YXJ5,Unreviewed,protein,Domain,150,213,LRAT
+Fanci,Q8K368,NA,NA,NA,NA,NA,NA
+Fbxl6,Q9QXW0,Reviewed,transcript,Domain,54,106,F-box
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,169,195,LRR 1
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,196,221,LRR 2
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,222,247,LRR 3
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,273,299,LRR 4
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,304,329,LRR 5
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,330,357,LRR 6
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,360,385,LRR 7
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,386,411,LRR 8
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,415,441,LRR 9
+Fbxl6,Q9QXW0,Reviewed,transcript,Repeat,474,499,LRR 10
+Fchsd2,Q3USJ8,Reviewed,protein,Domain,8,282,F-BAR
+Fchsd2,Q3USJ8,Reviewed,protein,Domain,469,530,SH3 1
+Fchsd2,Q3USJ8,Reviewed,protein,Domain,567,629,SH3 2
+Fchsd2,Q3USJ8,Reviewed,protein,Coiled coil,356,397,NA
+Fchsd2,Q3USJ8,Reviewed,protein,Compositional bias,718,721,Poly-Pro
+Fes,P16879,Reviewed,protein,Domain,1,260,F-BAR
+Fes,P16879,Reviewed,protein,Domain,460,549,SH2
+Fes,P16879,Reviewed,protein,Domain,561,818,Protein kinase
+Fes,P16879,Reviewed,protein,Region,1,300,Important for interaction with membranes containing phosphoinositides
+Fes,P16879,Reviewed,protein,Coiled coil,133,165,NA
+Fes,P16879,Reviewed,protein,Coiled coil,320,369,NA
+Fes,Q8CGG9,Unreviewed,transcript,Domain,1,213,F-BAR
+Fignl2,J3QK54,Unreviewed,inferred,Domain,419,550,AAA
+Fkbp11,Q9D1M7,Reviewed,protein,Domain,57,144,PPIase FKBP-type
+Fmnl3,Q6ZPF4,Reviewed,protein,Domain,26,472,GBD/FH3
+Fmnl3,Q6ZPF4,Reviewed,protein,Domain,561,951,FH2
+Fmnl3,Q6ZPF4,Reviewed,protein,Domain,986,1018,DAD
+Fmnl3,Q6ZPF4,Reviewed,protein,Compositional bias,499,548,Pro-rich
+Fmnl3,D3Z7A7,Unreviewed,protein,Domain,26,472,GBD/FH3 (Rho GTPase-binding/formin homology 3)
+Fmnl3,D3Z7A7,Unreviewed,protein,Domain,561,951,FH2 (formin homology 2)
+Fmnl3,D3Z7A7,Unreviewed,protein,Coiled coil,391,418,NA
+Fmnl3,D3Z7A7,Unreviewed,protein,Coiled coil,423,464,NA
+Fmnl3,D3Z7A7,Unreviewed,protein,Coiled coil,925,954,NA
+Folr1,P35846,Reviewed,protein,Region,122,126,Folate binding
+Folr1,P35846,Reviewed,protein,Region,155,160,Folate binding
+Folr2,Q05685,Reviewed,transcript,Region,116,120,Folate binding
+Folr2,Q05685,Reviewed,transcript,Region,149,154,Folate binding
+Foxh1,O88621,Reviewed,protein,Region,307,390,SMAD-interaction domain (SID)
+Foxh1,O88621,Reviewed,protein,Motif,311,315,Fast/FoxH1 motif 1 (FM1)
+Foxh1,O88621,Reviewed,protein,Motif,321,327,Fast/FoxH1 motif 2 (FM2)
+Foxh1,O88621,Reviewed,protein,Motif,363,384,SMAD interaction motif (SIM)
+Foxh1,O88621,Reviewed,protein,Compositional bias,187,194,Poly-Pro
+Foxh1,O88621,Reviewed,protein,Compositional bias,243,246,Poly-Ser
+Foxh1,Q0VEP8,Unreviewed,transcript,Domain,64,163,Fork-head DNA-binding
+Foxred2,Q3USW5,Reviewed,transcript,Motif,662,665,Prevents secretion from ER
+Fsd2,Q8BZ52,Reviewed,protein,Domain,318,413,Fibronectin type-III 1
+Fsd2,Q8BZ52,Reviewed,protein,Domain,414,507,Fibronectin type-III 2
+Fsd2,Q8BZ52,Reviewed,protein,Domain,489,687,B30.2/SPRY
+Fsd2,Q8BZ52,Reviewed,protein,Coiled coil,205,260,NA
+Fsd2,Q8C1E6,Unreviewed,transcript,Coiled coil,230,254,NA
+Furin,P23188,Reviewed,protein,Domain,148,435,Peptidase S8
+Furin,P23188,Reviewed,protein,Region,758,761,Cell surface signal
+Furin,P23188,Reviewed,protein,Motif,498,500,NA
+Furin,P23188,Reviewed,protein,Motif,772,778,Trans Golgi network signal
+Fzd4,Q3V1B2,Unreviewed,protein,Domain,40,161,FZ (frizzled)
+Fzd4,Q3V1B2,Unreviewed,protein,Domain,219,503,G_PROTEIN_RECEP_F2_4
+Fzd4,Q61088,Reviewed,protein,Domain,40,161,FZ
+Fzd4,Q61088,Reviewed,protein,Motif,499,504,"Lys-Thr-X-X-X-Trp motif, mediates interaction with the PDZ domain of Dvl family members"
+Fzd4,Q61088,Reviewed,protein,Motif,535,537,PDZ-binding
+Fzd4,Q8BKU9,Unreviewed,transcript,Domain,63,347,G_PROTEIN_RECEP_F2_4
+Fzd4,Q8BLL2,Unreviewed,transcript,Domain,40,161,FZ (frizzled)
+Fzd4,Q8BLL2,Unreviewed,transcript,Domain,219,503,G_PROTEIN_RECEP_F2_4
+Gab2,Q3ZB59,Unreviewed,protein,Domain,8,119,PH
+Gab2,Q3ZB57,Unreviewed,protein,Domain,8,119,PH
+Galnt6,Q8C7U7,Reviewed,transcript,Domain,496,622,Ricin B-type lectin
+Galnt6,Q8C7U7,Reviewed,transcript,Region,176,285,Catalytic subdomain A
+Galnt6,Q8C7U7,Reviewed,transcript,Region,348,410,Catalytic subdomain B
+Galr3,O88853,Reviewed,transcript,Compositional bias,218,225,Poly-Ala
+Galr3,O88853,Reviewed,transcript,Compositional bias,313,318,Poly-His
+Gdpd5,Q640M6,Reviewed,transcript,Domain,228,485,GP-PDE
+Gga1,Q8R0H9,Reviewed,protein,Domain,17,147,VHS
+Gga1,Q8R0H9,Reviewed,protein,Domain,171,298,GAT
+Gga1,Q8R0H9,Reviewed,protein,Domain,506,627,GAE
+Gga1,Q8R0H9,Reviewed,protein,Region,114,273,Interaction with ARF3
+Gga1,Q8R0H9,Reviewed,protein,Region,299,505,Unstructured hinge
+Gga1,Q8R0H9,Reviewed,protein,Motif,357,361,Autoinhibitory
+Gm1966,Q3TBC0,NA,NA,NA,NA,NA,NA
+Gm4759,NA,NA,NA,NA,NA,NA,NA
+Gm5334,NA,NA,NA,NA,NA,NA,NA
+Gm5414,Q6IFZ8,Unreviewed,protein,Domain,17,148,Keratin_2_head
+Gm5414,Q6IFZ8,Unreviewed,protein,Coiled coil,363,404,NA
+Gm5476,NA,NA,NA,NA,NA,NA,NA
+Gm5477,NA,NA,NA,NA,NA,NA,NA
+Gm5901,D3YVJ1,NA,NA,NA,NA,NA,NA
+Gm6042,NA,NA,NA,NA,NA,NA,NA
+Gm8979,NA,NA,NA,NA,NA,NA,NA
+Gm8989,NA,NA,NA,NA,NA,NA,NA
+Gm9920,NA,NA,NA,NA,NA,NA,NA
+Gml,E9PX31,Unreviewed,protein,Domain,47,141,UPAR/Ly6
+Gml2,G5E8L7,Unreviewed,inferred,Domain,47,141,UPAR/Ly6
+Gml2,Q9DAP4,Unreviewed,transcript,Domain,47,141,UPAR/Ly6
+Gpaa1,Q9WTK3,NA,NA,NA,NA,NA,NA
+Gpd1,P13707,Reviewed,protein,Region,269,270,Substrate binding
+Gpihbp1,Q9D1N2,Reviewed,protein,Domain,61,148,NA
+Gpihbp1,Q9D1N2,Reviewed,protein,Compositional bias,38,42,NA
+Gpihbp1,Q9D1N2,Reviewed,protein,Compositional bias,43,48,NA
+Gpr20,Q8BYC4,NA,NA,NA,NA,NA,NA
+Gpt,Q566C3,Unreviewed,protein,Domain,86,484,Aminotran_1_2
+Gpt,Q8QZR5,NA,NA,NA,NA,NA,NA
+Gramd4,D3YUE7,Unreviewed,protein,Domain,475,553,GRAM
+Gramd4,D3YUE7,Unreviewed,protein,Coiled coil,110,160,NA
+Gramd4,Q5U4C7,Unreviewed,transcript,Domain,529,607,GRAM
+Gramd4,Q5U4C7,Unreviewed,transcript,Coiled coil,164,214,NA
+Gramd4,Q8CB44,Reviewed,protein,Domain,500,578,GRAM
+Gramd4,Q8CB44,Reviewed,protein,Coiled coil,134,190,NA
+Grap2,O89100,Reviewed,protein,Domain,1,56,SH3 1
+Grap2,O89100,Reviewed,protein,Domain,58,149,SH2
+Grap2,O89100,Reviewed,protein,Domain,263,322,SH3 2
+Grap2,Q3U0E8,Unreviewed,protein,Domain,1,56,SH3
+Grap2,Q3U0E8,Unreviewed,protein,Domain,58,149,SH2
+Grap2,Q3U0E8,Unreviewed,protein,Domain,263,322,SH3
+Grasp,Q9JJA9,Reviewed,protein,Domain,100,189,PDZ
+Grasp,Q9JJA9,Reviewed,protein,Region,180,257,Interaction with PSCD3
+Grasp,Q9JJA9,Reviewed,protein,Compositional bias,294,323,Pro-rich
+Grina,Q9ESF4,Reviewed,transcript,Compositional bias,15,114,Pro-rich
+Gsdmc,Q99NB5,NA,NA,NA,NA,NA,NA
+Gsdmc2,Q2KHK6,NA,NA,NA,NA,NA,NA
+Gsdmc3,Q8CB12,NA,NA,NA,NA,NA,NA
+Gsdmcl1,NA,NA,NA,NA,NA,NA,NA
+Gsdmd,Q9D8T2,Reviewed,protein,Region,1,244,Triggers pyroptosis
+Gtpbp1,O08582,Reviewed,protein,Domain,158,389,tr-type G
+Gtpbp1,O08582,Reviewed,protein,Region,167,174,G1
+Gtpbp1,O08582,Reviewed,protein,Region,206,210,G2
+Gtpbp1,O08582,Reviewed,protein,Region,252,255,G3
+Gtpbp1,O08582,Reviewed,protein,Region,308,311,G4
+Gtpbp1,O08582,Reviewed,protein,Region,366,368,G5
+Gtpbp1,O08582,Reviewed,protein,Compositional bias,28,36,Poly-Ala
+Gtse1,Q542Q3,Unreviewed,protein,Domain,10,153,GTSE1_N
+Gtse1,Q8R080,Reviewed,protein,Compositional bias,23,28,Poly-Ser
+Gxylt1,Q3UHH8,NA,NA,NA,NA,NA,NA
+Gxylt1,D3Z6W7,NA,NA,NA,NA,NA,NA
+H1f0,P10922,Reviewed,transcript,Domain,24,97,H15
+H1fnt,Q8CJI4,Reviewed,transcript,Coiled coil,241,312,NA
+H2afy3,NA,NA,NA,NA,NA,NA,NA
+Hapln3,Q80WM5,Reviewed,transcript,Domain,48,164,Ig-like V-typeCurated
+Hapln3,Q80WM5,Reviewed,transcript,Domain,166,261,Link 1
+Hapln3,Q80WM5,Reviewed,transcript,Domain,266,357,Link 2
+Hbb-bh2,B2RVB7,Unreviewed,transcript,Domain,4,146,GLOBIN
+Hdac10,Q6P3E7,Reviewed,transcript,Region,1,323,Histone deacetylase
+Hdac7,Q8C2B3,Reviewed,protein,Region,1,121,Interaction with MEF2C
+Hdac7,Q8C2B3,Reviewed,protein,Region,2,254,Transcription repression 1
+Hdac7,Q8C2B3,Reviewed,protein,Region,72,172,Interaction with MEF2A
+Hdac7,Q8C2B3,Reviewed,protein,Region,241,533,Transcription repression 2
+Hdac7,Q8C2B3,Reviewed,protein,Region,505,852,Histone deacetylase
+Hdac7,Q8C2B3,Reviewed,protein,Region,864,938,Interaction with SIN3A
+Hdac7,Q8C2B3,Reviewed,protein,Motif,904,938,Nuclear export signal
+Hdac7,Q8C2B3,Reviewed,protein,Compositional bias,220,226,Poly-Ser
+Hdac7,E9PXW1,Unreviewed,protein,Domain,476,800,Hist_deacetyl
+Hdac7,E9PXW8,Unreviewed,protein,Domain,624,776,Hist_deacetyl
+Hdac7,E9PX62,Unreviewed,protein,Domain,435,759,Hist_deacetyl
+Hdgfrp3,Q9JMG7,Reviewed,protein,Domain,11,68,PWWP
+Hdgfrp3,Q9JMG7,Reviewed,protein,Motif,135,147,NA
+Hgh1,Q8C3I8,Reviewed,protein,Compositional bias,38,155,Ala-rich
+Hhla1,Q3TYV2,NA,NA,NA,NA,NA,NA
+Homer2,Q9QWW1,Reviewed,protein,Domain,1,110,WH1
+Homer2,Q9QWW1,Reviewed,protein,Coiled coil,160,329,NA
+Homer2,E9Q4F9,Unreviewed,protein,Domain,1,46,WH1
+Homer2,E9Q4F9,Unreviewed,protein,Coiled coil,109,136,NA
+Homer2,E9Q4F9,Unreviewed,protein,Coiled coil,151,209,NA
+Homer2,E9Q4F9,Unreviewed,protein,Coiled coil,220,254,NA
+Il16,O54824,Reviewed,protein,Domain,213,299,PDZ 1
+Il16,O54824,Reviewed,protein,Domain,352,437,PDZ 2
+Il16,O54824,Reviewed,protein,Domain,1105,1190,PDZ 3
+Il16,O54824,Reviewed,protein,Domain,1226,1309,PDZ 4
+Il16,O54824,Reviewed,protein,Region,183,449,Interaction with GRIN2A
+Il16,O54824,Reviewed,protein,Region,1099,1195,"Interaction with PPP1R12A, PPP1R12B and PPP1R12C"
+Il2rb,P16297,Reviewed,transcript,Domain,135,235,Fibronectin type-III
+Il2rb,P16297,Reviewed,transcript,Motif,221,225,WSXWS motif
+Il2rb,P16297,Reviewed,transcript,Motif,281,289,Box 1 motif
+Inppl1,Q6P549,Reviewed,protein,Domain,21,117,SH2
+Inppl1,Q6P549,Reviewed,protein,Domain,1195,1257,SAM
+Inppl1,Q6P549,Reviewed,protein,Motif,945,950,SH3-binding
+Inppl1,Q6P549,Reviewed,protein,Motif,984,987,NPXY motif
+Inppl1,Q6P549,Reviewed,protein,Compositional bias,936,1170,Pro-rich
+Ints4,Q8CIM8,Reviewed,protein,Repeat,67,106,HEAT 1
+Ints4,Q8CIM8,Reviewed,protein,Repeat,146,184,HEAT 2
+Ints4,Q8CIM8,Reviewed,protein,Repeat,191,229,HEAT 3
+Ints4,Q8CIM8,Reviewed,protein,Repeat,230,264,HEAT 4
+Ints4,Q8CIM8,Reviewed,protein,Repeat,278,314,HEAT 5
+Ints4,Q8CIM8,Reviewed,protein,Repeat,370,406,HEAT 6
+Ints4,Q8CIM8,Reviewed,protein,Repeat,407,445,HEAT 7
+Ints4,Q8CIM8,Reviewed,protein,Repeat,447,485,HEAT 8
+Iqgap1,Q3TPD2,Unreviewed,transcript,Domain,44,159,Actin-binding
+Iqgap1,Q3TPD2,Unreviewed,transcript,Coiled coil,168,195,NA
+Iqgap1,Q3TPD2,Unreviewed,transcript,Coiled coil,487,514,NA
+Iqgap1,Q3TU98,Unreviewed,transcript,Domain,227,460,Ras-GAP
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,44,159,CH
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,685,710,WW
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,745,774,IQ 1
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,775,804,IQ 2
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,805,834,IQ 3
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,835,864,IQ 4
+Iqgap1,Q9JKF1,Reviewed,protein,Domain,1004,1237,Ras-GAP
+Iqgap1,Q9JKF1,Reviewed,protein,Region,956,1274,C1
+Iqgap1,Q9JKF1,Reviewed,protein,Region,1276,1657,C2
+Irak4,Q8R4K2,Reviewed,protein,Domain,20,104,Death
+Irak4,Q8R4K2,Reviewed,protein,Domain,186,454,Protein kinase
+Isg20,Q4FK39,Unreviewed,transcript,Domain,6,171,EXOIII
+Isg20,Q9JL16,NA,NA,NA,NA,NA,NA
+Isg20,Q3UW00,Unreviewed,transcript,Domain,6,171,EXOIII
+Jrk,Q543Z9,Unreviewed,transcript,Domain,11,62,HTH psq-type DNA-binding
+Jrk,Q543Z9,Unreviewed,transcript,Domain,77,149,HTH CENPB-type DNA-binding
+Jrk,Q60976,Reviewed,transcript,Domain,11,62,HTH psq-type
+Jrk,Q60976,Reviewed,transcript,Domain,77,149,HTH CENPB-type
+Jrk,Q60976,Reviewed,transcript,Domain,178,382,DDE
+Kansl2,Q8BQR4,NA,NA,NA,NA,NA,NA
+Kcnh3,B2RU85,Unreviewed,transcript,Domain,42,90,PAS (PER-ARNT-SIM)
+Kcnh3,B2RU85,Unreviewed,transcript,Domain,93,145,PAC (PAS-associated C-terminal)
+Kcnh3,B2RU85,Unreviewed,transcript,Domain,593,657,CNMP_BINDING_3
+Kcnh3,B2RU85,Unreviewed,transcript,Coiled coil,889,916,NA
+Kcnh3,Q6U1M1,Unreviewed,transcript,Domain,42,90,PAS (PER-ARNT-SIM)
+Kcnh3,Q6U1M1,Unreviewed,transcript,Domain,93,145,PAC (PAS-associated C-terminal)
+Kcnh3,Q6U1M1,Unreviewed,transcript,Domain,593,657,CNMP_BINDING_3
+Kcnh3,Q6U1M1,Unreviewed,transcript,Coiled coil,889,916,NA
+Kcnj4,Q8R435,Unreviewed,protein,Coiled coil,369,392,NA
+Kcnj4,Q9QYK8,Unreviewed,transcript,Coiled coil,361,384,NA
+Kctd14,Q5EER8,Unreviewed,protein,Domain,18,115,BTB
+Khdrbs3,Q9R226,Reviewed,protein,Domain,61,127,KH
+Khdrbs3,Q9R226,Reviewed,protein,Compositional bias,250,261,Pro-rich
+Khdrbs3,Q9R226,Reviewed,protein,Compositional bias,266,316,Tyr-rich
+Kif21a,Q3TQJ5,Unreviewed,transcript,Domain,9,371,Kinesin motor
+Kif21a,Q3TQJ5,Unreviewed,transcript,Coiled coil,379,406,NA
+Kif21a,Q3TQJ5,Unreviewed,transcript,Coiled coil,425,459,NA
+Kif21a,Q3TQJ5,Unreviewed,transcript,Coiled coil,472,513,NA
+Kif21a,Q3TQJ5,Unreviewed,transcript,Coiled coil,538,565,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Domain,9,371,Kinesin motor
+Kif21a,Q3UHE7,Unreviewed,transcript,Domain,1297,1615,WD_REPEATS_REGION
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,379,406,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,425,459,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,472,513,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,587,611,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,636,684,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,717,779,NA
+Kif21a,Q3UHE7,Unreviewed,transcript,Coiled coil,929,963,NA
+Kif21a,Q3V416,Unreviewed,transcript,Domain,9,371,Kinesin motor
+Kif21a,Q3V416,Unreviewed,transcript,Coiled coil,379,406,NA
+Kif21a,Q3V416,Unreviewed,transcript,Coiled coil,425,459,NA
+Kif21a,Q3V416,Unreviewed,transcript,Coiled coil,472,506,NA
+Kif21a,Q9QXL2,Reviewed,protein,Domain,9,371,Kinesin motor
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1343,1380,WD 1
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1383,1421,WD 2
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1447,1485,WD 3
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1488,1530,WD 4
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1539,1576,WD 5
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1580,1619,WD 6
+Kif21a,Q9QXL2,Reviewed,protein,Repeat,1622,1659,WD 7
+Kif21a,Q9QXL2,Reviewed,protein,Coiled coil,365,840,NA
+Kif21a,Q9QXL2,Reviewed,protein,Coiled coil,933,1021,NA
+Kif21a,Q9QXL2,Reviewed,protein,Coiled coil,1055,1085,NA
+Kif21a,F8WGN6,Unreviewed,protein,Domain,9,371,Kinesin motor
+Kif21a,F8WGN6,Unreviewed,protein,Domain,1297,1615,WD_REPEATS_REGION
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,379,406,NA
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,425,459,NA
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,472,513,NA
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,587,611,NA
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,636,684,NA
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,717,779,NA
+Kif21a,F8WGN6,Unreviewed,protein,Coiled coil,929,963,NA
+Kif7,J3QNW9,Unreviewed,protein,Domain,15,349,Kinesin motor
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,489,537,NA
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,736,763,NA
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,788,815,NA
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,819,888,NA
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,910,944,NA
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,969,1003,NA
+Kif7,J3QNW9,Unreviewed,protein,Coiled coil,1005,1032,NA
+Kif7,E9QMU1,Unreviewed,protein,Domain,15,349,Kinesin motor
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,489,537,NA
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,736,763,NA
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,788,815,NA
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,819,888,NA
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,909,943,NA
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,968,1002,NA
+Kif7,E9QMU1,Unreviewed,protein,Coiled coil,1004,1031,NA
+Kifc2,G3X8Q6,Unreviewed,protein,Domain,409,732,Kinesin motor
+Kifc2,G3X8Q6,Unreviewed,protein,Coiled coil,199,226,NA
+Kifc2,G3X8Q6,Unreviewed,protein,Coiled coil,276,317,NA
+Kifc2,Q3UNC4,Unreviewed,transcript,Domain,396,719,Kinesin motor
+Kifc2,Q3UNC4,Unreviewed,transcript,Coiled coil,186,213,NA
+Kifc2,Q3UNC4,Unreviewed,transcript,Coiled coil,263,304,NA
+Klhdc7b,E9Q9M9,NA,NA,NA,NA,NA,NA
+Klhl35,Q9CZ49,Reviewed,transcript,Domain,40,110,BTB
+Klhl35,Q9CZ49,Reviewed,transcript,Domain,146,248,BACK
+Klhl35,Q9CZ49,Reviewed,transcript,Repeat,292,341,Kelch 1
+Klhl35,Q9CZ49,Reviewed,transcript,Repeat,343,385,Kelch 2
+Klhl35,Q9CZ49,Reviewed,transcript,Repeat,386,432,Kelch 3
+Klhl35,Q9CZ49,Reviewed,transcript,Repeat,434,480,Kelch 4
+Klhl35,Q9CZ49,Reviewed,transcript,Repeat,481,522,Kelch 5
+Klhl35,Q9CZ49,Reviewed,transcript,Repeat,524,570,Kelch 6
+Klhl38,Q8BSF5,Reviewed,transcript,Domain,34,101,BTB
+Klhl38,Q8BSF5,Reviewed,transcript,Domain,136,237,BACK
+Klhl38,Q8BSF5,Reviewed,transcript,Repeat,285,332,Kelch 1
+Klhl38,Q8BSF5,Reviewed,transcript,Repeat,334,383,Kelch 2
+Klhl38,Q8BSF5,Reviewed,transcript,Repeat,384,431,Kelch 3
+Klhl38,Q8BSF5,Reviewed,transcript,Repeat,433,479,Kelch 4
+Klhl38,Q8BSF5,Reviewed,transcript,Repeat,480,521,Kelch 5
+Klhl38,Q8BSF5,Reviewed,transcript,Repeat,523,573,Kelch 6
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,229,274,RING-type
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,270,323,PHD-type
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,1333,1386,PHD-type
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,1383,1433,PHD-type
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,1460,1515,PHD-type
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,5226,5286,FYR N-terminal
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,5287,5372,FYR C-terminal
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,5448,5564,SET
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Domain,5572,5588,Post-SET
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,2630,2661,NA
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,2768,2797,NA
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,3561,3609,NA
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,3714,3746,NA
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,3855,3883,NA
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,3913,4004,NA
+Kmt2d,A0A0A0MQ73,Unreviewed,protein,Coiled coil,4024,4049,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,1,198,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,199,508,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,199,234,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,235,253,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,254,345,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,346,369,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,370,508,NA
+Krt2,Q3TTY5,Reviewed,protein,Region,509,707,NA
+Krt2,Q3TTY5,Reviewed,protein,Compositional bias,12,701,NA
+Krt4,P07744,Reviewed,protein,Region,1,145,Head
+Krt4,P07744,Reviewed,protein,Region,146,455,Rod
+Krt4,P07744,Reviewed,protein,Region,146,181,Coil 1A
+Krt4,P07744,Reviewed,protein,Region,182,200,Linker 1
+Krt4,P07744,Reviewed,protein,Region,201,292,Coil 1B
+Krt4,P07744,Reviewed,protein,Region,293,316,Linker 12
+Krt4,P07744,Reviewed,protein,Region,317,455,Coil 2
+Krt4,P07744,Reviewed,protein,Region,456,524,Tail
+Krt4,P07744,Reviewed,protein,Compositional bias,10,117,Gly-rich
+Krt4,P07744,Reviewed,protein,Compositional bias,473,510,Gly-rich
+Krt5,Q32P04,Unreviewed,protein,Domain,16,158,Keratin_2_head
+Krt5,Q32P04,Unreviewed,protein,Coiled coil,231,265,NA
+Krt5,Q32P04,Unreviewed,protein,Coiled coil,373,460,NA
+Krt5,Q922U2,Reviewed,protein,Region,1,161,NA
+Krt5,Q922U2,Reviewed,protein,Region,162,471,NA
+Krt5,Q922U2,Reviewed,protein,Region,162,197,NA
+Krt5,Q922U2,Reviewed,protein,Region,198,216,NA
+Krt5,Q922U2,Reviewed,protein,Region,217,309,NA
+Krt5,Q922U2,Reviewed,protein,Region,310,332,NA
+Krt5,Q922U2,Reviewed,protein,Region,333,471,NA
+Krt5,Q922U2,Reviewed,protein,Region,472,580,NA
+Krt5,Q922U2,Reviewed,protein,Compositional bias,2,38,NA
+Krt5,Q922U2,Reviewed,protein,Compositional bias,39,133,NA
+Krt5,Q922U2,Reviewed,protein,Compositional bias,495,562,NA
+Krt6a,P50446,Reviewed,protein,Region,1,151,Head
+Krt6a,P50446,Reviewed,protein,Region,152,461,Rod
+Krt6a,P50446,Reviewed,protein,Region,152,187,Coil 1A
+Krt6a,P50446,Reviewed,protein,Region,188,206,Linker 1
+Krt6a,P50446,Reviewed,protein,Region,207,298,Coil 1B
+Krt6a,P50446,Reviewed,protein,Region,299,322,Linker 12
+Krt6a,P50446,Reviewed,protein,Region,323,461,Coil 2
+Krt6a,P50446,Reviewed,protein,Region,462,553,Tail
+Krt6b,Q3UV11,Unreviewed,protein,Domain,15,148,Keratin_2_head
+Krt6b,Q3UV11,Unreviewed,protein,Coiled coil,221,255,NA
+Krt6b,Q3UV11,Unreviewed,protein,Coiled coil,363,404,NA
+Krt6b,Q3UV11,Unreviewed,protein,Coiled coil,409,443,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,2,84,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,84,120,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,85,393,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,121,138,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,139,230,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,231,254,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,255,393,NA
+Krt7,Q9DCV7,Reviewed,protein,Region,394,457,NA
+Krt72,Q6IME9,Reviewed,inferred,Region,1,133,Head
+Krt72,Q6IME9,Reviewed,inferred,Region,134,443,Rod
+Krt72,Q6IME9,Reviewed,inferred,Region,134,169,Coil 1A
+Krt72,Q6IME9,Reviewed,inferred,Region,170,188,Linker 1
+Krt72,Q6IME9,Reviewed,inferred,Region,189,280,Coil 1B
+Krt72,Q6IME9,Reviewed,inferred,Region,281,304,Linker 12
+Krt72,Q6IME9,Reviewed,inferred,Region,305,443,Coil 2
+Krt72,Q6IME9,Reviewed,inferred,Region,444,520,Tail
+Krt72,Q6IME9,Reviewed,inferred,Compositional bias,10,105,Gly-rich
+Krt73,Q6NXH9,Reviewed,protein,Region,1,130,Head
+Krt73,Q6NXH9,Reviewed,protein,Region,131,440,Rod
+Krt73,Q6NXH9,Reviewed,protein,Region,131,166,Coil 1A
+Krt73,Q6NXH9,Reviewed,protein,Region,167,185,Linker 1
+Krt73,Q6NXH9,Reviewed,protein,Region,186,277,Coil 1B
+Krt73,Q6NXH9,Reviewed,protein,Region,278,301,Linker 12
+Krt73,Q6NXH9,Reviewed,protein,Region,302,440,Coil 2
+Krt73,Q6NXH9,Reviewed,protein,Region,441,539,Tail
+Krt73,Q6NXH9,Reviewed,protein,Compositional bias,10,102,Gly-rich
+Krt74,NA,NA,NA,NA,NA,NA,NA
+Krt76,Q3UV17,Reviewed,protein,Region,1,164,NA
+Krt76,Q3UV17,Reviewed,protein,Region,165,476,NA
+Krt76,Q3UV17,Reviewed,protein,Region,165,200,NA
+Krt76,Q3UV17,Reviewed,protein,Region,201,221,NA
+Krt76,Q3UV17,Reviewed,protein,Region,222,313,NA
+Krt76,Q3UV17,Reviewed,protein,Region,314,337,NA
+Krt76,Q3UV17,Reviewed,protein,Region,338,476,NA
+Krt76,Q3UV17,Reviewed,protein,Region,477,594,NA
+Krt76,Q3UV17,Reviewed,protein,Compositional bias,37,136,NA
+Krt76,Q3UV17,Reviewed,protein,Compositional bias,489,593,NA
+Krt77,Q6IFZ6,Reviewed,protein,Region,1,166,Head
+Krt77,Q6IFZ6,Reviewed,protein,Region,167,476,Rod
+Krt77,Q6IFZ6,Reviewed,protein,Region,167,202,Coil 1A
+Krt77,Q6IFZ6,Reviewed,protein,Region,203,221,Linker 1
+Krt77,Q6IFZ6,Reviewed,protein,Region,222,313,Coil 1B
+Krt77,Q6IFZ6,Reviewed,protein,Region,314,337,Linker 12
+Krt77,Q6IFZ6,Reviewed,protein,Region,338,476,Coil 2
+Krt77,Q6IFZ6,Reviewed,protein,Region,477,568,Tail
+Krt79,Q8VED5,Reviewed,protein,Region,1,138,Head
+Krt79,Q8VED5,Reviewed,protein,Region,139,449,Rod
+Krt79,Q8VED5,Reviewed,protein,Region,139,174,Coil 1A
+Krt79,Q8VED5,Reviewed,protein,Region,175,194,Linker 1
+Krt79,Q8VED5,Reviewed,protein,Region,195,286,Coil 1B
+Krt79,Q8VED5,Reviewed,protein,Region,287,310,Linker 12
+Krt79,Q8VED5,Reviewed,protein,Region,311,449,Coil 2
+Krt79,Q8VED5,Reviewed,protein,Region,450,531,Tail
+Krt80,Q0VBK2,Reviewed,protein,Region,1,82,Head
+Krt80,Q0VBK2,Reviewed,protein,Region,82,118,Coil 1A
+Krt80,Q0VBK2,Reviewed,protein,Region,83,390,Rod
+Krt80,Q0VBK2,Reviewed,protein,Region,119,135,Linker 1
+Krt80,Q0VBK2,Reviewed,protein,Region,136,227,Coil 1B
+Krt80,Q0VBK2,Reviewed,protein,Region,228,251,Linker 12
+Krt80,Q0VBK2,Reviewed,protein,Region,252,390,Coil 2
+Krt80,Q0VBK2,Reviewed,protein,Region,391,452,Tail
+Krt81,Q9ERE2,Reviewed,transcript,Region,1,106,Head
+Krt81,Q9ERE2,Reviewed,transcript,Region,107,413,Rod
+Krt81,Q9ERE2,Reviewed,transcript,Region,107,141,Coil 1A
+Krt81,Q9ERE2,Reviewed,transcript,Region,142,151,Linker 1
+Krt81,Q9ERE2,Reviewed,transcript,Region,152,252,Coil 1B
+Krt81,Q9ERE2,Reviewed,transcript,Region,253,269,Linker 12
+Krt81,Q9ERE2,Reviewed,transcript,Region,270,413,Coil 2
+Krt81,Q9ERE2,Reviewed,transcript,Region,414,481,Tail
+Krt82,Q99M74,Reviewed,protein,Region,1,118,Head
+Krt82,Q99M74,Reviewed,protein,Region,119,425,Rod
+Krt82,Q99M74,Reviewed,protein,Region,119,153,Coil 1A
+Krt82,Q99M74,Reviewed,protein,Region,154,163,Linker 1
+Krt82,Q99M74,Reviewed,protein,Region,164,264,Coil 1B
+Krt82,Q99M74,Reviewed,protein,Region,265,281,Linker 12
+Krt82,Q99M74,Reviewed,protein,Region,282,425,Coil 2
+Krt82,Q99M74,Reviewed,protein,Region,426,516,Tail
+Krt83,Q6IMF0,Reviewed,transcript,Region,1,111,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,112,418,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,112,146,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,147,156,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,157,257,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,258,274,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,275,418,NA
+Krt83,Q6IMF0,Reviewed,transcript,Region,419,494,NA
+Krt84,Q99M73,Reviewed,transcript,Region,1,173,Head
+Krt84,Q99M73,Reviewed,transcript,Region,174,480,Rod
+Krt84,Q99M73,Reviewed,transcript,Region,174,208,Coil 1A
+Krt84,Q99M73,Reviewed,transcript,Region,209,218,Linker 1
+Krt84,Q99M73,Reviewed,transcript,Region,219,319,Coil 1B
+Krt84,Q99M73,Reviewed,transcript,Region,320,336,Linker 12
+Krt84,Q99M73,Reviewed,transcript,Region,337,480,Coil 2
+Krt84,Q99M73,Reviewed,transcript,Region,481,603,Tail
+Krt85,Q9Z2T6,Reviewed,protein,Region,1,123,Head
+Krt85,Q9Z2T6,Reviewed,protein,Region,124,430,Rod
+Krt85,Q9Z2T6,Reviewed,protein,Region,124,158,Coil 1A
+Krt85,Q9Z2T6,Reviewed,protein,Region,159,168,Linker 1
+Krt85,Q9Z2T6,Reviewed,protein,Region,169,269,Coil 1B
+Krt85,Q9Z2T6,Reviewed,protein,Region,270,286,Linker 12
+Krt85,Q9Z2T6,Reviewed,protein,Region,287,430,Coil 2
+Krt85,Q9Z2T6,Reviewed,protein,Region,431,507,Tail
+Krt86,B2RTB6,Unreviewed,protein,Domain,34,102,Keratin_2_head
+Krt86,B2RTB6,Unreviewed,protein,Coiled coil,215,242,NA
+Krt86,B2RTB6,Unreviewed,protein,Coiled coil,315,356,NA
+Krt86,B2RTB6,Unreviewed,protein,Coiled coil,361,395,NA
+Krt86,P97861,Reviewed,transcript,Region,1,106,Head
+Krt86,P97861,Reviewed,transcript,Region,107,413,Rod
+Krt86,P97861,Reviewed,transcript,Region,107,141,Coil 1A
+Krt86,P97861,Reviewed,transcript,Region,142,151,Linker 1
+Krt86,P97861,Reviewed,transcript,Region,152,252,Coil 1B
+Krt86,P97861,Reviewed,transcript,Region,253,269,Linker 12
+Krt86,P97861,Reviewed,transcript,Region,270,413,Coil 2
+Krt86,P97861,Reviewed,transcript,Region,414,486,Tail
+L3mbtl2,G3UY70,Unreviewed,protein,Domain,81,116,FCS-type
+L3mbtl2,Q80XB1,Unreviewed,protein,Domain,81,116,FCS-type
+L3mbtl2,P59178,Reviewed,protein,Repeat,179,283,MBT 1
+L3mbtl2,P59178,Reviewed,protein,Repeat,291,391,MBT 2
+L3mbtl2,P59178,Reviewed,protein,Repeat,397,500,MBT 3
+L3mbtl2,P59178,Reviewed,protein,Repeat,508,604,MBT 4
+L3mbtl2,P59178,Reviewed,protein,Compositional bias,17,21,Poly-Glu
+L3mbtl2,P59178,Reviewed,protein,Compositional bias,620,624,Poly-Lys
+L3mbtl2,P59178,Reviewed,protein,Zinc finger,81,116,FCS-type
+Larp4,G3X9Q6,Unreviewed,protein,Domain,109,198,HTH La-type RNA-binding
+Larp4,Q3UT02,Unreviewed,transcript,Domain,50,139,HTH La-type RNA-binding
+Larp4,Q8BWW4,Reviewed,protein,Domain,109,198,HTH La-type RNA-binding
+Larp4,Q8BWW4,Reviewed,protein,Domain,199,277,RRM
+Larp4,E9Q066,Unreviewed,protein,Domain,108,197,HTH La-type RNA-binding
+Ldoc1l,Q505G4,Reviewed,transcript,Coiled coil,29,69,NA
+Letmd1,Q924L1,Reviewed,protein,Domain,178,360,Letm1 RBD
+Letmd1,Q924L1,Reviewed,protein,Region,1,110,Required and sufficient for mitochondrial import
+Lgals2,Q9CQW5,Reviewed,protein,Domain,4,130,Galectin
+Lgals2,Q9CQW5,Reviewed,protein,Region,65,71,NA
+Lima1,Q8CD09,Unreviewed,transcript,Domain,226,286,LIM zinc-binding
+Lima1,Q9ERG0,Reviewed,protein,Domain,386,446,LIM zinc-binding
+Lima1,Q8C3R7,Unreviewed,transcript,Domain,226,286,LIM zinc-binding
+Lipt2,Q9D009,Reviewed,protein,Domain,41,224,BPL/LPL catalytic
+Lipt2,Q9D009,Reviewed,protein,Region,85,92,Substrate binding
+Lipt2,Q9D009,Reviewed,protein,Region,154,156,Substrate binding
+Lipt2,Q9D009,Reviewed,protein,Region,167,169,Substrate binding
+Lmbr1l,Q9D1E5,NA,NA,NA,NA,NA,NA
+Lmf2,Q8C3X8,NA,NA,NA,NA,NA,NA
+Lrrc14,Q8VC16,Reviewed,protein,Repeat,285,307,LRR 1
+Lrrc14,Q8VC16,Reviewed,protein,Repeat,310,330,LRR 2
+Lrrc14,Q8VC16,Reviewed,protein,Repeat,337,360,LRR 3
+Lrrc14,Q8VC16,Reviewed,protein,Repeat,366,387,LRR 4
+Lrrc14,Q8VC16,Reviewed,protein,Repeat,394,414,LRR 5
+Lrrc24,Q8BHA1,Reviewed,transcript,Domain,24,58,LRRNT
+Lrrc24,Q8BHA1,Reviewed,transcript,Repeat,59,80,LRR 1
+Lrrc24,Q8BHA1,Reviewed,transcript,Repeat,83,104,LRR 2
+Lrrc24,Q8BHA1,Reviewed,transcript,Repeat,107,128,LRR 3
+Lrrc24,Q8BHA1,Reviewed,transcript,Repeat,131,152,LRR 4
+Lrrc24,Q8BHA1,Reviewed,transcript,Repeat,155,176,LRR 5
+Lrrc24,Q8BHA1,Reviewed,transcript,Repeat,179,200,LRR 6
+Lrrc24,Q8BHA1,Reviewed,transcript,Domain,212,267,LRRCT
+Lrrc24,Q8BHA1,Reviewed,transcript,Domain,268,371,Ig-like C2-type
+Lrrc24,Q8BHA1,Reviewed,transcript,Compositional bias,435,440,Poly-Arg
+Lrrc6,O88978,Reviewed,protein,Repeat,22,43,LRR 1
+Lrrc6,O88978,Reviewed,protein,Repeat,45,66,LRR 2
+Lrrc6,O88978,Reviewed,protein,Repeat,67,88,LRR 3
+Lrrc6,O88978,Reviewed,protein,Repeat,89,110,LRR 4
+Lrrc6,O88978,Reviewed,protein,Domain,123,161,LRRCT
+Lrrc6,O88978,Reviewed,protein,Domain,305,402,CS
+Lrrc6,O88978,Reviewed,protein,Coiled coil,153,205,NA
+Lrrc6,O88978,Reviewed,protein,Compositional bias,285,290,Poly-Lys
+Ly6a,P05533,Reviewed,protein,Domain,27,119,UPAR/Ly6
+Ly6c1,P0CW02,Reviewed,transcript,Domain,27,115,UPAR/Ly6
+Ly6c1,A0A087WNZ5,Unreviewed,protein,Domain,27,115,UPAR/Ly6
+Ly6c1,A0A087WRG9,Unreviewed,inferred,Domain,29,66,UPAR_LY6
+Ly6c2,P0CW03,Reviewed,protein,Domain,27,116,UPAR/Ly6
+Ly6e,Q64253,Reviewed,protein,Domain,21,101,UPAR/Ly6
+Ly6e,Q99JA5,Unreviewed,protein,Domain,27,118,UPAR/Ly6
+Ly6f,P35460,Reviewed,inferred,Domain,27,119,UPAR/Ly6
+Ly6h,Q544M1,Unreviewed,protein,Domain,26,123,UPAR/Ly6
+Ly6h,Q8K356,Unreviewed,protein,Domain,47,144,UPAR/Ly6
+Ly6h,Q9WUC3,Reviewed,protein,Domain,26,113,UPAR/Ly6
+Ly6i,Q9WU67,Reviewed,transcript,Domain,27,105,UPAR/Ly6
+Ly6k,Q9CWP4,Reviewed,protein,Domain,21,117,UPAR/Ly6
+Lypd2,Q9DD23,Reviewed,transcript,Domain,25,100,UPAR/Ly6
+Maf1,Q9D0U6,NA,NA,NA,NA,NA,NA
+Man2a2,Q197W7,Unreviewed,transcript,Domain,502,588,Alpha-mann_mid
+Man2a2,Q7TPQ0,Unreviewed,transcript,Domain,26,524,Glyco_hydro_38C
+Man2a2,Q8BRK9,Reviewed,protein,Coiled coil,43,74,NA
+Map6,Q7TSJ2,Reviewed,protein,Repeat,222,267,Mc-1
+Map6,Q7TSJ2,Reviewed,protein,Repeat,268,313,Mc-2
+Map6,Q7TSJ2,Reviewed,protein,Repeat,314,359,Mc-3
+Map6,Q7TSJ2,Reviewed,protein,Repeat,360,405,Mc-4
+Map6,Q7TSJ2,Reviewed,protein,Region,1,15,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,116,139,Mn 1
+Map6,Q7TSJ2,Reviewed,protein,Region,124,138,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,151,174,Mn 2
+Map6,Q7TSJ2,Reviewed,protein,Region,160,174,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,187,201,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,222,405,4 X approximate tandem repeat Mc
+Map6,Q7TSJ2,Reviewed,protein,Region,235,249,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,280,294,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,325,339,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,375,389,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,427,450,Mn 3
+Map6,Q7TSJ2,Reviewed,protein,Region,435,449,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,486,500,Calmodulin-binding
+Map6,Q7TSJ2,Reviewed,protein,Region,513,527,Calmodulin-binding
+Mapk15,Q80Y86,Reviewed,protein,Domain,14,305,Protein kinase
+Mapk15,Q80Y86,Reviewed,protein,Region,1,20,Ubiquitin-conjugating
+Mapk15,Q80Y86,Reviewed,protein,Motif,176,178,TXY
+Mapk8ip2,Q548W8,Unreviewed,protein,Domain,610,671,SH3
+Mapk8ip2,Q548W8,Unreviewed,protein,Domain,689,818,PID
+Mapk8ip2,Q548W8,Unreviewed,protein,Coiled coil,83,104,NA
+Mapk8ip2,Q548W8,Unreviewed,protein,Coiled coil,468,491,NA
+Mapk8ip2,Q6PIT2,Unreviewed,transcript,Domain,610,671,SH3
+Mapk8ip2,Q6PIT2,Unreviewed,transcript,Domain,689,818,PID
+Mapk8ip2,Q6PIT2,Unreviewed,transcript,Coiled coil,83,104,NA
+Mapk8ip2,Q6PIT2,Unreviewed,transcript,Coiled coil,468,491,NA
+Mapk8ip2,Q9ERE9,Reviewed,protein,Domain,610,671,SH3
+Mapk8ip2,Q9ERE9,Reviewed,protein,Domain,683,819,PID
+Mapk8ip2,Q9ERE9,Reviewed,protein,Region,111,278,JNK-binding domain (JBD)
+Mapk8ip2,Q9ERE9,Reviewed,protein,Region,242,504,Necessary for interaction with FGF13
+Mapk8ip2,Q9ERE9,Reviewed,protein,Compositional bias,30,36,Asp/Glu-rich (acidic)
+Mapk8ip2,Q9ERE9,Reviewed,protein,Compositional bias,85,104,Asp/Glu-rich (acidic)
+Mapk8ip2,Q9ERE9,Reviewed,protein,Compositional bias,154,157,Poly-Asn
+Mapk8ip2,Q9ERE9,Reviewed,protein,Compositional bias,282,293,Ser-rich
+Mapk8ip2,Q9ERE9,Reviewed,protein,Compositional bias,420,437,Pro-rich
+Mapk8ip2,Q9ERE9,Reviewed,protein,Compositional bias,472,487,Asp/Glu-rich (acidic)
+Mb,P04247,NA,NA,NA,NA,NA,NA
+Mb,Q3UVB1,Unreviewed,protein,Domain,3,148,GLOBIN
+Mcat,Q8R3F5,NA,NA,NA,NA,NA,NA
+Mctp2,Q5RJH2,Reviewed,transcript,Domain,181,276,C2 1
+Mctp2,Q5RJH2,Reviewed,transcript,Domain,343,436,C2 2
+Mctp2,Q5RJH2,Reviewed,transcript,Domain,496,591,C2 3
+Mei1,Q9D4I2,NA,NA,NA,NA,NA,NA
+Mesdc2,Q9ERE7,Reviewed,protein,Region,1,155,Chaperone domain
+Mesdc2,Q9ERE7,Reviewed,protein,Region,156,195,Escort domain
+Mesdc2,Q9ERE7,Reviewed,protein,Motif,221,224,Prevents secretion from ER
+Mesp1,P97309,Reviewed,transcript,Domain,76,130,bHLH
+Mesp1,P97309,Reviewed,transcript,Motif,153,157,CPLCP
+Mesp2,A6H5V4,Unreviewed,transcript,Domain,79,133,BHLH (basic helix-loop-helix)
+Mesp2,O08574,Reviewed,protein,Domain,79,133,bHLH
+Mesp2,O08574,Reviewed,protein,Region,326,330,May contain a degradation domain
+Mesp2,O08574,Reviewed,protein,Compositional bias,145,150,Poly-Arg
+Methig1,Q76I26,Unreviewed,transcript,Domain,167,259,HIG1
+Mettl7a1,Q8C6B0,Unreviewed,protein,Domain,75,172,Methyltransf_11
+Mettl7a1,Q9D7S5,Unreviewed,transcript,Domain,75,166,Methyltransf_11
+Mettl7a2,Q5I0W6,Unreviewed,transcript,Domain,75,172,Methyltransf_11
+Mex3b,F8WJD6,Unreviewed,protein,Domain,82,134,KH
+Mex3b,F8WJD6,Unreviewed,protein,Domain,167,228,KH
+Mex3b,F8WJD6,Unreviewed,protein,Domain,525,565,RING-type
+Mfge8,Q3TDU5,Unreviewed,transcript,Domain,24,61,EGF-like
+Mfge8,Q3TDU5,Unreviewed,transcript,Domain,64,108,EGF-like
+Mfge8,Q3TDU5,Unreviewed,transcript,Domain,111,266,F5/8 type C
+Mfge8,Q3TDU5,Unreviewed,transcript,Domain,271,426,F5/8 type C
+Mfge8,P21956,Reviewed,protein,Domain,24,61,EGF-like 1
+Mfge8,P21956,Reviewed,protein,Domain,64,108,EGF-like 2
+Mfge8,P21956,Reviewed,protein,Domain,148,303,F5/8 type C 1
+Mfge8,P21956,Reviewed,protein,Domain,308,463,F5/8 type C 2
+Mfge8,P21956,Reviewed,protein,Motif,87,89,Cell attachment site
+Mfng,O09008,NA,NA,NA,NA,NA,NA
+Mfng,Q3UPI0,NA,NA,NA,NA,NA,NA
+Mfsd3,Q5U419,Reviewed,transcript,Compositional bias,5,406,Leu-rich
+Mgat3,Q5RKT9,NA,NA,NA,NA,NA,NA
+Micall1,Q8BGT6,Reviewed,protein,Domain,2,105,CH
+Micall1,Q8BGT6,Reviewed,protein,Domain,163,226,LIM zinc-binding
+Micall1,Q8BGT6,Reviewed,protein,Region,659,870,RAB-binding domain (RBD); mediates the interaction with RAB13 and RAB35 and intramolecular interaction with the CH domain
+Micall1,Q8BGT6,Reviewed,protein,Region,707,870,"Necessary and sufficient to associate with tubular recycling endosome membranes, mediate phosphatidic acid-binding and membrane tubulation"
+Micall1,Q8BGT6,Reviewed,protein,Coiled coil,689,722,NA
+Micall1,Q8BGT6,Reviewed,protein,Coiled coil,806,840,NA
+Micall1,Q8BGT6,Reviewed,protein,Motif,421,423,NPF1
+Micall1,Q8BGT6,Reviewed,protein,Motif,640,642,NPF2
+Micall1,Q8BGT6,Reviewed,protein,Compositional bias,277,558,Pro-rich
+Miox,Q9QXN5,Reviewed,protein,Region,85,88,Substrate binding
+Miox,Q9QXN5,Reviewed,protein,Region,141,142,Substrate binding
+Miox,Q9QXN5,Reviewed,protein,Region,220,221,Substrate binding
+Mkl1,Q8K4J6,Reviewed,protein,Repeat,15,40,RPEL 1
+Mkl1,Q8K4J6,Reviewed,protein,Repeat,59,84,RPEL 2
+Mkl1,Q8K4J6,Reviewed,protein,Repeat,103,128,RPEL 3
+Mkl1,Q8K4J6,Reviewed,protein,Domain,385,419,SAP
+Mkl1,Q8K4J6,Reviewed,protein,Region,1,291,Mediates interaction with SCAI and ACTB
+Mkl1,Q8K4J6,Reviewed,protein,Coiled coil,552,600,NA
+Mkl1,Q8K4J6,Reviewed,protein,Compositional bias,299,325,Gln-rich
+Mkl1,Q8K4J6,Reviewed,protein,Compositional bias,712,844,Pro-rich
+Mlc1,Q8VHK5,Reviewed,protein,Compositional bias,178,181,Poly-Lys
+Mpped1,Q91ZG2,NA,NA,NA,NA,NA,NA
+Mpst,Q3UW66,Unreviewed,protein,Domain,25,144,Rhodanese
+Mpst,Q3UW66,Unreviewed,protein,Domain,174,288,Rhodanese
+Mroh1,D3Z624,NA,NA,NA,NA,NA,NA
+Mroh1,E0CZ22,NA,NA,NA,NA,NA,NA
+Mroh4,G3X8W1,NA,NA,NA,NA,NA,NA
+Mroh5,Q3TY91,NA,NA,NA,NA,NA,NA
+Mroh6,V9GX81,NA,NA,NA,NA,NA,NA
+Mrpl13,Q9D1P0,NA,NA,NA,NA,NA,NA
+Mrpl17,Q9D8P4,NA,NA,NA,NA,NA,NA
+Mrpl46,Q9EQI8,NA,NA,NA,NA,NA,NA
+Mrpl48,E9QPQ8,Unreviewed,protein,Domain,91,185,Ribosomal_S10
+Mrpl48,Q8JZS9,Reviewed,protein,Compositional bias,68,73,Poly-Lys
+Mrps11,Q3U8Y1,NA,NA,NA,NA,NA,NA
+Mtbp,Q8BJS8,Reviewed,protein,Region,515,894,Interaction with MDM2
+Mtss1,Q6ZQB7,Unreviewed,transcript,Domain,28,278,IMD (IRSp53/MIM homology)
+Mtss1,Q6ZQB7,Unreviewed,transcript,Domain,745,762,WH2
+Mtss1,G3X9H7,Unreviewed,protein,Domain,1,254,IMD (IRSp53/MIM homology)
+Mtss1,G3X9H7,Unreviewed,protein,Domain,731,748,WH2
+Mtss1,Q8R1S4,Reviewed,protein,Domain,1,254,IMD
+Mtss1,Q8R1S4,Reviewed,protein,Domain,731,748,WH2
+Mtss1,Q8R1S4,Reviewed,protein,Coiled coil,108,157,NA
+Mtss1,Q8R1S4,Reviewed,protein,Compositional bias,242,363,Ser-rich
+Mtss1,Q8R1S4,Reviewed,protein,Compositional bias,612,730,Pro-rich
+Myh9,Q8VDD5,Reviewed,protein,Domain,81,776,Myosin motor
+Myh9,Q8VDD5,Reviewed,protein,Domain,779,808,IQ
+Myh9,Q8VDD5,Reviewed,protein,Region,654,676,Actin-binding
+Myh9,Q8VDD5,Reviewed,protein,Coiled coil,841,1926,NA
+Myo7a,P97479,Reviewed,protein,Domain,65,741,Myosin motor
+Myo7a,P97479,Reviewed,protein,Domain,745,765,IQ 1
+Myo7a,P97479,Reviewed,protein,Domain,768,788,IQ 2
+Myo7a,P97479,Reviewed,protein,Domain,791,811,IQ 3
+Myo7a,P97479,Reviewed,protein,Domain,814,834,IQ 4
+Myo7a,P97479,Reviewed,protein,Domain,837,857,IQ 5
+Myo7a,P97479,Reviewed,protein,Domain,1017,1253,MyTH4 1
+Myo7a,P97479,Reviewed,protein,Domain,1258,1602,FERM 1
+Myo7a,P97479,Reviewed,protein,Domain,1603,1672,SH3
+Myo7a,P97479,Reviewed,protein,Domain,1747,1896,MyTH4 2
+Myo7a,P97479,Reviewed,protein,Domain,1902,2205,FERM 2
+Myo7a,P97479,Reviewed,protein,Region,632,639,Actin-bindingCurated
+Myo7a,P97479,Reviewed,protein,Region,858,935,SAH
+Myo7a,Q5MJ56,Unreviewed,protein,Domain,54,736,Myosin motor
+Myo7a,Q5MJ56,Unreviewed,protein,Domain,1012,1248,MyTH4
+Myo7a,Q5MJ56,Unreviewed,protein,Domain,1253,1562,FERM
+Myo7a,Q5MJ56,Unreviewed,protein,Domain,1560,1629,SH3
+Myo7a,Q5MJ56,Unreviewed,protein,Domain,1704,1853,MyTH4
+Myo7a,Q5MJ56,Unreviewed,protein,Domain,1859,2162,FERM
+Myo7a,Q5MJ56,Unreviewed,protein,Coiled coil,855,930,NA
+Naga,Q3U6T2,NA,NA,NA,NA,NA,NA
+Naga,Q9QWR8,Reviewed,protein,Region,78,79,Substrate binding
+Naprt,Q8CC86,NA,NA,NA,NA,NA,NA
+Nars2,Q8BGV0,NA,NA,NA,NA,NA,NA
+Nars2,Q8BXJ6,Unreviewed,transcript,Domain,156,467,AA_TRNA_LIGASE_II
+Ncaph2,Q8BSP2,NA,NA,NA,NA,NA,NA
+Ncaph2,E9PY48,Unreviewed,protein,Domain,5,92,CNDH2_N
+Ncaph2,E9PY48,Unreviewed,protein,Domain,277,566,CNDH2_C
+Ncf4,P97369,Reviewed,protein,Domain,19,140,PX
+Ncf4,P97369,Reviewed,protein,Domain,170,229,SH3
+Ncf4,P97369,Reviewed,protein,Domain,237,329,PB1
+Ncf4,P97369,Reviewed,protein,Region,58,60,Phosphatidylinositol 3-phosphate binding
+Ncf4,P97369,Reviewed,protein,Region,92,94,Phosphatidylinositol 3-phosphate binding
+Nckap5l,Q6GQX2,Reviewed,protein,Region,1,135,Mediates interaction with CDK5RAP2 and is required for homodimerization and microtubule bundle formation
+Nckap5l,Q6GQX2,Reviewed,protein,Region,743,1136,Mediates interaction with beta-tubulin and is required for microtubule bundle formation
+Nckap5l,Q6GQX2,Reviewed,protein,Coiled coil,22,109,NA
+Nckap5l,Q6GQX2,Reviewed,protein,Coiled coil,942,985,NA
+Nckap5l,Q6GQX2,Reviewed,protein,Motif,480,483,(S/T)X(I/L)P motif 1
+Nckap5l,Q6GQX2,Reviewed,protein,Motif,808,811,(S/T)X(I/L)P motif 2
+Nckap5l,Q6GQX2,Reviewed,protein,Motif,918,921,(S/T)X(I/L)P motif 3; required for interaction with MAPRE1
+Nckap5l,Q6GQX2,Reviewed,protein,Compositional bias,112,613,Pro-rich
+Nckap5l,Q6GQX2,Reviewed,protein,Compositional bias,781,871,Pro-rich
+Nckap5l,Q6GQX2,Reviewed,protein,Compositional bias,1120,1257,Pro-rich
+Ndufb9,Q9CQJ8,NA,NA,NA,NA,NA,NA
+Ndufc2,Q9CQ54,NA,NA,NA,NA,NA,NA
+Nell2,Q61220,Reviewed,protein,Domain,67,231,Laminin G-like
+Nell2,Q61220,Reviewed,protein,Domain,275,334,VWFC 1
+Nell2,Q61220,Reviewed,protein,Domain,400,442,EGF-like 1
+Nell2,Q61220,Reviewed,protein,Domain,443,484,EGF-like 2; calcium-binding
+Nell2,Q61220,Reviewed,protein,Domain,485,525,EGF-like 3; calcium-binding
+Nell2,Q61220,Reviewed,protein,Domain,526,556,EGF-like 4
+Nell2,Q61220,Reviewed,protein,Domain,558,604,EGF-like 5; calcium-binding
+Nell2,Q61220,Reviewed,protein,Domain,605,640,EGF-like 6; calcium-binding
+Nell2,Q61220,Reviewed,protein,Domain,701,759,VWFC 2
+Nfam1,Q8R4V1,Reviewed,protein,Domain,49,145,Ig-like V-type
+Nfam1,Q8R4V1,Reviewed,protein,Domain,212,232,ITAM
+Nfam1,Q3TCT5,NA,NA,NA,NA,NA,NA
+Nmb,D3Z621,NA,NA,NA,NA,NA,NA
+Nmb,Q9CR53,NA,NA,NA,NA,NA,NA
+Nol12,Q8BG17,Reviewed,protein,Coiled coil,34,98,NA
+Nov,Q64299,Reviewed,protein,Domain,25,99,IGFBP N-terminal
+Nov,Q64299,Reviewed,protein,Domain,102,168,VWFC
+Nov,Q64299,Reviewed,protein,Domain,202,247,TSP type-1
+Nov,Q64299,Reviewed,protein,Domain,261,335,CTCK
+Nox4,B2RSM1,Unreviewed,transcript,Domain,304,419,FAD-binding FR-type
+Nox4,Q9JHI8,Reviewed,protein,Domain,58,303,Ferric oxidoreductase
+Nox4,Q9JHI8,Reviewed,protein,Domain,304,419,FAD-binding FR-type
+Nox4,Q9JHI8,Reviewed,protein,Region,248,575,Mediates interaction with TLR4
+Npcd,H3BLN6,Unreviewed,inferred,Domain,11,69,Chromo
+Npcd,Q6TLW1,Unreviewed,transcript,Domain,11,69,Chromo
+Npcd,F8VQB8,Unreviewed,inferred,Domain,11,69,Chromo
+Npcd,Q6TLW0,Unreviewed,transcript,Domain,11,69,Chromo
+Nptxr,E9PZM8,NA,NA,NA,NA,NA,NA
+Nptxr,Q6PD36,NA,NA,NA,NA,NA,NA
+Nr4a1,P12813,Reviewed,protein,Region,412,462,NA
+Nr4a1,P12813,Reviewed,protein,Compositional bias,83,94,Poly-Ser
+Nr4a1,P12813,Reviewed,protein,Compositional bias,186,190,Poly-Pro
+Nr4a1,P12813,Reviewed,protein,Compositional bias,586,589,Poly-Pro
+Nr4a1,P12813,Reviewed,protein,Zinc finger,270,290,NR C4-type
+Nr4a1,P12813,Reviewed,protein,Zinc finger,306,330,NR C4-type
+Nr4a1,Q545Q1,Unreviewed,transcript,Domain,267,342,Nuclear receptor DNA-binding
+Nsmce2,Q91VT1,Reviewed,transcript,Zinc finger,154,236,SP-RING-type
+Ntrk3,Q3TNY3,Unreviewed,transcript,Domain,1,73,Protein kinase
+Ntrk3,Q6VNS1,Reviewed,protein,Repeat,104,125,LRR 1
+Ntrk3,Q6VNS1,Reviewed,protein,Repeat,128,149,LRR 2
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,160,209,LRRCT
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,210,300,Ig-like C2-type 1
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,309,382,Ig-like C2-type 2
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,538,825,Protein kinase
+Ntrk3,A0A0A6YWL7,Unreviewed,protein,Domain,210,300,Ig-like (immunoglobulin-like)
+Ntrk3,A0A0A6YWL7,Unreviewed,protein,Domain,538,853,Protein kinase
+Ntrk3,A0A0A6YWF9,Unreviewed,protein,Domain,210,300,Ig-like (immunoglobulin-like)
+Ntrk3,A0A0A6YWF9,Unreviewed,protein,Domain,538,828,Protein kinase
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,276,317,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,332,398,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,413,447,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,452,489,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,501,578,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,586,645,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,653,810,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,861,909,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,979,1045,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1053,1087,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1118,1145,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1181,1271,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1276,1331,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1363,1401,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1405,1439,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1458,1507,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1512,1546,NA
+Numa1,E9Q7G0,Unreviewed,protein,Coiled coil,1554,1675,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,276,317,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,332,398,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,413,447,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,452,489,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,501,578,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,586,645,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,653,810,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,861,909,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,979,1045,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1053,1087,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1118,1145,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1181,1271,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1276,1331,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1363,1401,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1405,1439,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1458,1507,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1512,1546,NA
+Numa1,Q80Y35,Unreviewed,transcript,Coiled coil,1554,1675,NA
+Nup50,Q9JIH2,Reviewed,protein,Repeat,76,77,1
+Nup50,Q9JIH2,Reviewed,protein,Repeat,112,113,2
+Nup50,Q9JIH2,Reviewed,protein,Repeat,225,226,3
+Nup50,Q9JIH2,Reviewed,protein,Repeat,271,272,4
+Nup50,Q9JIH2,Reviewed,protein,Repeat,301,302,5
+Nup50,Q9JIH2,Reviewed,protein,Domain,333,466,RanBD1
+Nup50,Q9JIH2,Reviewed,protein,Region,76,302,5 X 2 AA repeats of F-G
+Nup50,Q9JIH2,Reviewed,protein,Region,143,205,Binding to CDKN1B
+Nup50,Q9JIH2,Reviewed,protein,Compositional bias,55,90,Gly-rich
+Nup50,Q9JIH2,Reviewed,protein,Compositional bias,266,329,Ser-rich
+Oc90,Q9Z0L3,Reviewed,protein,Region,75,189,Phospholipase A2-like 1
+Oc90,Q9Z0L3,Reviewed,protein,Region,315,371,Phospholipase A2-like 2
+Oc90,Q9Z0L3,Reviewed,protein,Region,383,435,Phospholipase A2-like 3
+Oc90,Q80ZM2,Unreviewed,transcript,Domain,74,190,PA2c
+Oc90,Q80ZM2,Unreviewed,transcript,Domain,282,397,PA2c
+Odf3b,Q5M8M2,Reviewed,transcript,Repeat,182,207,STPGR
+Olfr279,Q8VFD8,Unreviewed,inferred,Domain,41,291,G_PROTEIN_RECEP_F1_2
+Olfr281,Q8VET6,Unreviewed,transcript,Domain,41,288,G_PROTEIN_RECEP_F1_2
+Olfr282,A1L1B4,Unreviewed,transcript,Domain,41,288,G_PROTEIN_RECEP_F1_2
+Olfr283,Q8VGU2,Unreviewed,transcript,Domain,39,286,G_PROTEIN_RECEP_F1_2
+Olfr284,Q8VET7,Unreviewed,protein,Domain,39,286,G_PROTEIN_RECEP_F1_2
+Olfr285,Q7TS17,Unreviewed,inferred,Domain,39,286,G_PROTEIN_RECEP_F1_2
+Olfr286,NA,NA,NA,NA,NA,NA,NA
+Olfr287,E9PZS7,Unreviewed,inferred,Domain,47,296,G_PROTEIN_RECEP_F1_2
+Olfr288,E9Q1P2,Unreviewed,inferred,Domain,48,297,G_PROTEIN_RECEP_F1_2
+Olfr290,Q7TS13,Unreviewed,transcript,Domain,41,291,G_PROTEIN_RECEP_F1_2
+Olfr291,Q8VF60,Unreviewed,inferred,Domain,43,293,G_PROTEIN_RECEP_F1_2
+Olfr292,F8VQ84,Unreviewed,inferred,Domain,39,288,G_PROTEIN_RECEP_F1_2
+Olfr293,Q7TS10,Unreviewed,inferred,Domain,45,295,G_PROTEIN_RECEP_F1_2
+Olfr295,Q7TS08,Unreviewed,inferred,Domain,39,288,G_PROTEIN_RECEP_F1_2
+Olfr297,Q7TS07,Unreviewed,inferred,Domain,39,288,G_PROTEIN_RECEP_F1_2
+Olfr299,Q7TS05,Unreviewed,inferred,Domain,39,289,G_PROTEIN_RECEP_F1_2
+Olfr301,Q7TS04,Unreviewed,inferred,Domain,39,289,G_PROTEIN_RECEP_F1_2
+Olfr520,E9Q518,Unreviewed,inferred,Domain,46,295,G_PROTEIN_RECEP_F1_2
+Olfr521,E9Q519,Unreviewed,inferred,Domain,46,295,G_PROTEIN_RECEP_F1_2
+Olfr566,Q7TRS5,Unreviewed,inferred,Domain,47,298,G_PROTEIN_RECEP_F1_2
+Olfr569,Q8VGZ2,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr571,E9Q407,Unreviewed,inferred,Domain,49,299,G_PROTEIN_RECEP_F1_2
+Olfr575,Q8VH16,Unreviewed,inferred,Domain,50,300,G_PROTEIN_RECEP_F1_2
+Olfr577,Q8VH11,Unreviewed,transcript,Domain,44,295,G_PROTEIN_RECEP_F1_2
+Olfr586,Q8VH13,Unreviewed,inferred,Domain,47,297,G_PROTEIN_RECEP_F1_2
+Olfr589,Q8VGV8,Unreviewed,inferred,Domain,43,293,G_PROTEIN_RECEP_F1_2
+Olfr591,Q7TRR7,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr6,P34986,NA,NA,NA,NA,NA,NA
+Olfr600,E9PUN7,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr601,A2RS33,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr605,E9Q838,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr605,Q7TRR0,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr609,E9Q4X7,Unreviewed,inferred,Domain,40,291,G_PROTEIN_RECEP_F1_2
+Olfr610,E9Q598,Unreviewed,inferred,Domain,43,295,G_PROTEIN_RECEP_F1_2
+Olfr611,K7N609,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr612,L7N462,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr616,Q3KPB0,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr620,E9PZ66,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr623,E9Q382,Unreviewed,inferred,Domain,42,293,G_PROTEIN_RECEP_F1_2
+Olfr624,F8VQI7,Unreviewed,inferred,Domain,37,288,G_PROTEIN_RECEP_F1_2
+Olfr629,Q0VBH3,Unreviewed,transcript,Domain,41,292,G_PROTEIN_RECEP_F1_2
+Olfr639,Q8VGY8,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr64,F8VPZ8,Unreviewed,inferred,Domain,39,290,G_PROTEIN_RECEP_F1_2
+Olfr640,E9Q7P5,Unreviewed,inferred,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr643,Q8VGY1,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr645,Q7TRQ1,Unreviewed,transcript,Domain,43,295,G_PROTEIN_RECEP_F1_2
+Olfr655,E9Q252,Unreviewed,inferred,Domain,41,291,G_PROTEIN_RECEP_F1_2
+Olfr658,Q8VGV5,Unreviewed,transcript,Domain,45,297,G_PROTEIN_RECEP_F1_2
+Olfr66,F8VQ01,Unreviewed,inferred,Domain,39,290,G_PROTEIN_RECEP_F1_2
+Olfr666,Q8VH00,Unreviewed,inferred,Domain,43,295,G_PROTEIN_RECEP_F1_2
+Olfr667,Q7TRP4,Unreviewed,inferred,Domain,43,295,G_PROTEIN_RECEP_F1_2
+Olfr67,F8VPJ8,Unreviewed,inferred,Domain,47,299,G_PROTEIN_RECEP_F1_2
+Olfr670,Q7TRP3,Unreviewed,inferred,Domain,43,293,G_PROTEIN_RECEP_F1_2
+Olfr671,Q7TRP2,Unreviewed,inferred,Domain,43,293,G_PROTEIN_RECEP_F1_2
+Olfr672,Q8VG28,Unreviewed,inferred,Domain,43,293,G_PROTEIN_RECEP_F1_2
+Olfr675,Q7TRP1,Unreviewed,inferred,Domain,43,293,G_PROTEIN_RECEP_F1_2
+Olfr68,E9PYY2,Unreviewed,inferred,Domain,43,295,G_PROTEIN_RECEP_F1_2
+Olfr683,Q8VGV1,Unreviewed,transcript,Domain,50,300,G_PROTEIN_RECEP_F1_2
+Olfr684,Q7TRN8,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr686,Q8VGX3,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr69,E9Q7C5,Unreviewed,inferred,Domain,43,295,G_PROTEIN_RECEP_F1_2
+Olfr690,Q8VH18,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr691,Q8VGW5,Unreviewed,transcript,Domain,43,294,G_PROTEIN_RECEP_F1_2
+Olfr693,Q8VF89,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr694,K7N641,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr695,Q8VFM3,Unreviewed,transcript,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr697,Q8VFM4,Unreviewed,transcript,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr698,Q7TRN4,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr699,Q7TRN3,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr701,Q9D3U9,Unreviewed,transcript,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr701,Q9D4F9,Unreviewed,transcript,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr702,Q920Z2,Unreviewed,transcript,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr704,Q9EPF6,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr705,Q9EPF7,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr706,Q9EPF8,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Olfr710,Q9EP55,Unreviewed,inferred,Domain,41,290,G_PROTEIN_RECEP_F1_2
+Oplah,Q8K010,NA,NA,NA,NA,NA,NA
+P2ry2,P35383,NA,NA,NA,NA,NA,NA
+P2ry6,Q3UQ86,Unreviewed,protein,Domain,43,301,G_PROTEIN_RECEP_F1_2
+P2ry6,Q9ERK9,NA,NA,NA,NA,NA,NA
+P4ha3,H7BX23,Unreviewed,protein,Domain,420,527,Fe2OG dioxygenase
+Pacsin2,Q3TDA7,Unreviewed,protein,Domain,11,282,F-BAR
+Pacsin2,Q3TDA7,Unreviewed,protein,Domain,426,486,SH3
+Pacsin2,Q3TDA7,Unreviewed,protein,Coiled coil,187,218,NA
+Pacsin2,Q8BNK9,Unreviewed,transcript,Domain,62,122,SH3
+Pacsin2,Q9WVE8,Reviewed,protein,Domain,11,282,F-BAR
+Pacsin2,Q9WVE8,Reviewed,protein,Domain,426,486,SH3
+Pacsin2,Q9WVE8,Reviewed,protein,Coiled coil,25,274,
+Pacsin2,Q9WVE8,Reviewed,protein,Motif,362,364,NPF1
+Pacsin2,Q9WVE8,Reviewed,protein,Motif,405,407,NPF2
+Pacsin2,Q9WVE8,Reviewed,protein,Motif,417,419,NPF3
+Parp10,Q8C8L6,Unreviewed,transcript,Domain,470,675,PARP catalytic
+Parp10,Q8CIE4,Unreviewed,protein,Domain,755,960,PARP catalytic
+Parvb,Q3UGT9,Unreviewed,protein,Domain,88,195,Actin-binding
+Parvb,Q3UGT9,Unreviewed,protein,Domain,255,362,Actin-binding
+Parvb,Q9ES46,Reviewed,protein,Domain,88,195,CH 1
+Parvb,Q9ES46,Reviewed,protein,Domain,255,362,CH 2
+Parvg,E9PYG5,Unreviewed,protein,Domain,97,204,Actin-binding
+Parvg,E9PYG5,Unreviewed,protein,Domain,263,370,Actin-binding
+Parvg,Q9ERD8,Reviewed,protein,Domain,44,151,CH 1
+Parvg,Q9ERD8,Reviewed,protein,Domain,210,317,CH 2
+Parvg,Q8CEF2,Unreviewed,transcript,Domain,44,151,Actin-binding
+Parvg,Q8CEF2,Unreviewed,transcript,Domain,210,317,Actin-binding
+Pcf11,G3X9Z4,Unreviewed,protein,Domain,14,142,CID
+Pcf11,G3X9Z4,Unreviewed,protein,Coiled coil,208,235,NA
+Pcf11,Q69ZY3,Unreviewed,transcript,Domain,102,230,CID
+Pcf11,Q69ZY3,Unreviewed,transcript,Coiled coil,296,323,NA
+Pcf11,Q8K0S1,NA,NA,NA,NA,NA,NA
+Pdgfb,P31240,NA,NA,NA,NA,NA,NA
+Pdxp,P60487,Reviewed,protein,Region,58,62,Substrate binding
+Pdxp,Q6IS27,NA,NA,NA,NA,NA,NA
+Pdzrn4,B9EKP7,Unreviewed,transcript,Domain,21,55,RING-type
+Pdzrn4,B9EKP7,Unreviewed,transcript,Domain,205,295,PDZ (DHR)
+Pdzrn4,B9EKP7,Unreviewed,transcript,Domain,383,452,PDZ (DHR)
+Pdzrn4,B9EKP7,Unreviewed,transcript,Coiled coil,637,664,NA
+Pdzrn4,E9PUZ9,Unreviewed,protein,Domain,21,55,RING-type
+Pdzrn4,E9PUZ9,Unreviewed,protein,Domain,205,295,PDZ (DHR)
+Pdzrn4,E9PUZ9,Unreviewed,protein,Domain,383,452,PDZ (DHR)
+Pdzrn4,E9PUZ9,Unreviewed,protein,Coiled coil,637,664,NA
+Pdzrn4,Q3UXJ7,Unreviewed,transcript,Domain,144,213,PDZ (DHR)
+Pdzrn4,Q3UXJ7,Unreviewed,transcript,Coiled coil,398,425,NA
+Pdzrn4,E9Q5P6,Unreviewed,protein,Domain,144,213,PDZ (DHR)
+Pdzrn4,E9Q5P6,Unreviewed,protein,Coiled coil,398,425,NA
+Pdzrn4,Q69Z24,Unreviewed,transcript,Coiled coil,122,149,NA
+Pex11a,Q9Z211,Reviewed,protein,Region,218,238,"Required for homodimerization, interaction with PEX11G, and peroxisomal localization"
+Pgap2,Q3TQR0,NA,NA,NA,NA,NA,NA
+Pgap2,Q3U6W8,NA,NA,NA,NA,NA,NA
+Pgm2l1,Q8CAA7,Reviewed,protein,Region,175,176,Substrate binding
+Pgm2l1,Q8CAA7,Reviewed,protein,Region,336,337,Substrate binding
+Pgm2l1,Q8CAA7,Reviewed,protein,Region,433,435,Substrate binding
+Pgpep1l,E9QM76,NA,NA,NA,NA,NA,NA
+Pgpep1l,Q9CWB5,NA,NA,NA,NA,NA,NA
+Phf20l1,Q8CCJ9,Reviewed,protein,Domain,11,71,Tudor 1
+Phf20l1,Q8CCJ9,Reviewed,protein,Domain,85,141,Tudor 2
+Phf20l1,Q8CCJ9,Reviewed,protein,Compositional bias,530,579,Lys-rich
+Phf20l1,Q8CCJ9,Reviewed,protein,Zinc finger,681,729,PHD-type
+Phf21b,Q8C966,Reviewed,transcript,Coiled coil,380,420,NA
+Phf21b,Q8C966,Reviewed,transcript,Zinc finger,307,354,PHD-type
+Picalm,Q570Z8,Unreviewed,transcript,Domain,33,164,ENTH (epsin N-terminal homology)
+Picalm,Q570Z8,Unreviewed,transcript,Coiled coil,340,367,NA
+Picalm,Q7M6Y3,Reviewed,protein,Domain,14,145,ENTH
+Picalm,Q7M6Y3,Reviewed,protein,Region,221,294,Interaction with FAM64A
+Picalm,Q3TD51,Unreviewed,transcript,Domain,14,145,ENTH (epsin N-terminal homology)
+Picalm,Q3TD51,Unreviewed,transcript,Coiled coil,321,348,NA
+Pick1,E9PUZ5,Unreviewed,protein,Domain,22,105,PDZ (DHR)
+Pick1,E9PUZ5,Unreviewed,protein,Domain,144,357,AH
+Pick1,Q8C1W2,Unreviewed,transcript,Domain,22,105,PDZ (DHR)
+Pick1,Q8C1W2,Unreviewed,transcript,Domain,144,326,AH
+Pick1,Q8C1W2,Unreviewed,transcript,Domain,395,530,Galectin
+Pkdrej,F8VQF3,Unreviewed,inferred,Domain,102,797,REJ
+Pkdrej,F8VQF3,Unreviewed,inferred,Domain,1114,1231,PLAT
+Pkdrej,F8VQF3,Unreviewed,inferred,Coiled coil,660,687,NA
+Pla2g6,P97819,Reviewed,protein,Repeat,151,181,ANK 1
+Pla2g6,P97819,Reviewed,protein,Repeat,185,215,ANK 2
+Pla2g6,P97819,Reviewed,protein,Repeat,219,248,ANK 3
+Pla2g6,P97819,Reviewed,protein,Repeat,251,281,ANK 4
+Pla2g6,P97819,Reviewed,protein,Repeat,286,312,ANK 5
+Pla2g6,P97819,Reviewed,protein,Repeat,316,345,ANK 6
+Pla2g6,P97819,Reviewed,protein,Repeat,349,378,ANK 7
+Pla2g6,P97819,Reviewed,protein,Domain,482,666,Patatin
+Pla2g6,P97819,Reviewed,protein,Region,678,697,Calmodulin-binding
+Pla2g6,P97819,Reviewed,protein,Region,749,760,Calmodulin-binding
+Pla2g6,Q3UN31,Unreviewed,transcript,Domain,151,392,ANK_REP_REGION
+Pla2g6,Q3U613,Unreviewed,transcript,Domain,151,392,ANK_REP_REGION
+Plec,Q9QXS1,Reviewed,protein,Domain,181,411,Actin-binding
+Plec,Q9QXS1,Reviewed,protein,Domain,185,293,CH 1
+Plec,Q9QXS1,Reviewed,protein,Domain,306,408,CH 2
+Plec,Q9QXS1,Reviewed,protein,Repeat,653,727,Spectrin 1
+Plec,Q9QXS1,Reviewed,protein,Repeat,748,832,Spectrin 2
+Plec,Q9QXS1,Reviewed,protein,Repeat,845,938,Spectrin 3
+Plec,Q9QXS1,Reviewed,protein,Repeat,1323,1423,Spectrin 4
+Plec,Q9QXS1,Reviewed,protein,Repeat,2795,2832,Plectin 1
+Plec,Q9QXS1,Reviewed,protein,Repeat,2833,2870,Plectin 2
+Plec,Q9QXS1,Reviewed,protein,Repeat,2871,2908,Plectin 3
+Plec,Q9QXS1,Reviewed,protein,Repeat,2909,2946,Plectin 4
+Plec,Q9QXS1,Reviewed,protein,Repeat,2947,2984,Plectin 5
+Plec,Q9QXS1,Reviewed,protein,Repeat,2988,3022,Plectin 6
+Plec,Q9QXS1,Reviewed,protein,Repeat,3123,3160,Plectin 7
+Plec,Q9QXS1,Reviewed,protein,Repeat,3161,3198,Plectin 8
+Plec,Q9QXS1,Reviewed,protein,Repeat,3199,3236,Plectin 9
+Plec,Q9QXS1,Reviewed,protein,Repeat,3237,3274,Plectin 10
+Plec,Q9QXS1,Reviewed,protein,Repeat,3275,3312,Plectin 11
+Plec,Q9QXS1,Reviewed,protein,Repeat,3315,3350,Plectin 12
+Plec,Q9QXS1,Reviewed,protein,Repeat,3492,3529,Plectin 13
+Plec,Q9QXS1,Reviewed,protein,Repeat,3530,3567,Plectin 14
+Plec,Q9QXS1,Reviewed,protein,Repeat,3568,3605,Plectin 15
+Plec,Q9QXS1,Reviewed,protein,Repeat,3606,3643,Plectin 16
+Plec,Q9QXS1,Reviewed,protein,Repeat,3647,3681,Plectin 17
+Plec,Q9QXS1,Reviewed,protein,Repeat,3827,3864,Plectin 18
+Plec,Q9QXS1,Reviewed,protein,Repeat,3865,3902,Plectin 19
+Plec,Q9QXS1,Reviewed,protein,Repeat,3903,3940,Plectin 20
+Plec,Q9QXS1,Reviewed,protein,Repeat,3941,3978,Plectin 21
+Plec,Q9QXS1,Reviewed,protein,Repeat,3982,4015,Plectin 22
+Plec,Q9QXS1,Reviewed,protein,Repeat,4070,4107,Plectin 23
+Plec,Q9QXS1,Reviewed,protein,Repeat,4108,4145,Plectin 24
+Plec,Q9QXS1,Reviewed,protein,Repeat,4146,4183,Plectin 25
+Plec,Q9QXS1,Reviewed,protein,Repeat,4184,4221,Plectin 26
+Plec,Q9QXS1,Reviewed,protein,Repeat,4225,4259,Plectin 27
+Plec,Q9QXS1,Reviewed,protein,Repeat,4272,4312,Plectin 28
+Plec,Q9QXS1,Reviewed,protein,Repeat,4415,4452,Plectin 29
+Plec,Q9QXS1,Reviewed,protein,Repeat,4453,4490,Plectin 30
+Plec,Q9QXS1,Reviewed,protein,Repeat,4491,4528,Plectin 31
+Plec,Q9QXS1,Reviewed,protein,Repeat,4529,4566,Plectin 32
+Plec,Q9QXS1,Reviewed,protein,Repeat,4567,4604,Plectin 33
+Plec,Q9QXS1,Reviewed,protein,Region,1,1478,Globular 1
+Plec,Q9QXS1,Reviewed,protein,Region,1479,2762,Central fibrous rod domain
+Plec,Q9QXS1,Reviewed,protein,Region,2763,4691,Globular 2
+Plec,Q9QXS1,Reviewed,protein,Region,4257,4307,Binding to intermediate filaments
+Plec,Q9QXS1,Reviewed,protein,Region,4632,4647,4 X 4 AA tandem repeats of G-S-R-X
+Plec,Q9QXS1,Reviewed,protein,Coiled coil,1477,1697,NA
+Plec,Q9QXS1,Reviewed,protein,Coiled coil,1729,2764,NA
+Plec,E9Q3W4,Unreviewed,protein,Domain,1,103,Actin-binding
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,491,525,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,564,591,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,597,620,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1078,1101,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1174,1356,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1360,1405,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1429,1484,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1488,1677,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1682,1773,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1795,1893,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,1898,2000,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,2007,2069,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,2096,2203,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,2208,2256,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,2271,2322,NA
+Plec,E9Q3W4,Unreviewed,protein,Coiled coil,2339,2451,NA
+Plec,Q6S390,Unreviewed,transcript,Domain,1,51,Actin-binding
+Plec,Q6S390,Unreviewed,transcript,Domain,64,166,Actin-binding
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,554,588,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,627,654,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,660,683,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1141,1164,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1237,1419,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1423,1468,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1492,1547,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1551,1740,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1745,1836,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1858,1956,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,1961,2063,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,2070,2132,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,2159,2266,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,2271,2319,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,2334,2385,NA
+Plec,Q6S390,Unreviewed,transcript,Coiled coil,2402,2514,NA
+Plec,Q6S393,Unreviewed,transcript,Domain,33,136,Actin-binding
+Plec,Q6S393,Unreviewed,transcript,Domain,149,251,Actin-binding
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,639,673,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,712,739,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,745,768,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1226,1249,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1322,1504,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1508,1553,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1577,1632,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1636,1825,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1830,1921,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,1943,2041,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,2046,2148,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,2155,2217,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,2244,2351,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,2356,2404,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,2419,2470,NA
+Plec,Q6S393,Unreviewed,transcript,Coiled coil,2487,2599,NA
+Plec,Q6S392,Unreviewed,transcript,Domain,20,123,Actin-binding
+Plec,Q6S392,Unreviewed,transcript,Domain,136,238,Actin-binding
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,626,660,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,699,726,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,732,755,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1213,1236,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1309,1491,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1495,1540,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1564,1619,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1623,1812,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1817,1908,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,1930,2028,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,2033,2135,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,2142,2204,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,2231,2338,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,2343,2391,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,2406,2457,NA
+Plec,Q6S392,Unreviewed,transcript,Coiled coil,2474,2586,NA
+Plec,Q6S388,Unreviewed,transcript,Domain,10,113,Actin-binding
+Plec,Q6S388,Unreviewed,transcript,Domain,126,228,Actin-binding
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,616,650,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,689,716,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,722,745,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1203,1226,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1299,1481,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1485,1530,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1554,1609,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1613,1802,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1807,1898,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,1920,2018,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,2023,2125,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,2132,2194,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,2221,2328,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,2333,2381,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,2396,2447,NA
+Plec,Q6S388,Unreviewed,transcript,Coiled coil,2464,2576,NA
+Plec,Q6S387,Unreviewed,transcript,Domain,42,145,Actin-binding
+Plec,Q6S387,Unreviewed,transcript,Domain,158,260,Actin-binding
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,648,682,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,721,748,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,754,777,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1235,1258,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1331,1513,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1517,1562,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1586,1641,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1645,1834,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1839,1930,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,1952,2050,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,2055,2157,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,2164,2226,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,2253,2360,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,2365,2413,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,2428,2479,NA
+Plec,Q6S387,Unreviewed,transcript,Coiled coil,2496,2608,NA
+Plec,Q6S385,Unreviewed,transcript,Domain,49,152,Actin-binding
+Plec,Q6S385,Unreviewed,transcript,Domain,165,267,Actin-binding
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,655,689,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,728,755,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,761,784,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1242,1265,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1338,1520,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1524,1569,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1593,1648,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1652,1841,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1846,1937,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,1959,2057,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,2062,2164,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,2171,2233,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,2260,2367,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,2372,2420,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,2435,2486,NA
+Plec,Q6S385,Unreviewed,transcript,Coiled coil,2503,2615,NA
+Plekhb1,Q9QYE9,Reviewed,protein,Domain,21,128,PH
+Plekhb1,Q3TP62,Unreviewed,transcript,Domain,2,109,PH
+Plekhb1,D3YV71,Unreviewed,protein,Domain,4,96,PH
+Plin1,Q8CGN5,Reviewed,protein,Region,290,321,Required for interaction with CIDEC
+Plin1,Q8CGN5,Reviewed,protein,Compositional bias,308,319,Poly-Glu
+Plxnb2,B2RXS4,Reviewed,protein,Domain,20,468,Sema
+Plxnb2,B2RXS4,Reviewed,protein,Domain,806,895,IPT/TIG 1
+Plxnb2,B2RXS4,Reviewed,protein,Domain,898,982,IPT/TIG 2
+Plxnb2,B2RXS4,Reviewed,protein,Domain,986,1095,IPT/TIG 3
+Pmm1,Q545Q8,NA,NA,NA,NA,NA,NA
+Pmm1,Q91W01,NA,NA,NA,NA,NA,NA
+Pmm1,O35621,NA,NA,NA,NA,NA,NA
+Pnpla3,E9QNZ9,Unreviewed,protein,Domain,10,178,Patatin
+Pnpla3,Q91WW7,Reviewed,protein,Domain,10,179,Patatin
+Pnpla3,Q91WW7,Reviewed,protein,Motif,45,49,GXSXG
+Pnpla5,Q32LZ8,Reviewed,transcript,Domain,12,181,Patatin
+Pnpla5,Q32LZ8,Reviewed,transcript,Motif,47,51,GXSXG
+Polg,Q3UG70,Unreviewed,transcript,Domain,849,1123,POLAc
+Polg,Q3UG70,Unreviewed,transcript,Coiled coil,420,447,NA
+Polg,Q3UZX3,Unreviewed,transcript,Domain,849,1123,POLAc
+Polg,Q3UZX3,Unreviewed,transcript,Coiled coil,420,447,NA
+Polg,Q75WC0,Unreviewed,protein,Domain,849,1123,POLAc
+Polg,Q75WC0,Unreviewed,protein,Coiled coil,420,447,NA
+Pou6f1,Q5U4D4,Unreviewed,protein,Domain,414,488,POU-specific
+Pou6f1,Q5U4D4,Unreviewed,protein,Domain,507,567,Homeobox DNA-binding
+Pou6f1,Q07916,Reviewed,protein,Domain,139,213,POU-specific
+Pou6f1,Q07916,Reviewed,protein,Compositional bias,1,139,Gln/Pro-rich
+Pphln1,G3UWD4,NA,NA,NA,NA,NA,NA
+Pphln1,Q3TYM7,NA,NA,NA,NA,NA,NA
+Pphln1,Q3UBL8,NA,NA,NA,NA,NA,NA
+Pphln1,G3X959,NA,NA,NA,NA,NA,NA
+Pphln1,Q8K2H1,Reviewed,protein,Motif,117,123,Nuclear localization signal
+Pphln1,Q8K2H1,Reviewed,protein,Compositional bias,154,229,Ser-rich
+Ppp1r16a,Q923M0,Reviewed,protein,Repeat,70,99,ANK 1
+Ppp1r16a,Q923M0,Reviewed,protein,Repeat,103,132,ANK 2
+Ppp1r16a,Q923M0,Reviewed,protein,Repeat,136,165,ANK 3
+Ppp1r16a,Q923M0,Reviewed,protein,Repeat,231,260,ANK 4
+Ppp1r16a,Q923M0,Reviewed,protein,Repeat,264,293,ANK 5
+Ppp1r16a,Q923M0,Reviewed,protein,Coiled coil,448,469,NA
+Ppp6r2,G3X9K4,NA,NA,NA,NA,NA,NA
+Ppp6r2,Q3V4C5,NA,NA,NA,NA,NA,NA
+Ppp6r2,Q8C3X1,NA,NA,NA,NA,NA,NA
+Prc1,Q99K43,Reviewed,protein,Region,1,341,Dimerization
+Prc1,Q99K43,Reviewed,protein,Region,342,466,Spectrin-fold
+Prc1,Q99K43,Reviewed,protein,Region,467,603,"Unstructured, Arg/Lys rich"
+Prc1,Q99K43,Reviewed,protein,Coiled coil,34,65,NA
+Prc1,Q99K43,Reviewed,protein,Coiled coil,96,136,NA
+Prc1,Q99K43,Reviewed,protein,Coiled coil,211,246,NA
+Prc1,Q99K43,Reviewed,protein,Coiled coil,272,304,NA
+Prc1,Q99K43,Reviewed,protein,Coiled coil,383,463,NA
+Prc1,G3UY19,Unreviewed,protein,Coiled coil,96,134,NA
+Prc1,G3UY19,Unreviewed,protein,Coiled coil,215,242,NA
+Prc1,G3UY19,Unreviewed,protein,Coiled coil,385,412,NA
+Prc1,G3UY19,Unreviewed,protein,Coiled coil,431,461,NA
+Prc1,G3UW86,Unreviewed,protein,Coiled coil,96,134,NA
+Prc1,G3UW86,Unreviewed,protein,Coiled coil,215,242,NA
+Prc1,G3UW86,Unreviewed,protein,Coiled coil,385,412,NA
+Prc1,G3UW86,Unreviewed,protein,Coiled coil,431,461,NA
+Prc1,G3UWQ7,Unreviewed,protein,Coiled coil,96,134,NA
+Prc1,G3UWQ7,Unreviewed,protein,Coiled coil,215,242,NA
+Prc1,G3UWQ7,Unreviewed,protein,Coiled coil,385,412,NA
+Prc1,G3UWQ7,Unreviewed,protein,Coiled coil,431,461,NA
+Prickle1,Q3U5C7,Reviewed,protein,Domain,14,122,PET
+Prickle1,Q3U5C7,Reviewed,protein,Domain,124,188,LIM zinc-binding 1
+Prickle1,Q3U5C7,Reviewed,protein,Domain,189,249,LIM zinc-binding 2
+Prickle1,Q3U5C7,Reviewed,protein,Domain,250,313,LIM zinc-binding 3
+Prickle1,Q3U5C7,Reviewed,protein,Compositional bias,817,822,Poly-Lys
+Prkcdbp,Q91VJ2,NA,NA,NA,NA,NA,NA
+Prpf40b,Q80W14,Reviewed,protein,Domain,92,125,WW 1
+Prpf40b,Q80W14,Reviewed,protein,Domain,133,166,WW 2
+Prpf40b,Q80W14,Reviewed,protein,Domain,276,330,FF 1
+Prpf40b,Q80W14,Reviewed,protein,Domain,340,397,FF 2
+Prpf40b,Q80W14,Reviewed,protein,Domain,410,470,FF 3
+Prpf40b,Q80W14,Reviewed,protein,Domain,490,550,FF 4
+Prpf40b,Q80W14,Reviewed,protein,Domain,554,610,FF 5
+Prpf40b,Q80W14,Reviewed,protein,Domain,625,682,FF 6
+Prpf40b,Q80W14,Reviewed,protein,Coiled coil,604,640,NA
+Prpf40b,Q80W14,Reviewed,protein,Compositional bias,3,72,Pro-rich
+Prph,G5E846,Unreviewed,protein,Domain,20,99,Filament_head
+Prph,G5E846,Unreviewed,protein,Coiled coil,91,139,NA
+Prph,G5E846,Unreviewed,protein,Coiled coil,145,253,NA
+Prph,G5E846,Unreviewed,protein,Coiled coil,298,350,NA
+Prph,G5E846,Unreviewed,protein,Coiled coil,355,389,NA
+Prph,G3X981,Unreviewed,protein,Domain,20,99,Filament_head
+Prph,G3X981,Unreviewed,protein,Coiled coil,91,139,NA
+Prph,G3X981,Unreviewed,protein,Coiled coil,145,253,NA
+Prph,G3X981,Unreviewed,protein,Coiled coil,330,382,NA
+Prph,G3X981,Unreviewed,protein,Coiled coil,387,421,NA
+Prr5,Q812A5,Reviewed,protein,Region,10,96,Interaction with RICTOR
+Prr5,Q812A5,Reviewed,protein,Region,189,219,Interaction with RICTOR
+Psca,Q9D7U0,Unreviewed,transcript,Domain,21,107,UPAR/Ly6
+Ptk2,P34152,Reviewed,protein,Domain,35,355,FERM
+Ptk2,P34152,Reviewed,protein,Domain,469,718,Protein kinase
+Ptk2,P34152,Reviewed,protein,Region,745,1090,Interaction with TGFB1I1
+Ptk2,P34152,Reviewed,protein,Region,950,1090,Interaction with ARHGEF28
+Ptk2,P34152,Reviewed,protein,Compositional bias,750,771,Pro-rich
+Ptk2,P34152,Reviewed,protein,Compositional bias,901,951,Pro-rich
+Pus7l,Q8CE46,Reviewed,protein,Domain,424,646,TRUD
+Pvalb,P32848,Reviewed,protein,Domain,39,74,EF-hand 1
+Pvalb,P32848,Reviewed,protein,Domain,78,110,EF-hand 2
+Pvalb,Q545M7,Unreviewed,protein,Domain,39,74,EF-hand
+Pvalb,Q545M7,Unreviewed,protein,Domain,78,110,EF-hand
+Pycrl,Q9DCC4,NA,NA,NA,NA,NA,NA
+Rab38,Q5FW76,NA,NA,NA,NA,NA,NA
+Rab38,Q8QZZ8,Reviewed,protein,Motif,38,46,Effector region
+Rabl2,E9Q9D5,NA,NA,NA,NA,NA,NA
+Racgap1,Q9WVM1,Reviewed,protein,Domain,350,540,Rho-GAP
+Racgap1,Q9WVM1,Reviewed,protein,Region,107,286,Interaction with SLC26A8
+Racgap1,Q9WVM1,Reviewed,protein,Coiled coil,33,110,NA
+Racgap1,Q9WVM1,Reviewed,protein,Zinc finger,287,336,Phorbol-ester/DAG-type
+Rangap1,P46061,Reviewed,protein,Repeat,48,71,LRR 1
+Rangap1,P46061,Reviewed,protein,Repeat,111,134,LRR 2
+Rangap1,P46061,Reviewed,protein,Repeat,207,230,LRR 3
+Rangap1,P46061,Reviewed,protein,Repeat,235,258,LRR 4
+Rangap1,P46061,Reviewed,protein,Repeat,292,315,LRR 5
+Rangap1,P46061,Reviewed,protein,Repeat,320,343,LRR 6
+Rangap1,P46061,Reviewed,protein,Motif,525,528,SUMO conjugation
+Rangap1,P46061,Reviewed,protein,Compositional bias,359,399,Asp/Glu-rich (highly acidic)
+Rapgef3,Q3UQC2,Unreviewed,transcript,Domain,116,186,DEP
+Rapgef3,Q3UQC2,Unreviewed,transcript,Domain,245,346,CNMP_BINDING_3
+Rapgef3,Q3UQC2,Unreviewed,transcript,Domain,384,521,N-terminal Ras-GEF
+Rapgef3,Q3UQC2,Unreviewed,transcript,Domain,665,892,Ras-GEF
+Rapgef3,Q8VCC8,Reviewed,protein,Domain,110,186,DEP
+Rapgef3,Q8VCC8,Reviewed,protein,Domain,384,521,N-terminal Ras-GEF
+Rapgef3,Q8VCC8,Reviewed,protein,Domain,665,884,Ras-GEF
+Rapgef3,Q8VCC8,Reviewed,protein,Region,218,242,Interaction with PDE3B
+Rapgef3,Q8VCC8,Reviewed,protein,Region,398,422,Interaction with PDE3B
+Rapgef3,E9Q2E5,Unreviewed,protein,Domain,116,186,DEP
+Rapgef3,E9Q2E5,Unreviewed,protein,Domain,245,346,CNMP_BINDING_3
+Rapgef3,E9Q2E5,Unreviewed,protein,Domain,384,521,N-terminal Ras-GEF
+Rapgef3,E9Q2E5,Unreviewed,protein,Domain,665,875,Ras-GEF
+Rapgef3,Q3TES7,Unreviewed,transcript,Domain,116,186,DEP
+Rapgef3,Q3TES7,Unreviewed,transcript,Domain,245,346,CNMP_BINDING_3
+Rapgef3,Q3TES7,Unreviewed,transcript,Domain,384,521,N-terminal Ras-GEF
+Rapgef3,Q3TES7,Unreviewed,transcript,Domain,665,875,Ras-GEF
+Recql4,Q75NR7,Reviewed,transcript,Domain,506,684,Helicase ATP-binding
+Recql4,Q75NR7,Reviewed,transcript,Domain,705,872,Helicase C-terminal
+Recql4,Q75NR7,Reviewed,transcript,Motif,627,630,DEAH box
+Recql4,Q75NR7,Reviewed,transcript,Zinc finger,393,410,CCHC-type
+Relt,Q8BX43,Reviewed,transcript,Repeat,57,97,TNFR-Cys
+Rgma,Q6PCX7,Reviewed,protein,Compositional bias,422,430,Poly-Ala
+Rhcg,Q9QXP0,NA,NA,NA,NA,NA,NA
+Rhebl1,Q9D8T3,Reviewed,transcript,Motif,35,43,Effector region
+Rhpn1,E9Q7Q7,Unreviewed,protein,Domain,115,462,BRO1
+Rhpn1,E9Q7Q7,Unreviewed,protein,Domain,518,586,PDZ (DHR)
+Rhpn1,Q80WU2,Unreviewed,protein,Domain,115,451,BRO1
+Rhpn1,Q61085,Reviewed,protein,Repeat,42,114,REM
+Rhpn1,Q61085,Reviewed,protein,Domain,115,462,BRO1
+Rhpn1,Q61085,Reviewed,protein,Domain,500,577,PDZ
+Ribc2,G3X8W0,NA,NA,NA,NA,NA,NA
+Ribc2,Q9D4Q1,Reviewed,transcript,Coiled coil,149,178,NA
+Rnd1,Q8BLR7,Reviewed,transcript,Motif,42,50,NA
+Rnf121,Q8R1Z9,Reviewed,protein,Zinc finger,226,276,RING-type; atypical
+Rnf121,K4DI70,Unreviewed,protein,Domain,203,253,RING-type
+Rnf139,Q7TMV1,Reviewed,protein,Zinc finger,547,586,RING-type; atypical
+Rpap3,Q9D706,Reviewed,protein,Repeat,8,41,TPR 1
+Rpap3,Q9D706,Reviewed,protein,Repeat,134,167,TPR 2
+Rpap3,Q9D706,Reviewed,protein,Repeat,169,201,TPR 3
+Rpap3,Q9D706,Reviewed,protein,Repeat,202,235,TPR 4
+Rpap3,Q9D706,Reviewed,protein,Repeat,284,317,TPR 5
+Rpap3,Q9D706,Reviewed,protein,Repeat,319,351,TPR 6
+Rpap3,Q9D706,Reviewed,protein,Repeat,352,385,TPR 7
+Rpap3,Q9D706,Reviewed,protein,Compositional bias,63,71,Poly-Lys
+Rps19bp1,Q8C6B9,NA,NA,NA,NA,NA,NA
+Rrp7a,Q9D1C9,Reviewed,transcript,Domain,61,90,RRM
+Rrp8,Q9DB85,Reviewed,protein,Compositional bias,65,69,Poly-Glu
+Rrp8,E9PVA2,NA,NA,NA,NA,NA,NA
+Samd12,Q0VE29,Reviewed,transcript,Domain,77,143,SAM
+Saxo2,Q8BQB6,NA,NA,NA,NA,NA,NA
+Sbf1,Q6ZPE2,Reviewed,protein,Domain,18,86,UDENN
+Sbf1,Q6ZPE2,Reviewed,protein,Domain,128,310,DENN
+Sbf1,Q6ZPE2,Reviewed,protein,Domain,363,432,dDENN
+Sbf1,Q6ZPE2,Reviewed,protein,Domain,880,968,GRAM
+Sbf1,Q6ZPE2,Reviewed,protein,Domain,1120,1596,Myotubularin phosphatase
+Sbf1,Q6ZPE2,Reviewed,protein,Domain,1761,1865,PH
+Scaf11,E9PZM7,Unreviewed,protein,Domain,41,82,RING-type
+Scaf11,Q6ZPE9,Unreviewed,transcript,Domain,68,109,RING-type
+Scn8a,F6U329,Unreviewed,protein,Domain,131,421,Ion_trans
+Scn8a,F6U329,Unreviewed,protein,Domain,499,700,Na_trans_cytopl
+Scn8a,F6U329,Unreviewed,protein,Domain,752,979,Ion_trans
+Scn8a,F6U329,Unreviewed,protein,Domain,989,1190,Na_trans_assoc
+Scn8a,F6U329,Unreviewed,protein,Domain,1195,1470,Ion_trans
+Scn8a,F6U329,Unreviewed,protein,Domain,1520,1774,Ion_trans
+Scn8a,F6U329,Unreviewed,protein,Coiled coil,411,449,NA
+Scn8a,Q9WTU3,Reviewed,protein,Repeat,114,442,ICurated
+Scn8a,Q9WTU3,Reviewed,protein,Repeat,733,1005,IICurated
+Scn8a,Q9WTU3,Reviewed,protein,Repeat,1178,1493,IIICurated
+Scn8a,Q9WTU3,Reviewed,protein,Repeat,1502,1799,IVCurated
+Scn8a,Q9WTU3,Reviewed,protein,Domain,1893,1922,IQ
+Scn8a,F7D6H8,Unreviewed,protein,Domain,131,421,Ion_trans
+Scn8a,F7D6H8,Unreviewed,protein,Domain,499,700,Na_trans_cytopl
+Scn8a,F7D6H8,Unreviewed,protein,Domain,752,979,Ion_trans
+Scn8a,F7D6H8,Unreviewed,protein,Domain,989,1190,Na_trans_assoc
+Scn8a,F7D6H8,Unreviewed,protein,Domain,1195,1470,Ion_trans
+Scn8a,F7D6H8,Unreviewed,protein,Domain,1520,1774,Ion_trans
+Scn8a,F7D6H8,Unreviewed,protein,Coiled coil,411,449,NA
+Scrib,Q80U72,Reviewed,protein,Repeat,37,58,LRR 1
+Scrib,Q80U72,Reviewed,protein,Repeat,60,81,LRR 2
+Scrib,Q80U72,Reviewed,protein,Repeat,83,104,LRR 3
+Scrib,Q80U72,Reviewed,protein,Repeat,106,127,LRR 4
+Scrib,Q80U72,Reviewed,protein,Repeat,129,150,LRR 5
+Scrib,Q80U72,Reviewed,protein,Repeat,152,174,LRR 6
+Scrib,Q80U72,Reviewed,protein,Repeat,175,197,LRR 7
+Scrib,Q80U72,Reviewed,protein,Repeat,198,219,LRR 8
+Scrib,Q80U72,Reviewed,protein,Repeat,221,243,LRR 9
+Scrib,Q80U72,Reviewed,protein,Repeat,244,265,LRR 10
+Scrib,Q80U72,Reviewed,protein,Repeat,267,288,LRR 11
+Scrib,Q80U72,Reviewed,protein,Repeat,290,312,LRR 12
+Scrib,Q80U72,Reviewed,protein,Repeat,313,334,LRR 13
+Scrib,Q80U72,Reviewed,protein,Repeat,336,357,LRR 14
+Scrib,Q80U72,Reviewed,protein,Repeat,359,381,LRR 15
+Scrib,Q80U72,Reviewed,protein,Repeat,382,402,LRR 16
+Scrib,Q80U72,Reviewed,protein,Domain,714,801,PDZ 1
+Scrib,Q80U72,Reviewed,protein,Domain,848,936,PDZ 2
+Scrib,Q80U72,Reviewed,protein,Domain,990,1079,PDZ 3
+Scrib,Q80U72,Reviewed,protein,Domain,1086,1180,PDZ 4
+Scrib,Q80U72,Reviewed,protein,Region,1,804,Sufficient for targeting to adherens junction and to inhibit cell proliferation
+Scrib,Q80U72,Reviewed,protein,Region,703,1215,Interaction with ARHGEF7
+Scrib,Q80U72,Reviewed,protein,Coiled coil,455,475,NA
+Scrib,Q80U72,Reviewed,protein,Coiled coil,653,687,NA
+Scrib,Q80U72,Reviewed,protein,Coiled coil,1362,1393,NA
+Scrib,Q80U72,Reviewed,protein,Compositional bias,656,682,Glu-rich
+Scrib,Q80U72,Reviewed,protein,Compositional bias,656,664,Poly-Glu
+Scrib,Q80U72,Reviewed,protein,Compositional bias,709,712,Poly-Glu
+Scrib,Q80U72,Reviewed,protein,Compositional bias,1079,1082,Poly-Pro
+Scube1,Q6NZL8,Reviewed,transcript,Domain,33,73,EGF-like 1; calcium-binding
+Scube1,Q6NZL8,Reviewed,transcript,Domain,74,116,EGF-like 2; calcium-binding
+Scube1,Q6NZL8,Reviewed,transcript,Domain,117,153,EGF-like 3; calcium-binding
+Scube1,Q6NZL8,Reviewed,transcript,Domain,166,202,EGF-like 4
+Scube1,Q6NZL8,Reviewed,transcript,Domain,206,241,EGF-like 5
+Scube1,Q6NZL8,Reviewed,transcript,Domain,275,310,EGF-like 6
+Scube1,Q6NZL8,Reviewed,transcript,Domain,312,352,EGF-like 7; calcium-binding
+Scube1,Q6NZL8,Reviewed,transcript,Domain,353,391,EGF-like 8; calcium-binding
+Scube1,Q6NZL8,Reviewed,transcript,Domain,392,428,EGF-like 9; calcium-binding
+Scube1,Q6NZL8,Reviewed,transcript,Domain,828,940,CUB
+Scube1,Q68EF9,Unreviewed,protein,Domain,33,73,EGF-like
+Scube1,Q68EF9,Unreviewed,protein,Domain,74,116,EGF-like
+Scube1,Q68EF9,Unreviewed,protein,Domain,117,153,EGF-like
+Scube1,Q68EF9,Unreviewed,protein,Domain,201,241,EGF-like
+Scube1,Q68EF9,Unreviewed,protein,Domain,242,280,EGF-like
+Scube1,Q68EF9,Unreviewed,protein,Domain,281,317,EGF-like
+Scube1,Q68EF9,Unreviewed,protein,Domain,717,829,CUB
+Selo,Q9DBC0,NA,NA,NA,NA,NA,NA
+Sema4b,Q62179,Reviewed,protein,Domain,34,510,Sema
+Sema4b,Q62179,Reviewed,protein,Domain,512,582,PSI
+Sema4b,Q62179,Reviewed,protein,Domain,589,649,Ig-like C2-type
+Sema4b,Q62179,Reviewed,protein,Compositional bias,744,767,Pro-rich
+Senp1,P59110,Reviewed,transcript,Region,1,200,Interaction with CCAR2
+Senp1,P59110,Reviewed,transcript,Region,446,610,Protease
+Senp1,P59110,Reviewed,transcript,Motif,171,177,Nuclear localization signal
+Senp1,P59110,Reviewed,transcript,Motif,570,573,NA
+Senp1,P59110,Reviewed,transcript,Motif,624,630,NA
+Senp1,P59110,Reviewed,transcript,Motif,631,640,Nuclear export signal
+Senp1,P59110,Reviewed,transcript,Compositional bias,42,170,Ser-rich
+Senp1,P59110,Reviewed,transcript,Compositional bias,289,296,His-rich
+Senp1,M0QWX4,Unreviewed,protein,Domain,472,636,ULP_PROTEASE
+Sept3,Q9Z1S5,Reviewed,protein,Domain,58,331,Septin-type G
+Serhl,Q80XK9,Unreviewed,transcript,Domain,27,227,Abhydrolase_1
+Serhl,Q9EPB5,NA,NA,NA,NA,NA,NA
+Sgsm3,F8WIA4,Unreviewed,protein,Domain,124,315,Rab-GAP TBC
+Sgsm3,F8WIA4,Unreviewed,protein,Domain,490,549,SH3
+Sgsm3,F8WIA4,Unreviewed,protein,Domain,565,728,RUN
+Sgsm3,Q8VCZ6,Reviewed,protein,Domain,114,305,Rab-GAP TBC
+Sgsm3,Q8VCZ6,Reviewed,protein,Domain,480,539,SH3
+Sgsm3,Q8VCZ6,Reviewed,protein,Domain,555,718,RUN
+Sgsm3,Q8VCZ6,Reviewed,protein,Coiled coil,415,439,NA
+Sh3bp1,A2A5V3,Unreviewed,protein,Domain,17,262,BAR
+Sh3bp1,A2A5V3,Unreviewed,protein,Domain,276,469,Rho-GAP
+Sh3bp1,A2A5V3,Unreviewed,protein,Coiled coil,181,212,NA
+Sh3bp1,A2A5V4,Unreviewed,protein,Domain,17,262,BAR
+Sh3bp1,A2A5V4,Unreviewed,protein,Domain,276,469,Rho-GAP
+Sh3bp1,A2A5V4,Unreviewed,protein,Coiled coil,181,212,NA
+Shank3,Q4ACU6,Reviewed,protein,Repeat,148,178,ANK 1
+Shank3,Q4ACU6,Reviewed,protein,Repeat,182,211,ANK 2
+Shank3,Q4ACU6,Reviewed,protein,Repeat,215,245,ANK 3
+Shank3,Q4ACU6,Reviewed,protein,Repeat,249,278,ANK 4
+Shank3,Q4ACU6,Reviewed,protein,Repeat,282,311,ANK 5
+Shank3,Q4ACU6,Reviewed,protein,Repeat,315,345,ANK 6
+Shank3,Q4ACU6,Reviewed,protein,Domain,470,529,SH3
+Shank3,Q4ACU6,Reviewed,protein,Domain,570,664,PDZ
+Shank3,Q4ACU6,Reviewed,protein,Domain,1667,1730,SAM
+Shank3,Q4ACU6,Reviewed,protein,Region,1,75,Intramolecular interaction with the ANK repeats
+Shank3,Q4ACU6,Reviewed,protein,Region,677,684,Required for interaction with ABI1
+Shank3,Q4ACU6,Reviewed,protein,Coiled coil,1494,1514,NA
+Shank3,Q4ACU6,Reviewed,protein,Motif,1410,1416,NA
+Shank3,Q4ACU6,Reviewed,protein,Compositional bias,435,462,Pro-rich
+Shank3,Q4ACU6,Reviewed,protein,Compositional bias,677,680,Poly-Pro
+Shank3,Q4ACU6,Reviewed,protein,Compositional bias,813,1349,Pro-rich
+Sharpin,Q91WA6,Reviewed,protein,Domain,216,285,Ubiquitin-like
+Sharpin,Q91WA6,Reviewed,protein,Region,1,177,Self-association
+Sharpin,Q91WA6,Reviewed,protein,Region,172,305,Interaction with SHANK1
+Sharpin,Q91WA6,Reviewed,protein,Zinc finger,342,371,RanBP2-type
+Shisa8,J3QNX5,NA,NA,NA,NA,NA,NA
+Sla,Q60898,Reviewed,protein,Domain,22,82,SH3
+Sla,Q60898,Reviewed,protein,Domain,84,175,SH2
+Sla,Q60898,Reviewed,protein,Region,190,281,SLA C-terminal
+Sla,Q4FJX0,Unreviewed,transcript,Domain,22,82,SH3
+Sla,Q4FJX0,Unreviewed,transcript,Domain,84,175,SH2
+Slurp1,Q9Z0K7,Reviewed,transcript,Domain,24,73,UPAR/Ly6
+Smc1b,A1L2Z0,Unreviewed,protein,Domain,513,629,SMC_hinge
+Smc1b,A1L2Z0,Unreviewed,protein,Coiled coil,365,441,NA
+Smc1b,A1L2Z0,Unreviewed,protein,Coiled coil,446,483,NA
+Smc1b,A1L2Z0,Unreviewed,protein,Coiled coil,671,702,NA
+Smc1b,A1L2Z0,Unreviewed,protein,Coiled coil,789,818,NA
+Smc1b,A1L2Z0,Unreviewed,protein,Coiled coil,835,872,NA
+Smc1b,Q920F6,Reviewed,protein,Region,503,665,Flexible hinge
+Smc1b,Q920F6,Reviewed,protein,Coiled coil,163,502,NA
+Smc1b,Q920F6,Reviewed,protein,Coiled coil,666,912,NA
+Smc1b,Q920F6,Reviewed,protein,Compositional bias,1123,1158,Ala/Asp-rich (DA-box)
+Smdt1,Q9DB10,Reviewed,transcript,Compositional bias,93,107,Asp/Glu-rich
+Smgc,Q6JHY2,Reviewed,protein,Compositional bias,257,698,Ser-rich
+Smpd1,Q04519,Reviewed,transcript,Domain,83,167,Saposin B-type
+Smpd5,D6MZJ6,Unreviewed,protein,Domain,203,447,Exo_endo_phos
+Sntb1,Q99L88,Reviewed,protein,Domain,18,297,PH 1
+Sntb1,Q99L88,Reviewed,protein,Domain,111,194,PDZ
+Sntb1,Q99L88,Reviewed,protein,Domain,321,432,PH 2
+Sntb1,Q99L88,Reviewed,protein,Domain,481,537,SU
+Sntb1,Q99L88,Reviewed,protein,Region,517,537,Calmodulin-binding
+Sntb1,Q99L88,Reviewed,protein,Compositional bias,2,12,Poly-Ala
+Sntb1,Q99L88,Reviewed,protein,Compositional bias,13,16,Poly-Gly
+Spatc1,Q148B6,Reviewed,protein,Region,1,76,Necessary for targeting to centrosomes
+Spatc1,Q148B6,Reviewed,protein,Coiled coil,2,45,NA
+Spats2,Q8K1N4,Reviewed,protein,Compositional bias,86,97,Poly-Lys
+Spats2,Q8K1N4,Reviewed,protein,Compositional bias,364,411,Ser-rich
+Sqle,P52019,NA,NA,NA,NA,NA,NA
+Sqle,Q3TQK8,Unreviewed,protein,Domain,275,546,SE
+Srebf2,Q3U1N2,Reviewed,protein,Domain,319,369,bHLH
+Srebf2,Q3U1N2,Reviewed,protein,Region,1,50,NA
+Srebf2,Q3U1N2,Reviewed,protein,Region,226,480,Interaction with LMNA
+Srebf2,Q3U1N2,Reviewed,protein,Region,369,390,Leucine-zipper
+Srebf2,Q3U1N2,Reviewed,protein,Compositional bias,95,131,NA
+Srebf2,Q3U1N2,Reviewed,protein,Compositional bias,114,233,NA
+Srebf2,Q3U1N2,Reviewed,protein,Compositional bias,121,235,NA
+Sstr3,P30935,Reviewed,transcript,Compositional bias,358,373,Poly-Glu
+St3gal1,P54751,NA,NA,NA,NA,NA,NA
+St3gal1,Q544T4,NA,NA,NA,NA,NA,NA
+St8sia2,O35696,Reviewed,transcript,Region,206,208,Substrate binding
+St8sia2,O35696,Reviewed,transcript,Region,294,296,Substrate binding
+St8sia2,O35696,Reviewed,transcript,Region,329,330,Substrate binding
+Stard10,Q0VG22,Unreviewed,protein,Domain,42,224,START
+Stard10,Q9JMD3,Reviewed,protein,Domain,14,224,START
+Stard10,E9PVP0,Unreviewed,protein,Domain,115,297,START
+Stard5,Q9EPQ7,Reviewed,protein,Domain,1,213,START
+Stim1,P70302,Reviewed,protein,Domain,63,98,EF-hand
+Stim1,P70302,Reviewed,protein,Domain,132,200,SAM
+Stim1,P70302,Reviewed,protein,Region,334,444,SOAR/CAD
+Stim1,P70302,Reviewed,protein,Coiled coil,248,442,
+Stim1,P70302,Reviewed,protein,Motif,642,645,Microtubule tip localization signal
+Stim1,P70302,Reviewed,protein,Compositional bias,270,336,Glu-rich
+Stim1,P70302,Reviewed,protein,Compositional bias,601,629,Pro/Ser-rich
+Stim1,P70302,Reviewed,protein,Compositional bias,672,685,Lys-rich
+Sult4a1,P63046,NA,NA,NA,NA,NA,NA
+Sun2,Q8BJS4,Reviewed,protein,Domain,569,730,SUN
+Sun2,Q8BJS4,Reviewed,protein,Region,1,128,LMNA-binding
+Sun2,Q8BJS4,Reviewed,protein,Coiled coil,396,452,NA
+Sun2,Q8BJS4,Reviewed,protein,Coiled coil,486,519,NA
+Syt10,Q059J3,Unreviewed,protein,Domain,248,334,C2
+Syt10,Q059J3,Unreviewed,protein,Domain,377,468,C2
+Syt10,Q9R0N4,Reviewed,protein,Domain,233,334,C2 1
+Syt10,Q9R0N4,Reviewed,protein,Domain,365,468,C2 2
+Syt10,Q9R0N4,Reviewed,protein,Region,13,35,Cysteine motif
+Sytl2,Q69ZF4,Unreviewed,transcript,Domain,117,207,C2
+Sytl2,Q69ZF4,Unreviewed,transcript,Domain,266,354,C2
+Sytl2,Q7TMU6,Unreviewed,transcript,Domain,1,57,RabBD (Rab-binding)
+Sytl2,Q99N50,Reviewed,protein,Domain,1,57,RabBD
+Sytl2,Q99N50,Reviewed,protein,Domain,646,750,C2 1
+Sytl2,Q99N50,Reviewed,protein,Domain,795,897,C2 2
+Sytl2,Q99N50,Reviewed,protein,Compositional bias,596,636,Ser-rich
+Tab1,Q8CF89,Reviewed,protein,Domain,28,365,PPM-type phosphatase
+Tab1,Q8CF89,Reviewed,protein,Compositional bias,450,455,Poly-Ser
+Taf10,Q8K0H5,Reviewed,protein,Motif,187,189,[KR]-[STA]-K motif
+Taf2,B9EJX5,Unreviewed,protein,Domain,30,394,Peptidase_M1
+Tatdn1,Q6P8M1,NA,NA,NA,NA,NA,NA
+Tbc1d22a,Q8R5A6,Reviewed,protein,Domain,221,445,Rab-GAP TBC
+Tbc1d31,Q6NXY1,Reviewed,protein,Repeat,38,79,WD 1
+Tbc1d31,Q6NXY1,Reviewed,protein,Repeat,124,162,WD 2
+Tbc1d31,Q6NXY1,Reviewed,protein,Repeat,166,205,WD 3
+Tbc1d31,Q6NXY1,Reviewed,protein,Repeat,212,253,WD 4
+Tbc1d31,Q6NXY1,Reviewed,protein,Repeat,304,343,WD 5
+Tbc1d31,Q6NXY1,Reviewed,protein,Domain,424,599,Rab-GAP TBC
+Tbc1d31,Q6NXY1,Reviewed,protein,Coiled coil,388,414,NA
+Tbc1d31,Q6NXY1,Reviewed,protein,Coiled coil,699,844,NA
+Tbrg3,NA,NA,NA,NA,NA,NA,NA
+Tcf20,Q66JM6,Unreviewed,transcript,Domain,1016,1063,PHD
+Tcf20,Q80U46,Unreviewed,transcript,Domain,1651,1698,PHD
+Tcf20,Q9EPQ8,Reviewed,protein,Region,1198,1219,Leucine-zipper
+Tcf20,Q9EPQ8,Reviewed,protein,Motif,1282,1295,Nuclear localization signal
+Tcf20,Q9EPQ8,Reviewed,protein,Motif,1604,1628,Nuclear localization signal
+Tcf20,Q9EPQ8,Reviewed,protein,Motif,1812,1819,Nuclear localization signal
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,62,69,Poly-Ala
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,173,195,Poly-Gln
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,249,277,Ser-rich
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,322,350,Poly-Gln
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,1585,1592,Poly-Pro
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,1681,1684,Poly-Glu
+Tcf20,Q9EPQ8,Reviewed,protein,Compositional bias,1793,1797,Poly-Glu
+Tcf20,Q9EPQ8,Reviewed,protein,Zinc finger,1911,1962,PHD-type; atypical
+Tef,Q9JLC6,Reviewed,transcript,Domain,231,294,bZIP
+Tef,Q9JLC6,Reviewed,transcript,Region,233,253,Basic motif
+Tef,Q9JLC6,Reviewed,transcript,Region,254,261,Leucine-zipper
+Tef,Q9JLC6,Reviewed,transcript,Compositional bias,164,215,Pro-rich (proline/acidic region (PAR))
+Tenm4,Q3UHK6,Reviewed,protein,Domain,1,341,Teneurin N-terminal
+Tenm4,Q3UHK6,Reviewed,protein,Domain,564,595,EGF-like 1
+Tenm4,Q3UHK6,Reviewed,protein,Domain,596,626,EGF-like 2
+Tenm4,Q3UHK6,Reviewed,protein,Domain,628,660,EGF-like 3
+Tenm4,Q3UHK6,Reviewed,protein,Domain,661,692,EGF-like 4
+Tenm4,Q3UHK6,Reviewed,protein,Domain,694,727,EGF-like 5
+Tenm4,Q3UHK6,Reviewed,protein,Domain,728,759,EGF-like 6
+Tenm4,Q3UHK6,Reviewed,protein,Domain,760,789,EGF-like 7
+Tenm4,Q3UHK6,Reviewed,protein,Domain,790,833,EGF-like 8
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1218,1261,NHL 1
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1266,1310,NHL 2
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1336,1380,NHL 3
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1395,1446,NHL 4
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1525,1568,NHL 5
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1578,1597,YD 1
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1614,1634,YD 2
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1677,1696,YD 3
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1697,1719,YD 4
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1889,1908,YD 5
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1930,1948,YD 6
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1949,1969,YD 7
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1976,1993,YD 8
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,1994,2015,YD 9
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2016,2033,YD 10
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2036,2056,YD 11
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2059,2079,YD 12
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2087,2106,YD 13
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2112,2129,YD 14
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2130,2156,YD 15
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2158,2171,YD 16
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2172,2195,YD 17
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2198,2218,YD 18
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2219,2239,YD 19
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2241,2261,YD 20
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2273,2293,YD 21
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2295,2315,YD 22
+Tenm4,Q3UHK6,Reviewed,protein,Repeat,2341,2382,YD 23
+Tenm4,Q3UHK6,Reviewed,protein,Compositional bias,179,184,Poly-Pro
+Tex33,Q3KNN2,NA,NA,NA,NA,NA,NA
+Tex33,Q9D9J2,NA,NA,NA,NA,NA,NA
+Tex33,E9QA37,NA,NA,NA,NA,NA,NA
+Tfcp2,Q9ERA0,Reviewed,protein,Region,133,386,DNA-binding
+Tg,O08710,Reviewed,protein,Domain,32,93,Thyroglobulin type-1 1
+Tg,O08710,Reviewed,protein,Domain,94,161,Thyroglobulin type-1 2
+Tg,O08710,Reviewed,protein,Domain,162,298,Thyroglobulin type-1 3
+Tg,O08710,Reviewed,protein,Domain,299,359,Thyroglobulin type-1 4
+Tg,O08710,Reviewed,protein,Domain,605,658,Thyroglobulin type-1 5
+Tg,O08710,Reviewed,protein,Domain,659,726,Thyroglobulin type-1 6
+Tg,O08710,Reviewed,protein,Domain,727,922,Thyroglobulin type-1 7
+Tg,O08710,Reviewed,protein,Domain,923,1074,Thyroglobulin type-1 8
+Tg,O08710,Reviewed,protein,Domain,1075,1146,Thyroglobulin type-1 9
+Tg,O08710,Reviewed,protein,Domain,1147,1211,Thyroglobulin type-1 10
+Tg,O08710,Reviewed,protein,Repeat,1455,1468,Type II
+Tg,O08710,Reviewed,protein,Repeat,1469,1485,Type II
+Tg,O08710,Reviewed,protein,Repeat,1486,1502,Type II
+Tg,O08710,Reviewed,protein,Domain,1510,1564,Thyroglobulin type-1 11
+Tg,O08710,Reviewed,protein,Repeat,1602,1722,Type IIIA
+Tg,O08710,Reviewed,protein,Repeat,1723,1889,Type IIIB
+Tg,O08710,Reviewed,protein,Repeat,1890,1992,Type IIIA
+Tg,O08710,Reviewed,protein,Repeat,1993,2125,Type IIIB
+Tg,O08710,Reviewed,protein,Repeat,2126,2183,Type IIIA
+Ticrr,Q8BQ33,Reviewed,protein,Compositional bias,1188,1399,Pro-rich
+Tigd5,Q499M4,Reviewed,transcript,Domain,57,108,HTH psq-type
+Tigd5,Q499M4,Reviewed,transcript,Domain,122,195,HTH CENPB-type
+Tigd5,Q499M4,Reviewed,transcript,Domain,240,365,DDE
+Tigd5,Q499M4,Reviewed,transcript,Compositional bias,3,54,Pro-rich
+Tigd5,Q499M4,Reviewed,transcript,Compositional bias,572,576,Poly-Glu
+Timm10b,Q9WV96,Reviewed,protein,Motif,25,49,Twin CX3C motif
+Tm6sf1,D3YX52,NA,NA,NA,NA,NA,NA
+Tm6sf1,P58749,Reviewed,transcript,Domain,60,185,EXPERA 1
+Tm6sf1,P58749,Reviewed,transcript,Domain,216,350,EXPERA 2
+Tmbim6,Q9D2C7,NA,NA,NA,NA,NA,NA
+Tmc3,F8VQI4,NA,NA,NA,NA,NA,NA
+Tmc3,Q7TQ69,NA,NA,NA,NA,NA,NA
+Tmc3,E9Q6Y0,NA,NA,NA,NA,NA,NA
+Tmem106c,Q80VP8,NA,NA,NA,NA,NA,NA
+Tmem65,Q4VAE3,NA,NA,NA,NA,NA,NA
+Tmem71,Q149F5,NA,NA,NA,NA,NA,NA
+Tmprss12,Q3V0Q7,Reviewed,protein,Domain,66,306,Peptidase S1
+Tnrc6b,Q8BKI2,Reviewed,protein,Domain,1625,1697,RRM
+Tnrc6b,Q8BKI2,Reviewed,protein,Region,37,1028,Interaction with argonaute proteins
+Tnrc6b,Q8BKI2,Reviewed,protein,Region,1191,1700,Silencing domain; interaction with CNOT1 and PAN3
+Tnrc6b,Q8BKI2,Reviewed,protein,Region,1449,1467,PABPC1-interacting motif-2 (PAM2)
+Tnrc6b,Q8BKI2,Reviewed,protein,Coiled coil,33,75,NA
+Tnrc6b,Q8BWL0,Unreviewed,transcript,Domain,2,96,Ago_hook
+Tnrc6b,Q8BWL0,Unreviewed,transcript,Domain,345,624,TNRC6-PABC_bdg
+Tnrc6b,Q8BWL0,Unreviewed,transcript,Coiled coil,282,309,NA
+Tnrc6b,Q8BX83,Unreviewed,transcript,Coiled coil,35,74,NA
+Tnrc6b,Q8VD67,Unreviewed,transcript,Domain,1,61,TNRC6-PABC_bdg
+Tnrc6b,Q3TRK2,Unreviewed,transcript,Domain,264,543,TNRC6-PABC_bdg
+Tnrc6b,Q3TRK2,Unreviewed,transcript,Coiled coil,201,228,NA
+Tob2,Q543X9,Unreviewed,protein,Domain,40,60,Anti_prolifrtn
+Tob2,Q543X9,Unreviewed,protein,Domain,86,105,Anti_prolifrtn
+Tob2,Q9JM55,NA,NA,NA,NA,NA,NA
+Tonsl,G3UW83,Unreviewed,protein,Domain,311,385,TPR_REGION
+Tonsl,G3UW83,Unreviewed,protein,Domain,528,635,ANK_REP_REGION
+Tonsl,G3UW83,Unreviewed,protein,Coiled coil,449,482,NA
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,27,60,TPR 1
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,67,100,TPR 2
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,107,147,TPR 3
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,162,195,TPR 4
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,202,235,TPR 5
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,242,275,TPR 6
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,311,344,TPR 7
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,352,385,TPR 8
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,528,557,ANK 1
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,561,590,ANK 2
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,597,626,ANK 3
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1060,1081,LRR 1
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1088,1108,LRR 2
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1119,1140,LRR 3
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1147,1168,LRR 4
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1179,1199,LRR 5
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1206,1214,LRR 6
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1238,1261,LRR 7
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1266,1287,LRR 8
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1296,1317,LRR 9
+Tonsl,Q6NZL6,Reviewed,protein,Repeat,1322,1343,LRR 10
+Tonsl,Q6NZL6,Reviewed,protein,Compositional bias,466,509,Glu-rich
+Top1mt,Q8R4U6,Reviewed,transcript,Region,254,255,Interaction with DNA
+Top1mt,Q8R4U6,Reviewed,transcript,Region,317,322,Interaction with DNA
+Top1mt,Q8R4U6,Reviewed,transcript,Region,414,416,Interaction with DNA
+Top1mt,B7ZNM9,Unreviewed,transcript,Domain,188,564,TOPEUc
+Top1mt,B7ZNM9,Unreviewed,transcript,Coiled coil,141,165,NA
+Top1mt,B7ZNM9,Unreviewed,transcript,Coiled coil,472,499,NA
+Top1mt,B7ZNM9,Unreviewed,transcript,Coiled coil,511,538,NA
+Trabd,Q99JY4,NA,NA,NA,NA,NA,NA
+Trappc9,E9Q3T8,Unreviewed,protein,Coiled coil,858,881,NA
+Trappc9,Q3U0M1,NA,NA,NA,NA,NA,NA
+Trappc9,E9PZ41,NA,NA,NA,NA,NA,NA
+Trim3,Q9R1R2,Reviewed,protein,Repeat,317,418,Filamin
+Trim3,Q9R1R2,Reviewed,protein,Repeat,473,516,NHL 1
+Trim3,Q9R1R2,Reviewed,protein,Repeat,520,563,NHL 2
+Trim3,Q9R1R2,Reviewed,protein,Repeat,564,605,NHL 3
+Trim3,Q9R1R2,Reviewed,protein,Repeat,609,652,NHL 4
+Trim3,Q9R1R2,Reviewed,protein,Repeat,656,699,NHL 5
+Trim3,Q9R1R2,Reviewed,protein,Repeat,700,743,NHL 6
+Trim3,Q9R1R2,Reviewed,protein,Coiled coil,153,224,NA
+Trim3,Q9R1R2,Reviewed,protein,Zinc finger,22,63,RING-type
+Trim3,Q9R1R2,Reviewed,protein,Zinc finger,110,151,B box-type
+Trim3,Q3TDT0,Unreviewed,protein,Domain,22,63,RING-type
+Trim3,Q3TDT0,Unreviewed,protein,Domain,110,151,B box-type
+Trim3,Q3TDT0,Unreviewed,protein,Coiled coil,187,218,NA
+Trim34a,E9PYZ4,Unreviewed,protein,Domain,15,58,RING-type
+Trim34a,E9PYZ4,Unreviewed,protein,Domain,91,127,B box-type
+Trim34a,E9PYZ4,Unreviewed,protein,Domain,282,485,B30.2/SPRY
+Trim34a,E9PYZ4,Unreviewed,protein,Coiled coil,136,170,NA
+Trim34a,E9PYZ4,Unreviewed,protein,Coiled coil,201,235,NA
+Trim34a,Q99PP6,Reviewed,transcript,Domain,282,485,B30.2/SPRY
+Trim34a,Q99PP6,Reviewed,transcript,Coiled coil,130,241,NA
+Trim34a,Q99PP6,Reviewed,transcript,Zinc finger,15,59,RING-type
+Trim34a,Q99PP6,Reviewed,transcript,Zinc finger,91,132,B box-type
+Trim34b,K7N6K2,Unreviewed,inferred,Domain,15,58,RING-type
+Trim34b,K7N6K2,Unreviewed,inferred,Domain,91,127,B box-type
+Trim34b,K7N6K2,Unreviewed,inferred,Domain,282,485,B30.2/SPRY
+Trim34b,K7N6K2,Unreviewed,inferred,Coiled coil,136,170,NA
+Trim34b,K7N6K2,Unreviewed,inferred,Coiled coil,201,235,NA
+Trim6,Q8BGE7,Reviewed,protein,Domain,282,488,B30.2/SPRY
+Trim6,Q8BGE7,Reviewed,protein,Coiled coil,132,223,NA
+Trim6,Q8BGE7,Reviewed,protein,Zinc finger,15,60,RING-type
+Trim6,Q8BGE7,Reviewed,protein,Zinc finger,92,133,B box-type
+Triobp,E9QMQ3,Unreviewed,protein,Domain,53,149,PH
+Triobp,E9QMQ3,Unreviewed,protein,Coiled coil,378,413,NA
+Triobp,E9QMQ3,Unreviewed,protein,Coiled coil,451,478,NA
+Triobp,E9QMQ3,Unreviewed,protein,Coiled coil,549,576,NA
+Triobp,E9QMQ3,Unreviewed,protein,Coiled coil,587,621,NA
+Triobp,Q99KW3,Reviewed,protein,Domain,1440,1536,PH
+Triobp,Q99KW3,Reviewed,protein,Coiled coil,1711,2010,NA
+Trmt12,Q8BG71,Reviewed,transcript,Region,283,284,S-adenosyl-L-methionine binding
+Troap,B7ZNG4,NA,NA,NA,NA,NA,NA
+Trpc2,Q9R244,Reviewed,transcript,Repeat,301,330,ANK 1
+Trpc2,Q9R244,Reviewed,transcript,Repeat,377,406,ANK 2
+Trpc2,Q9R244,Reviewed,transcript,Repeat,430,459,ANK 3
+Trpc2,Q9R244,Reviewed,transcript,Compositional bias,1140,1143,Poly-Ser
+Tspo,P50637,NA,NA,NA,NA,NA,NA
+Tspo,Q541E3,NA,NA,NA,NA,NA,NA
+Tssk5,Q8C1R0,Reviewed,transcript,Domain,27,302,Protein kinase
+Tst,P52196,Reviewed,protein,Domain,25,143,Rhodanese 1
+Tst,P52196,Reviewed,protein,Domain,173,288,Rhodanese 2
+Tst,P52196,Reviewed,protein,Region,144,159,Hinge
+Tst,Q545S0,Unreviewed,protein,Domain,25,143,Rhodanese
+Tst,Q545S0,Unreviewed,protein,Domain,173,288,Rhodanese
+Tsta3,P23591,NA,NA,NA,NA,NA,NA
+Tsta3,Q5HZI6,Unreviewed,protein,Domain,10,245,Epimerase
+Ttc38,A3KMP2,Reviewed,protein,Repeat,104,137,TPR 1
+Ttc38,A3KMP2,Reviewed,protein,Repeat,176,209,TPR 2
+Ttc38,A3KMP2,Reviewed,protein,Repeat,248,281,TPR 3
+Ttll8,A4Q9F1,Reviewed,protein,Domain,271,624,TTL
+Ttll8,Q8C0V2,NA,NA,NA,NA,NA,NA
+Tubgcp6,G5E8P0,Unreviewed,protein,Coiled coil,734,761,NA
+Tubgcp6,Q6PFC6,NA,NA,NA,NA,NA,NA
+Tubgcp6,Q8BWI2,NA,NA,NA,NA,NA,NA
+Twf1,Q91YR1,Reviewed,protein,Domain,2,139,ADF-H 1
+Twf1,Q91YR1,Reviewed,protein,Domain,175,313,ADF-H 2
+Txn2,P97493,Reviewed,protein,Domain,61,166,Thioredoxin
+Tymp,Q99N42,NA,NA,NA,NA,NA,NA
+Ubqln3,Q497R3,Unreviewed,protein,Domain,22,96,Ubiquitin-like
+Ubqln3,Q497R3,Unreviewed,protein,Domain,614,658,UBA
+Ubqln3,Q8C5U9,Reviewed,protein,Domain,22,96,Ubiquitin-like
+Ubqln3,Q8C5U9,Reviewed,protein,Domain,194,233,NA
+Ubqln3,Q8C5U9,Reviewed,protein,Domain,614,658,UBA
+Ubqlnl,Q14DL0,Reviewed,protein,Domain,31,105,Ubiquitin-like
+Ubqlnl,Q14DL0,Reviewed,protein,Domain,562,607,UBA
+Ucp2,P70406,Reviewed,protein,Repeat,11,106,Solcar 1
+Ucp2,P70406,Reviewed,protein,Repeat,114,203,Solcar 2
+Ucp2,P70406,Reviewed,protein,Repeat,212,297,Solcar 3
+Ucp2,P70406,Reviewed,protein,Region,276,298,Purine nucleotide binding
+Ucp2,Q549J5,NA,NA,NA,NA,NA,NA
+Upk3a,Q9JKX8,NA,NA,NA,NA,NA,NA
+Usp17lb,E9Q9U0,Unreviewed,inferred,Domain,51,348,USP
+Usp17lb,Q6X3X0,Unreviewed,transcript,Domain,51,347,USP
+Usp17lb,E9QMF1,Unreviewed,inferred,Domain,50,347,USP
+Usp17ld,G5E8G2,Unreviewed,inferred,Domain,51,348,USP
+Usp17le,NA,NA,NA,NA,NA,NA,NA
+Usp35,M0QWN7,Unreviewed,protein,Domain,441,918,USP
+Usp35,M0QWN7,Unreviewed,protein,Coiled coil,692,721,NA
+Vdr,P48281,Reviewed,protein,Region,97,186,Hinge
+Vdr,P48281,Reviewed,protein,Region,187,422,Ligand-binding
+Vdr,P48281,Reviewed,protein,Region,222,232,Vitamin D3 binding
+Vdr,P48281,Reviewed,protein,Region,241,259,Interaction with coactivator LXXLL motif
+Vdr,P48281,Reviewed,protein,Region,266,273,Vitamin D3 binding
+Vdr,P48281,Reviewed,protein,Zinc finger,24,44,NR C4-type
+Vdr,P48281,Reviewed,protein,Zinc finger,60,84,NR C4-type
+Vmn2r71,L7N2D8,Unreviewed,inferred,Domain,584,839,G_PROTEIN_RECEP_F3_4
+Vmn2r77,L7N2B7,Unreviewed,inferred,Domain,583,847,G_PROTEIN_RECEP_F3_4
+Vmn2r78,K7N6U5,Unreviewed,inferred,Domain,580,844,G_PROTEIN_RECEP_F3_4
+Vmn2r79,E9Q067,Unreviewed,inferred,Domain,580,844,G_PROTEIN_RECEP_F3_4
+Wbp2nl,Q9D529,Reviewed,transcript,Domain,16,87,GRAM
+Wbp2nl,Q9D529,Reviewed,transcript,Repeat,173,179,1
+Wbp2nl,Q9D529,Reviewed,transcript,Repeat,194,200,2
+Wbp2nl,Q9D529,Reviewed,transcript,Repeat,201,207,3
+Wbp2nl,Q9D529,Reviewed,transcript,Repeat,241,247,4
+Wbp2nl,Q9D529,Reviewed,transcript,Repeat,255,261,5
+Wbp2nl,Q9D529,Reviewed,transcript,Repeat,297,303,6
+Wbp2nl,Q9D529,Reviewed,transcript,Region,173,303,6 X 7 AA tandem repeat of Y-G-X-P-P-X-G
+Wbp2nl,Q9D529,Reviewed,transcript,Motif,219,222,WW-binding 1
+Wbp2nl,Q9D529,Reviewed,transcript,Motif,231,234,WW-binding 2
+Wbp2nl,Q9D529,Reviewed,transcript,Motif,245,248,WW-binding 3
+Wbp2nl,Q9D529,Reviewed,transcript,Motif,259,262,WW-binding 4
+Wbp2nl,Q9D529,Reviewed,transcript,Motif,273,276,WW-binding 5
+Wbp2nl,Q9D529,Reviewed,transcript,Motif,287,290,WW-binding 6
+Wbp2nl,Q9D529,Reviewed,transcript,Compositional bias,176,309,Pro-rich
+Wdr73,Q9CWR1,Reviewed,protein,Repeat,81,121,WD 1
+Wdr73,Q9CWR1,Reviewed,protein,Repeat,273,313,WD 2
+Wdr73,Q9CWR1,Reviewed,protein,Repeat,333,371,WD 3
+Wdr93,Q402B2,Reviewed,transcript,Repeat,421,460,WD
+Wdyhv1,Q80WB5,NA,NA,NA,NA,NA,NA
+Wdyhv1,Q9CWD7,Unreviewed,transcript,Domain,25,170,Nt_Gln_amidase
+Whamm,Q571B6,Reviewed,protein,Domain,698,716,WH2 1
+Whamm,Q571B6,Reviewed,protein,Domain,728,745,WH2 2
+Whamm,Q571B6,Reviewed,protein,Region,1,253,Mediates association with membranes
+Whamm,Q571B6,Reviewed,protein,Region,254,623,Mediates interaction with microtubules
+Whamm,Q571B6,Reviewed,protein,Region,624,793,Mediates actin nucleation
+Whamm,Q571B6,Reviewed,protein,Coiled coil,265,290,NA
+Whamm,Q571B6,Reviewed,protein,Coiled coil,445,503,NA
+Whamm,Q571B6,Reviewed,protein,Coiled coil,755,785,NA
+Whamm,Q571B6,Reviewed,protein,Compositional bias,591,654,Pro-rich
+Wisp1,O54775,Reviewed,transcript,Domain,45,118,IGFBP N-terminal
+Wisp1,O54775,Reviewed,transcript,Domain,121,186,VWFC
+Wisp1,O54775,Reviewed,transcript,Domain,215,260,TSP type-1
+Wisp1,O54775,Reviewed,transcript,Domain,273,347,CTCK
+Wisp1,Q3UFJ5,Unreviewed,protein,Domain,45,118,IGFBP N-terminal
+Wisp1,Q3UFJ5,Unreviewed,protein,Domain,121,186,VWFC
+Wisp1,Q3UFJ5,Unreviewed,protein,Domain,273,347,CTCK (C-terminal cystine knot-like)
+Wnt10b,P48614,NA,NA,NA,NA,NA,NA
+Wnt10b,Q1RME7,NA,NA,NA,NA,NA,NA
+Xndc1,E9PVR2,Unreviewed,protein,Domain,1,150,XRCC1_N
+Xndc1,Q8BRU2,Unreviewed,transcript,Domain,1,58,XRCC1_N
+Xntrpc,F8VQM8,Unreviewed,protein,Domain,1,150,XRCC1_N
+Xntrpc,F8VQM8,Unreviewed,protein,Domain,557,619,TRP_2
+Xntrpc,F8VQM8,Unreviewed,protein,Domain,761,1023,Ion_trans
+Xntrpc,F8VQM8,Unreviewed,protein,Coiled coil,1132,1159,NA
+Xpnpep3,B7ZMP1,NA,NA,NA,NA,NA,NA
+Xrcc6,P23475,Reviewed,protein,Domain,259,466,Ku
+Xrcc6,P23475,Reviewed,protein,Domain,571,605,SAP
+Xrcc6,P23475,Reviewed,protein,Region,548,607,Interaction with DEAF1
+Xrcc6,P23475,Reviewed,protein,Compositional bias,11,27,Asp/Glu-rich (acidic)
+Xrcc6,P23475,Reviewed,protein,Compositional bias,328,340,Asp/Glu-rich (acidic)
+Xrra1,Q3U3V8,Reviewed,transcript,Repeat,146,158,LRR 1
+Xrra1,Q3U3V8,Reviewed,transcript,Repeat,169,192,LRR 2
+Xrra1,Q3U3V8,Reviewed,transcript,Repeat,193,214,LRR 3
+Xrra1,Q3U3V8,Reviewed,transcript,Repeat,234,255,LRR 4
+Xrra1,Q3U3V8,Reviewed,transcript,Repeat,259,280,LRR 5
+Xrra1,Q3U3V8,Reviewed,transcript,Coiled coil,714,738,NA
+Yaf2,Q99LW6,Reviewed,protein,Zinc finger,19,48,RanBP2-type
+Zc3h3,Q3UUL4,Unreviewed,protein,Domain,662,690,C3H1-type
+Zc3h3,Q3UUL4,Unreviewed,protein,Domain,694,717,C3H1-type
+Zc3h3,Q3UUL4,Unreviewed,protein,Domain,718,744,C3H1-type
+Zc3h3,Q3UUL4,Unreviewed,protein,Domain,745,772,C3H1-type
+Zc3h3,Q3UUL4,Unreviewed,protein,Domain,773,795,C3H1-type
+Zc3h3,Q8CHP0,Reviewed,protein,Compositional bias,379,388,Poly-Ser
+Zc3h3,Q8CHP0,Reviewed,protein,Zinc finger,662,690,C3H1-type 1
+Zc3h3,Q8CHP0,Reviewed,protein,Zinc finger,694,717,C3H1-type 2
+Zc3h3,Q8CHP0,Reviewed,protein,Zinc finger,718,744,C3H1-type 3
+Zc3h3,Q8CHP0,Reviewed,protein,Zinc finger,745,772,C3H1-type 4
+Zc3h3,Q8CHP0,Reviewed,protein,Zinc finger,773,795,C3H1-type 5
+Zc3h7b,F8VPP8,Unreviewed,protein,Domain,82,149,TPR_REGION
+Zc3h7b,F8VPP8,Unreviewed,protein,Domain,485,509,C3H1-type
+Zc3h7b,F8VPP8,Unreviewed,protein,Domain,617,639,C3H1-type
+Zc3h7b,F8VPP8,Unreviewed,protein,Domain,755,783,C3H1-type
+Zc3h7b,F8VPP8,Unreviewed,protein,Domain,887,915,C3H1-type
+Zdhhc25,Q810M4,Unreviewed,transcript,Domain,109,159,DHHC-type
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,12,35,C2H2-type 1
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,116,141,C2H2-type 2; degenerate
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,271,293,C2H2-type 3
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,299,321,C2H2-type 4
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,326,349,C2H2-type 5
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,354,377,C2H2-type 6
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,404,426,C2H2-type 7
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,432,454,C2H2-type 8
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,458,481,C2H2-type 9
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,737,759,C2H2-type 10
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,765,788,C2H2-type 11
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,793,817,C2H2-type 12
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,825,848,C2H2-type 13
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,875,898,C2H2-type 14; degenerate
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,904,926,C2H2-type 15
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,932,954,C2H2-type 16
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,961,983,C2H2-type 17
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,989,1012,C2H2-type 18
+Zfat,Q7TS63,Reviewed,protein,Zinc finger,1036,1059,C2H2-type 19
+Zfp641,Q8BZ34,Reviewed,transcript,Domain,95,167,KRAB
+Zfp641,Q8BZ34,Reviewed,transcript,Region,157,251,Transactivation
+Zfp641,Q8BZ34,Reviewed,transcript,Zinc finger,250,272,C2H2-type 1
+Zfp641,Q8BZ34,Reviewed,transcript,Zinc finger,278,300,C2H2-type 2
+Zfp641,Q8BZ34,Reviewed,transcript,Zinc finger,306,328,C2H2-type 3
+Zfp641,Q8BZ34,Reviewed,transcript,Zinc finger,356,378,C2H2-type 4
+Zfp641,Q8BZ34,Reviewed,transcript,Zinc finger,384,406,C2H2-type 5
+Zfp647,Q7TNU6,Reviewed,transcript,Domain,17,88,KRAB
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,174,196,C2H2-type 1
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,202,224,C2H2-type 2
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,230,252,C2H2-type 3
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,258,280,C2H2-type 4
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,286,308,C2H2-type 5
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,314,336,C2H2-type 6
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,342,364,C2H2-type 7
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,370,392,C2H2-type 8
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,398,420,C2H2-type 9
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,426,448,C2H2-type 10
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,454,476,C2H2-type 11
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,482,504,C2H2-type 12
+Zfp647,Q7TNU6,Reviewed,transcript,Zinc finger,510,532,C2H2-type 13
+Zfp710,Q3U288,Reviewed,transcript,Compositional bias,115,121,Poly-Glu
+Zfp710,Q3U288,Reviewed,transcript,Compositional bias,176,233,Pro-rich
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,297,319,C2H2-type 1
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,325,347,C2H2-type 2
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,353,375,C2H2-type 3
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,381,403,C2H2-type 4
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,409,431,C2H2-type 5
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,437,459,C2H2-type 6
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,465,487,C2H2-type 7
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,493,515,C2H2-type 8
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,521,543,C2H2-type 9
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,549,571,C2H2-type 10
+Zfp710,Q3U288,Reviewed,transcript,Zinc finger,577,600,C2H2-type 11
+Zhx1,P70121,Reviewed,protein,Region,272,564,Required for interaction with NFYA
+Zhx1,P70121,Reviewed,protein,Region,272,432,Required for dimerization
+Zhx1,P70121,Reviewed,protein,Region,734,768,Required for nuclear localization
+Zhx1,P70121,Reviewed,protein,Region,831,873,Required for repressor activity
+Zhx1,P70121,Reviewed,protein,Zinc finger,70,93,C2H2-type 1
+Zhx1,P70121,Reviewed,protein,Zinc finger,102,125,C2H2-type 2
+Zhx1,Q5DTL2,Unreviewed,transcript,Domain,135,163,C2H2-type
+Zhx1,Q5DTL2,Unreviewed,transcript,Domain,332,375,Homeobox DNA-binding
+Zhx1,Q5DTL2,Unreviewed,transcript,Domain,501,555,Homeobox DNA-binding
+Zhx1,Q5DTL2,Unreviewed,transcript,Domain,609,659,Homeobox DNA-binding
+Zhx1,Q5DTL2,Unreviewed,transcript,Domain,701,751,Homeobox DNA-binding
+Zhx2,Q8C0C0,Reviewed,protein,Region,195,358,Required for homodimerization
+Zhx2,Q8C0C0,Reviewed,protein,Region,263,497,Required for interaction with NFYA
+Zhx2,Q8C0C0,Reviewed,protein,Region,263,446,Required for repressor activity
+Zhx2,Q8C0C0,Reviewed,protein,Region,317,446,Required for nuclear localization
+Zhx2,Q8C0C0,Reviewed,protein,Zinc finger,78,101,C2H2-type 1
+Zhx2,Q8C0C0,Reviewed,protein,Zinc finger,110,133,C2H2-type 2
+Zscan2,Q07230,Reviewed,protein,Domain,69,127,SCAN box
+Zscan2,Q07230,Reviewed,protein,Zinc finger,222,244,C2H2-type 1
+Zscan2,Q07230,Reviewed,protein,Zinc finger,250,272,C2H2-type 2
+Zscan2,Q07230,Reviewed,protein,Zinc finger,278,300,C2H2-type 3
+Zscan2,Q07230,Reviewed,protein,Zinc finger,306,328,C2H2-type 4
+Zscan2,Q07230,Reviewed,protein,Zinc finger,334,356,C2H2-type 5
+Zscan2,Q07230,Reviewed,protein,Zinc finger,362,384,C2H2-type 6
+Zscan2,Q07230,Reviewed,protein,Zinc finger,390,412,C2H2-type 7
+Zscan2,Q07230,Reviewed,protein,Zinc finger,418,440,C2H2-type 8
+Zscan2,Q07230,Reviewed,protein,Zinc finger,446,468,C2H2-type 9
+Zscan2,Q07230,Reviewed,protein,Zinc finger,474,496,C2H2-type 10
+Zscan2,Q07230,Reviewed,protein,Zinc finger,502,524,C2H2-type 11
+Zscan2,Q07230,Reviewed,protein,Zinc finger,530,552,C2H2-type 12
+Zscan2,Q07230,Reviewed,protein,Zinc finger,558,580,C2H2-type 13
+Zscan2,Q07230,Reviewed,protein,Zinc finger,586,608,C2H2-type 14
