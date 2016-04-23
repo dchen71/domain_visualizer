@@ -18,6 +18,7 @@ d3.csv('Input/domain_data.csv')
   .row(function (d) { return d.GENENAME })
   .get(function (error, rows) {
     
+    //Creates array containing genename to numbers of genename
     var nest = d3.nest()
       .key(function(d) {return d})
       .map(rows);
