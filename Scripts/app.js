@@ -15,12 +15,12 @@ var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("w
 
 //Read domain data
 d3.csv('Input/domain_data.csv')
-  .row(function (d) { return d.GENENAME })
+  .row(function (d) { return d })
   .get(function (error, rows) {
     
     //Creates array containing genename to numbers of genename
     var nest = d3.nest()
-      .key(function(d) {return d})
+      .key(function(d) {return d.GENENAME})
       .map(rows);
 
     //Create the options for the datalist
