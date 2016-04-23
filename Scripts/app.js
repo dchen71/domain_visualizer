@@ -3,10 +3,9 @@
 */
 
 //Setup width of chart and bar height
-var width = 420,
-    barHeight = 20;
+var width = 420;
 
-//Create scale for the chart
+//Create scale for x in the chart
 var x = d3.scale.linear()
     .range([0, width]);
 
@@ -29,4 +28,33 @@ d3.csv('Input/domain_data.csv')
       .enter() // Enter data selection
       .append('option') // Append to options
       .attr('value', function (d) { return d; }); // Add name to option
+
+    //Draw line 0 to max protein length
+    var domain_length = chart.append("line")
+                             .attr("x1", 20)
+                             .attr("y1", 100)
+                             .attr("x2", 120) //Will want to change this to max dist of whatever gene
+                             .attr("y2", 100)
+                             .style("stroke", "rgb(255,0,0)")
+                             .style("stroke-width", 2)
+                    
+    
   });
+
+  d3.select("#loc").on("input", function(){
+    update(+this.value);
+  });
+
+  function update(nValue){
+    protein_loc.attr("x1", nValue)
+               .attr("x2", nValue) 
+  }
+
+  //Draw line cutting into specified area
+    var protein_loc = chart.append("line")
+                           .attr("x1", 50)
+                           .attr("y1", 50)
+                           .attr("x2", 50) 
+                           .attr("y2", 150)
+                           .style("stroke", "rgb(255,0,0)")
+                           .style("stroke-width", 2)
