@@ -63,6 +63,6 @@ var protein_loc = chart.append("line")
                        .style("stroke-width", 2)
 
 //Find the gene element from daalist
-$("input[list=gene]").focusout(function(){
+$("input[list=gene]").on('input', function(){
     console.log($(this).val());
 });
