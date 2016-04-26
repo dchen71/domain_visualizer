@@ -39,7 +39,10 @@ d3.csv('Input/domain_data.csv')
                              .style("stroke", "rgb(255,0,0)")
                              .style("stroke-width", 2)
                     
-    
+    //Find the gene element from datalist
+    d3.select("input[list=gene]").on('input', function(){
+        console.log(this.value);
+    });
   });
 
 //Find the #loc element and take the value of it on input
@@ -63,6 +66,3 @@ var protein_loc = chart.append("line")
                        .style("stroke-width", 2)
 
 //Find the gene element from daalist
-$("input[list=gene]").on('input', function(){
-    console.log($(this).val());
-});
