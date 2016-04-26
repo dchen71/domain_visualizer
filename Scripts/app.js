@@ -27,7 +27,8 @@ d3.csv('Input/domain_data.csv')
       .data(d3.keys(nest)) // Data join, find keys from mapped nested array
       .enter() // Enter data selection
       .append('option') // Append to options
-      .attr('value', function (d) { return d; }); // Add name to option
+      .attr('value', function (d) { return d; }) // Add name to option
+      .attr("id", function(d) {return d});
 
     //Draw line 0 to max protein length
     var domain_length = chart.append("line")
@@ -60,3 +61,9 @@ d3.csv('Input/domain_data.csv')
                          .attr("y2", 150)
                          .style("stroke", "rgb(255,0,0)")
                          .style("stroke-width", 2)
+
+  //Find the #gene element and take the value of the gene on input
+  d3.select("#gene option:selected").on("change", function(){
+    console.log("messing with genes");
+  });
+
