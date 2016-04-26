@@ -41,20 +41,22 @@ d3.csv('Input/domain_data.csv')
     
   });
 
+  //Find the #loc element and take the value of it on input
   d3.select("#loc").on("input", function(){
     update(+this.value);
   });
 
+  //Updates the position of x1 and x2 for the protein location search
   function update(nValue){
     protein_loc.attr("x1", nValue)
                .attr("x2", nValue) 
   }
 
   //Draw line cutting into specified area
-    var protein_loc = chart.append("line")
-                           .attr("x1", 50)
-                           .attr("y1", 50)
-                           .attr("x2", 50) 
-                           .attr("y2", 150)
-                           .style("stroke", "rgb(255,0,0)")
-                           .style("stroke-width", 2)
+  var protein_loc = chart.append("line")
+                         .attr("x1", 50)
+                         .attr("y1", 50)
+                         .attr("x2", 50) 
+                         .attr("y2", 150)
+                         .style("stroke", "rgb(255,0,0)")
+                         .style("stroke-width", 2)
