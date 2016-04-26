@@ -1,0 +1,21 @@
+GENENAME,UniprotID,Reviewed,Evidence,Features,Start,End,Descriptions
+Adamts20,P59511,Reviewed,transcript,Domain,255,464,Peptidase M12B
+Adamts20,P59511,Reviewed,transcript,Domain,465,552,Disintegrin
+Adamts20,P59511,Reviewed,transcript,Domain,553,608,TSP type-1 1
+Adamts20,P59511,Reviewed,transcript,Domain,843,901,TSP type-1 2
+Adamts20,P59511,Reviewed,transcript,Domain,906,962,TSP type-1 3
+Adamts20,P59511,Reviewed,transcript,Domain,962,1015,TSP type-1 4
+Adamts20,P59511,Reviewed,transcript,Domain,1017,1074,TSP type-1 5
+Adamts20,P59511,Reviewed,transcript,Domain,1075,1131,TSP type-1 6
+Adamts20,P59511,Reviewed,transcript,Domain,1148,1202,TSP type-1 7
+Adamts20,P59511,Reviewed,transcript,Domain,1203,1260,TSP type-1 8
+Adamts20,P59511,Reviewed,transcript,Domain,1300,1351,TSP type-1 9
+Adamts20,P59511,Reviewed,transcript,Domain,1354,1411,TSP type-1 10
+Adamts20,P59511,Reviewed,transcript,Domain,1412,1465,TSP type-1 11
+Adamts20,P59511,Reviewed,transcript,Domain,1468,1526,TSP type-1 12
+Adamts20,P59511,Reviewed,transcript,Domain,1527,1584,TSP type-1 13
+Adamts20,P59511,Reviewed,transcript,Domain,1585,1648,TSP type-1 14
+Adamts20,P59511,Reviewed,transcript,Domain,1650,1706,TSP type-1 15
+Adamts20,P59511,Reviewed,transcript,Domain,1707,1906,GON
+Adamts20,P59511,Reviewed,transcript,Region,721,842,Spacer
+Adamts20,P59511,Reviewed,transcript,Compositional bias,609,720,Cys-rich

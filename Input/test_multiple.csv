@@ -1,0 +1,12 @@
+GENENAME,UniprotID,Reviewed,Evidence,Features,Start,End,Descriptions
+Ntrk3,Q3TNY3,Unreviewed,transcript,Domain,1,73,Protein kinase
+Ntrk3,Q6VNS1,Reviewed,protein,Repeat,104,125,LRR 1
+Ntrk3,Q6VNS1,Reviewed,protein,Repeat,128,149,LRR 2
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,160,209,LRRCT
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,210,300,Ig-like C2-type 1
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,309,382,Ig-like C2-type 2
+Ntrk3,Q6VNS1,Reviewed,protein,Domain,538,825,Protein kinase
+Ntrk3,A0A0A6YWL7,Unreviewed,protein,Domain,210,300,Ig-like (immunoglobulin-like)
+Ntrk3,A0A0A6YWL7,Unreviewed,protein,Domain,538,853,Protein kinase
+Ntrk3,A0A0A6YWF9,Unreviewed,protein,Domain,210,300,Ig-like (immunoglobulin-like)
+Ntrk3,A0A0A6YWF9,Unreviewed,protein,Domain,538,828,Protein kinase

@@ -5,6 +5,9 @@
 //Setup width of chart and bar height
 var width = 1000;
 
+//Init starting pixel location
+var start_x = 50;
+
 //Create scale for x in the chart
 var x = d3.scale.linear()
     .range([0, width]);
@@ -39,6 +42,13 @@ d3.csv('Input/domain_data.csv')
                              .style("stroke", "rgb(255,0,0)")
                              .style("stroke-width", 2)
                     
+
+    /*
+      Want to create boxes interspaced between max distance of 1000 and probably have it scaled based on the boxes
+    */
+    
+    
+
     //Find the gene element from datalist
     d3.select("input[list=gene]").on('input', function(){
         console.log(this.value);
@@ -58,11 +68,9 @@ function update_protein(nValue){
 
 //Draw line cutting into specified area
 var protein_loc = chart.append("line")
-                       .attr("x1", 50)
+                       .attr("x1", start_x)
                        .attr("y1", 50)
-                       .attr("x2", 50) 
+                       .attr("x2", start_x) 
                        .attr("y2", 150)
                        .style("stroke", "rgb(255,0,0)")
                        .style("stroke-width", 2)
-
-//Find the gene element from daalist
