@@ -68,6 +68,8 @@ d3.csv('Input/domain_data.csv')
     d3.select("#loc")
       .attr("max", 500)
       .on("input", function(){
+        console.log(this.value);
+        console.log(spacer);
         update_protein(+this.value);
       });
 
