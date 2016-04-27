@@ -70,24 +70,30 @@ d3.csv('Input/domain_data.csv')
       .on("input", function(){
         console.log(this.value);
         console.log(spacer);
-        update_protein(+this.value);
+        if(typeof this.value == "string"){
+          update_protein(0);
+        } 
+        else {
+          update_protein(+this.value);
+        }
+        
       });
-
-
-    //Updates the position of x1 and x2 for the protein location search
-    function update_protein(nValue){
-      protein_loc.attr("x1", nValue)
-                 .attr("x2", nValue) 
-    }
 
     //Draw line cutting into specified area
     var protein_loc = chart.append("line")
-                           .attr("x1", start_x + spacer)
+                           .attr("x1", start_x)
                            .attr("y1", 50)
-                           .attr("x2", start_x + spacer) 
+                           .attr("x2", start_x) 
                            .attr("y2", 150)
                            .style("stroke", "rgb(255,0,0)")
                            .style("stroke-width", 2)
+
+    //Updates the position of x1 and x2 for the protein location search
+    function update_protein(nValue){
+      protein_loc.attr("x1", nValue + spacer)
+                 .attr("x2", nValue + spacer) 
+    }
+
 
   });
 
