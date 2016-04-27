@@ -15,9 +15,6 @@ var spacer = 20;
 var x = d3.scale.linear()
     .range([0, width]);
 
-//Create the svg .chart element in #chart-div with width of width
-var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("width", width);
-
 //Read domain data
 //d3.csv('Input/domain_data.csv')
 d3.csv('Input/test_single.csv')
@@ -32,6 +29,8 @@ d3.csv('Input/test_single.csv')
       d3.select("body").append("p").text("Error loading csv");
     };
 
+    //Create the svg .chart element in #chart-div with width of width
+    var chart = d3.select("#chart-div").data(rows).enter().append("svg").classed("chart", true).attr("width", width);
 
     //Creates array containing unique genename to numbers of genename
     var genenames = d3.nest()
@@ -67,20 +66,31 @@ d3.csv('Input/test_single.csv')
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return "<div class='toop'>" + 
-                  "<p><strong>Features:</strong> <span>" + "d.Features" + "</span></p>" +
-                  "<p><strong>Description:</strong> <span>" + "d.Description" + "</span></p>" +
-                  "<p><strong>Start/End:</strong> <span>" + "d.Start" + "-" + "d.End" + "</span></p>" +
+        return "<div class='tool'>" + 
+                  "<p><strong>Features:</strong> <span>" + d.Features + "</span></p>" +
+                  "<p><strong>Description:</strong> <span>" + d.Description + "</span></p>" +
+                  "<p><strong>Start/End:</strong> <span>" + d.Start + "-" + "d.End" + "</span></p>" +
                 "</div>";
       })
 
     chart.call(tip)
 
+/*
     //Manually building 1st entry
     chart.append("rect")
          .attr("x", 465 + spacer)
          .attr("y", 75)
          .attr("width", 552-465) 
+         .attr("height", 50)
+         .style("stroke", "rgb(255,0,0)")
+         .style("stroke-width", 2)
+         .on('mouseover', tip.show)
+         .on('mouseout', tip.hide)
+*/
+    chart.append("rect")
+         .attr("x", function(d){return(parseInt(d.Start) + parseInt(spacer))})
+         .attr("y", 75)
+         .attr("width", function(d){return(parseInt(d.End) - parseInt(d.Start))}) 
          .attr("height", 50)
          .style("stroke", "rgb(255,0,0)")
          .style("stroke-width", 2)
