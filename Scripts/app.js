@@ -62,6 +62,17 @@ d3.csv('Input/test_single.csv')
       Want to create boxes interspaced between max distance of 1000 and probably have it scaled based on the boxes
     */
 
+    //Create tooltip
+    var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        return "<strong>Frequency:</strong> <span style='color:red'>" + "d.frequency" + "</span>";
+      })
+
+    chart.call(tip)
+
+    //Manually building 1st entry
     chart.append("rect")
          .attr("x", 465 + spacer)
          .attr("y", 75)
@@ -69,7 +80,8 @@ d3.csv('Input/test_single.csv')
          .attr("height", 50)
          .style("stroke", "rgb(255,0,0)")
          .style("stroke-width", 2)
-
+         .on('mouseover', tip.show)
+         .on('mouseout', tip.hide)
 
 
     //Find the gene element from datalist
@@ -109,7 +121,6 @@ d3.csv('Input/test_single.csv')
       protein_loc.attr("x1", nValue + spacer)
                  .attr("x2", nValue + spacer) 
     }
-
 
   });
 
