@@ -1,3 +1,9 @@
 .d3-tip div p{
 	margin: 0 0 0 0;
 }
+
+.d3-tip div {
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
+}
