@@ -3,17 +3,19 @@
 <head>
 	<title>Domain Visualizer</title>
 	<link rel="stylesheet" type="text/css" href="Styles/styles.css">
+	<meta charset="utf-8">
+	<meta name="description" content="Visualizes domains from Uniprot using csv made in a specific way">
 </head>
 <body>
 	<header>
 		<h2>Domain Visualizer</h2>
 	</header>
 	<form>
-		<input list = "gene">
+		<input list = "gene" required>
 			Input Gene
 		</input>
 		<datalist id="gene"></datalist>
-		<input type="text" name="loc" id="loc" min=20 max=2000>Input location</input>
+		<input type="text" name="loc" id="loc" min=0 max=2000 value=0>Input location</input>
 	</form>
 
 	<div id="chart-div">

@@ -8,6 +8,9 @@ var width = 1000;
 //Init starting pixel location
 var start_x = 50;
 
+//Spacer for x margin
+var spacer = 20;
+
 //Create scale for x in the chart
 var x = d3.scale.linear()
     .range([0, width]);
@@ -24,7 +27,7 @@ d3.csv('Input/domain_data.csv')
     if(error){
       console.log(error);
       d3.select("body").append("p").text("Error loading csv")
-    }
+    };
 
 
     //Creates array containing unique genename to numbers of genename
@@ -54,7 +57,7 @@ d3.csv('Input/domain_data.csv')
       Want to create boxes interspaced between max distance of 1000 and probably have it scaled based on the boxes
     */
 
-    
+
 
     //Find the gene element from datalist
     d3.select("input[list=gene]").on('input', function(){
@@ -62,9 +65,12 @@ d3.csv('Input/domain_data.csv')
     });
 
     //Find the #loc element and take the value of it on input
-    d3.select("#loc").on("input", function(){
-      update_protein(+this.value);
-    });
+    d3.select("#loc")
+      .attr("max", 500)
+      .on("input", function(){
+        update_protein(+this.value);
+      });
+
 
     //Updates the position of x1 and x2 for the protein location search
     function update_protein(nValue){
@@ -74,9 +80,9 @@ d3.csv('Input/domain_data.csv')
 
     //Draw line cutting into specified area
     var protein_loc = chart.append("line")
-                           .attr("x1", start_x)
+                           .attr("x1", start_x + spacer)
                            .attr("y1", 50)
-                           .attr("x2", start_x) 
+                           .attr("x2", start_x + spacer) 
                            .attr("y2", 150)
                            .style("stroke", "rgb(255,0,0)")
                            .style("stroke-width", 2)
