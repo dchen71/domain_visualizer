@@ -53,7 +53,7 @@ d3.csv('Input/domain_data.csv')
     /*
       Want to create boxes interspaced between max distance of 1000 and probably have it scaled based on the boxes
     */
-    
+
     
 
     //Find the gene element from datalist
