@@ -20,6 +20,13 @@ d3.csv('Input/domain_data.csv')
   .row(function (d) { return d })
   .get(function (error, rows) {
     
+    //Error message
+    if(error){
+      console.log(error);
+      d3.select("body").append("p").text("Error loading csv")
+    }
+
+
     //Creates array containing genename to numbers of genename
     var nest = d3.nest()
       .key(function(d) {return d.GENENAME})
