@@ -67,7 +67,11 @@ d3.csv('Input/test_single.csv')
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return "<strong>Frequency:</strong> <span style='color:red'>" + "d.frequency" + "</span>";
+        return "<div>" + 
+                  "<p><strong>Features:</strong> <span style='color:red'>" + "d.Features" + "</span></p>" +
+                  "<p><strong>Description:</strong> <span style='color:red'>" + "d.Description" + "</span></p>" +
+                  "<p><strong>Start/End:</strong> <span style='color:red'>" + "d.Start" + "-" + "d.End" + "</span></p>" +
+                "</div>";
       })
 
     chart.call(tip)
