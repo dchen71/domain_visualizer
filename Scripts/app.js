@@ -6,7 +6,7 @@
 var width = 1000;
 
 //Init starting pixel location
-var start_x = 50;
+var start_x = 20;
 
 //Spacer for x margin
 var spacer = 20;
@@ -19,14 +19,17 @@ var x = d3.scale.linear()
 var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("width", width);
 
 //Read domain data
-d3.csv('Input/domain_data.csv')
+//d3.csv('Input/domain_data.csv')
+d3.csv('Input/test_single.csv')
+//d3.csv('Input/test_multiple.csv')
+//d3.csv('Input/test_na.csv')
   .row(function (d) { return d })
   .get(function (error, rows) {
     
     //Error message
     if(error){
       console.log(error);
-      d3.select("body").append("p").text("Error loading csv")
+      d3.select("body").append("p").text("Error loading csv");
     };
 
 
@@ -53,9 +56,19 @@ d3.csv('Input/domain_data.csv')
                              .style("stroke-width", 2)
                     
 
+    d3.select("body").data(rows).enter().append("p").text(function(d){return (d["GENENAME"] + " " + d["Start"]) + " " + d["End"];})
+
     /*
       Want to create boxes interspaced between max distance of 1000 and probably have it scaled based on the boxes
     */
+
+    chart.append("rect")
+         .attr("x", 465 + spacer)
+         .attr("y", 75)
+         .attr("width", 552-465) 
+         .attr("height", 50)
+         .style("stroke", "rgb(255,0,0)")
+         .style("stroke-width", 2)
 
 
 
@@ -66,15 +79,18 @@ d3.csv('Input/domain_data.csv')
 
     //Find the #loc element and take the value of it on input
     d3.select("#loc")
-      .attr("max", 500)
+      .attr("max", 1000)
       .on("input", function(){
-        console.log(this.value);
-        console.log(spacer);
-        if(typeof this.value == "string"){
+        if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
           update_protein(0);
         } 
         else {
-          update_protein(+this.value);
+          if(this.value > 1000){ //Checks to make sure that it is in the limit
+            update_protein(500);
+          }
+          else{
+            update_protein(+this.value);
+          }
         }
         
       });

@@ -12,10 +12,10 @@
 	</header>
 	<form>
 		<label for="gene">Input Gene</label>
-		<input list = "gene" required/>
+		<input list="gene" type="search" required/>
 		<datalist id="gene"></datalist>
 		<label for="loc">Input location</label>
-		<input type="text" name="loc" id="loc" min=0 max=2000 value=0 pattern="[0-9]" />
+		<input type="number" name="loc" id="loc" min=0 max=2000 value=0 pattern="[0-9]" step=1 />
 	</form>
 
 	<div id="chart-div">
