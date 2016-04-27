@@ -68,8 +68,8 @@ d3.csv('Input/test_single.csv')
       .html(function(d) {
         return "<div class='tool'>" + 
                   "<p><strong>Features:</strong> <span>" + d.Features + "</span></p>" +
-                  "<p><strong>Description:</strong> <span>" + d.Description + "</span></p>" +
-                  "<p><strong>Start/End:</strong> <span>" + d.Start + "-" + "d.End" + "</span></p>" +
+                  "<p><strong>Description:</strong> <span>" + d.Descriptions + "</span></p>" +
+                  "<p><strong>Start/End:</strong> <span>" + d.Start + "-" + d.End + "</span></p>" +
                 "</div>";
       })
 
