@@ -57,10 +57,6 @@ d3.csv('Input/test_single.csv')
 
     d3.select("body").data(rows).enter().append("p").text(function(d){return (d["GENENAME"] + " " + d["Start"]) + " " + d["End"];})
 
-    /*
-      Want to create boxes interspaced between max distance of 1000 and probably have it scaled based on the boxes
-    */
-
     //Create tooltip
     var tip = d3.tip()
       .attr('class', 'd3-tip')
@@ -73,20 +69,10 @@ d3.csv('Input/test_single.csv')
                 "</div>";
       })
 
+    //Call tooltip
     chart.call(tip)
 
-/*
     //Manually building 1st entry
-    chart.append("rect")
-         .attr("x", 465 + spacer)
-         .attr("y", 75)
-         .attr("width", 552-465) 
-         .attr("height", 50)
-         .style("stroke", "rgb(255,0,0)")
-         .style("stroke-width", 2)
-         .on('mouseover', tip.show)
-         .on('mouseout', tip.hide)
-*/
     chart.selectAll('rect')
          .data(rows)
          .enter()
@@ -100,11 +86,27 @@ d3.csv('Input/test_single.csv')
          .on('mouseover', tip.show)
          .on('mouseout', tip.hide)
 
+    /*
+      Gene title element
+    */
+
 
     //Find the gene element from datalist
     d3.select("input[list=gene]").on('input', function(){
-        console.log(this.value);
+        update_gene_name(this.value);
     });
+
+    //Init the element to display the gene being searched for
+    var gene_title = d3.selectAll("form").append("p");
+
+    //Update the gene name to be displayed
+    function update_gene_name(gene_input){
+      gene_title.text(gene_input);
+    }
+
+    /* 
+      Location Element
+    */
 
     //Find the #loc element and take the value of it on input
     d3.select("#loc")
@@ -138,6 +140,8 @@ d3.csv('Input/test_single.csv')
       protein_loc.attr("x1", nValue + spacer)
                  .attr("x2", nValue + spacer) 
     }
+
+
 
   });
 
