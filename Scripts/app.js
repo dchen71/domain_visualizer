@@ -12,8 +12,9 @@ var start_x = 20;
 var spacer = 20;
 
 //Create scale for x in the chart
-var x = d3.scale.linear()
-    .range([0, width]);
+var scale = d3.scale.linear()
+    .domain([0,5000])
+    .range([0, 2000]) //range will vary on max for subset
 
 //Read domain data
 //d3.csv('Input/domain_data.csv')
@@ -22,7 +23,7 @@ d3.csv('Input/test_single.csv')
 //d3.csv('Input/test_na.csv')
   .row(function (d) { return d })
   .get(function (error, rows) {
-    
+console.log(scale(1000));
     //Error message
     if(error){
       console.log(error);
@@ -49,12 +50,13 @@ d3.csv('Input/test_single.csv')
     var domain_length = chart.append("line")
                              .attr("x1", 20)
                              .attr("y1", 100)
-                             .attr("x2", width) //Will want to change this to max dist of whatever gene
+                             .attr("x2", width)
                              .attr("y2", 100)
                              .style("stroke", "rgb(255,0,0)")
                              .style("stroke-width", 2)
                     
 
+    //Debug, delete later
     d3.select("body").data(rows).enter().append("p").text(function(d){return (d["GENENAME"] + " " + d["Start"]) + " " + d["End"];})
 
     //Create tooltip
@@ -77,9 +79,9 @@ d3.csv('Input/test_single.csv')
          .data(rows)
          .enter()
          .append("rect")
-         .attr("x", function(d){return(parseInt(d.Start) + parseInt(spacer))})
+         .attr("x", function(d){return(scale(parseInt(d.Start) + parseInt(spacer)))})
          .attr("y", 75)
-         .attr("width", function(d){return(parseInt(d.End) - parseInt(d.Start))}) 
+         .attr("width", function(d){return(scale(parseInt(d.End) - parseInt(d.Start)))}) 
          .attr("height", 50)
          .style("stroke", "rgb(255,0,0)")
          .style("stroke-width", 2)
@@ -150,8 +152,8 @@ d3.csv('Input/test_single.csv')
 
     //Updates the position of x1 and x2 for the protein location search
     function update_protein(nValue){
-      protein_loc.attr("x1", nValue + spacer)
-                 .attr("x2", nValue + spacer) 
+      protein_loc.attr("x1", scale(nValue + spacer))
+                 .attr("x2", scale(nValue + spacer)) 
     }
 
 
