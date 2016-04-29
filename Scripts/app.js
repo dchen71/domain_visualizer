@@ -132,14 +132,14 @@ d3.csv('Input/test_single.csv')
 
     //Find the #loc element and take the value of it on input
     d3.select("#loc")
-      .attr("max", 1000)
+      .attr("max", max)
       .on("input", function(){
         if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
           update_protein(0);
         } 
         else {
-          if(this.value > 1000){ //Checks to make sure that it is in the limit
-            update_protein(500);
+          if(this.value > max){ //Checks to make sure that it is in the limit
+            update_protein(max);
           }
           else{
             update_protein(+this.value);
