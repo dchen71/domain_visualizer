@@ -112,8 +112,10 @@ d3.csv('Input/test_single.csv')
       Annotate data about gene name/UniprotID/Reviewed/Evidence
     */
 
-    d3.select("form").append("p").text(function(rows){return rows})
-
+    d3.select("form").append("p").text(rows[0]["GENENAME"]);
+    d3.select("form").append("p").text(rows[0]["Evidence"]);
+    d3.select("form").append("p").text(rows[0]["Reviewed"]);
+    d3.select("form").append("p").text(rows[0]["UniprotID"]);
 
     /* 
       Location Element
