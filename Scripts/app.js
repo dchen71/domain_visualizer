@@ -30,7 +30,7 @@ d3.csv('Input/test_single.csv')
     };
 
     //Create the svg .chart element in #chart-div with width of width
-    var chart = d3.select("#chart-div").data(rows).enter().append("svg").classed("chart", true).attr("width", width);
+    var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("width", width);
 
     //Creates array containing unique genename to numbers of genename
     var genenames = d3.nest()
@@ -87,7 +87,10 @@ d3.csv('Input/test_single.csv')
          .on('mouseover', tip.show)
          .on('mouseout', tip.hide)
 */
-    chart.append("rect")
+    chart.selectAll('rect')
+         .data(rows)
+         .enter()
+         .append("rect")
          .attr("x", function(d){return(parseInt(d.Start) + parseInt(spacer))})
          .attr("y", 75)
          .attr("width", function(d){return(parseInt(d.End) - parseInt(d.Start))}) 
