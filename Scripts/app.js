@@ -57,6 +57,8 @@ d3.csv('Input/test_single.csv')
 
     d3.select("body").data(rows).enter().append("p").text(function(d){return (d["GENENAME"] + " " + d["Start"]) + " " + d["End"];})
 
+    console.log(rows[0]);
+  
     //Create tooltip
     var tip = d3.tip()
       .attr('class', 'd3-tip')
@@ -101,7 +103,7 @@ d3.csv('Input/test_single.csv')
 
     //Update the gene name to be displayed
     function update_gene_name(gene_input){
-      gene_title.text(gene_input);
+      gene_title.text("Search for: " + gene_input);
     }
 
     /* 
