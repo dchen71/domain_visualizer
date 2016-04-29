@@ -11,11 +11,6 @@ var start_x = 20;
 //Spacer for x margin
 var spacer = 20;
 
-//Create scale for x in the chart
-var scale = d3.scale.linear()
-    .domain([0,5000])
-    .range([0, 2000]) //range will vary on max for subset
-
 //Read domain data
 //d3.csv('Input/domain_data.csv')
 d3.csv('Input/test_single.csv')
@@ -23,12 +18,24 @@ d3.csv('Input/test_single.csv')
 //d3.csv('Input/test_na.csv')
   .row(function (d) { return d })
   .get(function (error, rows) {
-console.log(scale(1000));
+
     //Error message
     if(error){
       console.log(error);
       d3.select("body").append("p").text("Error loading csv");
     };
+
+    /*
+      Prep chart
+    */
+
+    //Find the max range + 100 of the chart
+    var max = d3.max(rows, function(d) { return +d.End + 100; });
+    
+    //Create scale for x in the chart
+    var scale = d3.scale.linear()
+        .domain([0,5000])
+        .range([0, max]) //range will vary on max for subset
 
     //Create the svg .chart element in #chart-div with width of width
     var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("width", width);
