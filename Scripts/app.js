@@ -114,7 +114,14 @@ d3.csv('Input/test_single.csv')
         */
 
         //Find the max range + 100 of the chart
-        var max = d3.max(rows, function(d) { return +d.End + 100; });
+        var max = d3.max(rows, function(d) { 
+          if(d.End != "NA"){
+            return +d.End + 100; 
+          }
+          else{
+            return 0;
+          }
+        });
         
         //Create scale for x in the chart
         var scale = d3.scale.linear()
@@ -210,9 +217,23 @@ d3.csv('Input/test_single.csv')
         //Builds based on entry
         domains.append("rect")
                .filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
-               .attr("x", function(d){return(scale(parseInt(d.Start) + parseInt(spacer)))})
+               .attr("x", function(d){
+                  if(d.Start == "NA"){
+                    return(scale(0))
+                  }
+                  else{
+                    return(scale(parseInt(d.Start) + parseInt(spacer)))
+                  }
+                })
                .attr("y", 75)
-               .attr("width", function(d){return(scale(parseInt(d.End) - parseInt(d.Start)))}) 
+               .attr("width", function(d){
+                  if(d.End == "NA"){
+                    return(scale(0));
+                  }
+                  else{
+                    return(scale(parseInt(d.End) - parseInt(d.Start)))
+                  }
+                }) 
                .attr("height", 50)
                .style("stroke", "rgb(255,0,0)")
                .style("stroke-width", 2)
