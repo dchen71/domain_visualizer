@@ -2,6 +2,13 @@
 	D3 Visualization of Protein domains from Uniprot
 */
 
+/*
+1. Build data based on search entry
+2. Build data based on multiple transcripts
+3. Deal with NA values
+4. Style
+*/
+
 //Setup width of chart and bar height
 var width = 1000;
 
@@ -40,6 +47,19 @@ d3.csv('Input/test_single.csv')
     //Create the svg .chart element in #chart-div with width of width
     var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("width", width);
 
+    //Draw line 0 to max protein length
+    var domain_length = chart.append("line")
+                             .attr("x1", 20)
+                             .attr("y1", 100)
+                             .attr("x2", width)
+                             .attr("y2", 100)
+                             .style("stroke", "rgb(255,0,0)")
+                             .style("stroke-width", 2)
+
+    /*
+      Unique genenames for datalist
+    */
+
     //Creates array containing unique genename to numbers of genename
     var genenames = d3.nest()
                       .key(function(d) {return d.GENENAME})
@@ -53,19 +73,11 @@ d3.csv('Input/test_single.csv')
       .attr('value', function (d) { return d; }) // Add name to option
       .attr("id", function(d) {return d});
 
-    //Draw line 0 to max protein length
-    var domain_length = chart.append("line")
-                             .attr("x1", 20)
-                             .attr("y1", 100)
-                             .attr("x2", width)
-                             .attr("y2", 100)
-                             .style("stroke", "rgb(255,0,0)")
-                             .style("stroke-width", 2)
+
+    /*
+      Mouseover tooltips
+    */
                     
-
-    //Debug, delete later
-    d3.select("body").data(rows).enter().append("p").text(function(d){return (d["GENENAME"] + " " + d["Start"]) + " " + d["End"];})
-
     //Create tooltip
     var tip = d3.tip()
       .attr('class', 'd3-tip')
@@ -81,20 +93,11 @@ d3.csv('Input/test_single.csv')
     //Call tooltip
     chart.call(tip)
 
-    //Manually building 1st entry
-    chart.selectAll('rect')
-         .data(rows)
-         .enter()
-         .append("rect")
-         .attr("x", function(d){return(scale(parseInt(d.Start) + parseInt(spacer)))})
-         .attr("y", 75)
-         .attr("width", function(d){return(scale(parseInt(d.End) - parseInt(d.Start)))}) 
-         .attr("height", 50)
-         .style("stroke", "rgb(255,0,0)")
-         .style("stroke-width", 2)
-         .on('mouseover', tip.show)
-         .on('mouseout', tip.hide)
-
+    //Shortcut to call element to add domains
+    var domains = chart.selectAll('rect')
+                       .data(rows)
+                       .enter()
+         
     /*
       Gene search element
     */
@@ -111,6 +114,17 @@ d3.csv('Input/test_single.csv')
     function update_gene_name(gene_input){
       if(gene_input != ""){
         gene_title.text("Search for: " + gene_input);
+        //Builds based on entry
+        domains.append("rect")
+               .filter(function(d){return d.GENENAME == gene_input})
+               .attr("x", function(d){return(scale(parseInt(d.Start) + parseInt(spacer)))})
+               .attr("y", 75)
+               .attr("width", function(d){return(scale(parseInt(d.End) - parseInt(d.Start)))}) 
+               .attr("height", 50)
+               .style("stroke", "rgb(255,0,0)")
+               .style("stroke-width", 2)
+               .on('mouseover', tip.show)
+               .on('mouseout', tip.hide)
       }
       else{
         gene_title.text(gene_input);
@@ -125,6 +139,7 @@ d3.csv('Input/test_single.csv')
     d3.select("form").append("p").text(rows[0]["Evidence"]);
     d3.select("form").append("p").text(rows[0]["Reviewed"]);
     d3.select("form").append("p").text(rows[0]["UniprotID"]);
+
 
     /* 
       Location Element
@@ -162,8 +177,5 @@ d3.csv('Input/test_single.csv')
       protein_loc.attr("x1", scale(nValue + spacer))
                  .attr("x2", scale(nValue + spacer)) 
     }
-
-
-
   });
 
