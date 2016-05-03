@@ -128,6 +128,7 @@ d3.csv('Input/test_single.csv')
       }
       else{
         gene_title.text(gene_input);
+        d3.selectAll("rect").remove();
       }
     }
 
