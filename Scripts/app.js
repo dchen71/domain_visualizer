@@ -36,25 +36,19 @@ d3.csv('Input/test_single.csv')
       Prep chart
     */
 
-    //Find the max range + 100 of the chart
-    var max = d3.max(rows, function(d) { return +d.End + 100; });
-    
-    //Create scale for x in the chart
-    var scale = d3.scale.linear()
-        .domain([0,5000])
-        .range([0, max]) //range will vary on max for subset
-
     //Create the svg .chart element in #chart-div with width of width
     var chart = d3.select("#chart-div").append("svg").classed("chart", true).attr("width", width);
 
-    //Draw line 0 to max protein length
-    var domain_length = chart.append("line")
-                             .attr("x1", 20)
-                             .attr("y1", 100)
-                             .attr("x2", width)
-                             .attr("y2", 100)
-                             .style("stroke", "rgb(255,0,0)")
-                             .style("stroke-width", 2)
+    //Shortcut to call element to add domains
+    var domains = chart.selectAll('rect')
+                       .data(rows)
+                       .enter()
+
+    //Shortcut to call element for annotation
+    var annot_gene = d3.select("form");
+    var annot_review = d3.select('form');
+    var annot_uniprot = d3.select("form");
+    var anont_evidence = d3.select("form");
 
     /*
       Unique genenames for datalist
@@ -92,11 +86,6 @@ d3.csv('Input/test_single.csv')
 
     //Call tooltip
     chart.call(tip)
-
-    //Shortcut to call element to add domains
-    var domains = chart.selectAll('rect')
-                       .data(rows)
-                       .enter()
          
     /*
       Gene search element
@@ -112,8 +101,112 @@ d3.csv('Input/test_single.csv')
 
     //Update the gene name to be displayed
     function update_gene_name(gene_input){
+      d3.selectAll("rect").remove(); //Clean svg on entry
+      d3.selectAll("line").remove(); //Clean lines on entry
+      d3.selectAll(".annot").remove(); //Clean text on entry
+      
       if(gene_input != ""){
         gene_title.text("Search for: " + gene_input);
+        
+        
+        /*
+          Prep chart
+        */
+
+        //Find the max range + 100 of the chart
+        var max = d3.max(rows, function(d) { return +d.End + 100; });
+        
+        //Create scale for x in the chart
+        var scale = d3.scale.linear()
+            .domain([0,5000])
+            .range([0, max]) //range will vary on max for subset
+
+        //Draw line 0 to max protein length
+        var domain_length = chart.append("line")
+                                 .attr("x1", scale(spacer))
+                                 .attr("y1", 100)
+                                 .attr("x2", width)
+                                 .attr("y2", 100)
+                                 .style("stroke", "rgb(255,0,0)")
+                                 .style("stroke-width", 2)
+
+        //Draw line cutting into specified area
+        var protein_loc = chart.append("line")
+                               .attr("x1", scale(start_x))
+                               .attr("y1", 50)
+                               .attr("x2", scale(start_x)) 
+                               .attr("y2", 150)
+                               .style("stroke", "rgb(255,0,0)")
+                               .style("stroke-width", 2)
+
+
+        /* 
+          Location Element
+        */
+
+        //Find the #loc element and take the value of it on input
+        d3.select("#loc")
+          .attr("max", max)
+          .on("input", function(){
+            if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
+              update_protein(0);
+            } 
+            else {
+              if(this.value > max){ //Checks to make sure that it is in the limit
+                update_protein(max);
+              }
+              else{
+                update_protein(+this.value);
+                console.log(scale(+this.value + spacer));
+              }
+            }
+            
+          });
+
+
+        //Updates the position of x1 and x2 for the protein location search
+        function update_protein(nValue){
+          protein_loc.attr("x1", scale(nValue + spacer))
+                     .attr("x2", scale(nValue + spacer)) 
+        }
+
+        /*
+          Annotate data about gene name/UniprotID/Reviewed/Evidence
+        */
+
+        annot_gene.data(rows)
+                  .enter()
+                  .append("p")
+                  .filter(function(d){return d.GENENAME == gene_input})
+                  .text(function(d){return d.GENENAME})
+                  .attr("class", "annot")
+
+        anont_evidence.data(rows)
+                  .enter()
+                  .append("p")
+                  .filter(function(d){return d.GENENAME == gene_input})
+                  .text(function(d){return d.Evidence})
+                  .attr("class", "annot")
+
+        annot_review.data(rows)
+                  .enter()
+                  .append("p")
+                  .filter(function(d){return d.GENENAME == gene_input})
+                  .text(function(d){return d.Reviewed})
+                  .attr("class", "annot")
+
+        annot_uniprot.data(rows)
+                  .enter()
+                  .append("p")
+                  .filter(function(d){return d.GENENAME == gene_input})
+                  .text(function(d){return d.UniprotID})
+                  .attr("class", "annot")
+
+        /*
+          Builds the domains on the lines
+        */
+
+
         //Builds based on entry
         domains.append("rect")
                .filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
@@ -125,58 +218,12 @@ d3.csv('Input/test_single.csv')
                .style("stroke-width", 2)
                .on('mouseover', tip.show)
                .on('mouseout', tip.hide)
+
       }
       else{
         gene_title.text(gene_input);
-        d3.selectAll("rect").remove();
       }
     }
 
-    /*
-      Annotate data about gene name/UniprotID/Reviewed/Evidence
-    */
-
-    d3.select("form").append("p").text(rows[0]["GENENAME"]);
-    d3.select("form").append("p").text(rows[0]["Evidence"]);
-    d3.select("form").append("p").text(rows[0]["Reviewed"]);
-    d3.select("form").append("p").text(rows[0]["UniprotID"]);
-
-
-    /* 
-      Location Element
-    */
-
-    //Find the #loc element and take the value of it on input
-    d3.select("#loc")
-      .attr("max", max)
-      .on("input", function(){
-        if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
-          update_protein(0);
-        } 
-        else {
-          if(this.value > max){ //Checks to make sure that it is in the limit
-            update_protein(max);
-          }
-          else{
-            update_protein(+this.value);
-          }
-        }
-        
-      });
-
-    //Draw line cutting into specified area
-    var protein_loc = chart.append("line")
-                           .attr("x1", start_x)
-                           .attr("y1", 50)
-                           .attr("x2", start_x) 
-                           .attr("y2", 150)
-                           .style("stroke", "rgb(255,0,0)")
-                           .style("stroke-width", 2)
-
-    //Updates the position of x1 and x2 for the protein location search
-    function update_protein(nValue){
-      protein_loc.attr("x1", scale(nValue + spacer))
-                 .attr("x2", scale(nValue + spacer)) 
-    }
   });
 
