@@ -116,7 +116,7 @@ d3.csv('Input/test_single.csv')
         gene_title.text("Search for: " + gene_input);
         //Builds based on entry
         domains.append("rect")
-               .filter(function(d){return d.GENENAME == gene_input})
+               .filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
                .attr("x", function(d){return(scale(parseInt(d.Start) + parseInt(spacer)))})
                .attr("y", 75)
                .attr("width", function(d){return(scale(parseInt(d.End) - parseInt(d.Start)))}) 
