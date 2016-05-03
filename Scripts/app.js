@@ -5,7 +5,6 @@
 /*
 1. Build data based on search entry
 2. Build data based on multiple transcripts
-3. Deal with NA values
 4. Style
 */
 
@@ -181,12 +180,21 @@ d3.csv('Input/test_single.csv')
           Annotate data about gene name/UniprotID/Reviewed/Evidence
         */
 
+        var curr_gene = d3.keys(genenames);
+
+        var uniprotIDs = d3.nest()
+                           .key(function(d) {return d.UniprotID})
+                           .map(rows);        
+        uniprotIDs = d3.keys(uniprotIDs);
+
         annot_gene.data(rows)
                   .enter()
                   .append("p")
                   .filter(function(d){return d.GENENAME == gene_input})
                   .text(function(d){return d.GENENAME})
                   .attr("class", "annot")
+
+
 
         anont_evidence.data(rows)
                   .enter()
