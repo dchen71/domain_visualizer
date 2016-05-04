@@ -19,8 +19,8 @@ var spacer = 20;
 
 //Read domain data
 //d3.csv('Input/domain_data.csv')
-d3.csv('Input/test_single.csv')
-//d3.csv('Input/test_multiple.csv')
+//d3.csv('Input/test_single.csv')
+d3.csv('Input/test_multiple.csv')
 //d3.csv('Input/test_na.csv')
 //d3.csv("Input/test_mini.csv")
   .row(function (d) { return d })
@@ -191,7 +191,7 @@ d3.csv('Input/test_single.csv')
         curr_gene = curr_gene.filter(contain_gene);
 
         //Filters out the uniprotID
-        var uniprotIDs = rows.filter(function(d){return d.GENENAME == gene_input})
+        var uniprotIDs = rows.filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
                              .map(function(d){return d.UniprotID})     
 
         //Move to set to get unique uniprot id
@@ -200,7 +200,7 @@ d3.csv('Input/test_single.csv')
         uniprotIDs = Array.from(uniprotId);
 
         //Filters out based on uniprot id from prior
-        var evidence_array = rows.filter(function(d){return d.UniprotID == uniprotIDs})
+        var evidence_array = rows.filter(function(d){return d.UniprotID.toLowerCase() == uniprotIDs})
                                  .map(function(d){return d.Evidence})
 
         //Create new array and set to take in the evidence
@@ -210,7 +210,7 @@ d3.csv('Input/test_single.csv')
         single_evid.forEach(function(v){evidence.push(v)});     
 
         //Filters out based on uniprot id from prior
-        var review_array = rows.filter(function(d){return d.UniprotID == uniprotIDs})
+        var review_array = rows.filter(function(d){return d.UniprotID.toLowerCase() == uniprotIDs})
                                  .map(function(d){return d.Reviewed})
 
         //Create new array and set to take in the evidence
@@ -219,8 +219,12 @@ d3.csv('Input/test_single.csv')
         review_array.map(function(d){single_review.add(d)});
         single_review.forEach(function(v){review.push(v)}); 
 
+        console.log(curr_gene);
 
-        //Annotate page with information about the domain/transcripts
+        /*
+          Annotate page with information about the domain/transcripts
+        */
+        
         //Shows current gene
         annot_gene.append("p")
                   .text(curr_gene)
