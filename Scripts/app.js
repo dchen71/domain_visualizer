@@ -107,9 +107,8 @@ d3.csv("Input/test_mini.csv")
 
     //Update the graph based on transcript
     function update_transcript(transcript_input){
-      d3.selectAll("rect").remove(); //Clean svg on entry
-      d3.selectAll("line").remove(); //Clean lines on entry
-      d3.selectAll(".annot").remove(); //Clean text on entry
+      //Clear entries
+      clearGraph(false);
 
       /*
         Prep chart
@@ -294,11 +293,13 @@ d3.csv("Input/test_mini.csv")
     }
 
     //Clears entries
-    function clearGraph(){
+    function clearGraph(all = true){
       d3.selectAll("rect").remove(); //Clean svg on entry
       d3.selectAll("line").remove(); //Clean lines on entry
       d3.selectAll(".annot").remove(); //Clean text on entry
-      d3.selectAll(".transcript option").remove(); //Clean text on entry
+      if(all == true){
+        d3.selectAll(".transcript option").remove(); //Clean text on entry
+      }
     }
 
     //Update the gene name to be displayed
