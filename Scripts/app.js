@@ -20,9 +20,9 @@ var spacer = 20;
 //Read domain data
 //d3.csv('Input/domain_data.csv')
 //d3.csv('Input/test_single.csv')
-d3.csv('Input/test_multiple.csv')
+//d3.csv('Input/test_multiple.csv')
 //d3.csv('Input/test_na.csv')
-//d3.csv("Input/test_mini.csv")
+d3.csv("Input/test_mini.csv")
   .row(function (d) { return d })
   .get(function (error, rows) {
 
@@ -104,6 +104,7 @@ d3.csv('Input/test_multiple.csv')
       d3.selectAll("rect").remove(); //Clean svg on entry
       d3.selectAll("line").remove(); //Clean lines on entry
       d3.selectAll(".annot").remove(); //Clean text on entry
+      d3.selectAll(".transcript option").remove(); //Clean text on entry
       
       if(gene_input != ""){
         gene_title.text("Search for: " + gene_input);
@@ -226,7 +227,14 @@ d3.csv('Input/test_multiple.csv')
           single_review.forEach(function(v){review.push(v)});  
         });
 
-        console.log(review);
+        //Create the options for the transcript dropdown
+        d3.select('.transcript').selectAll('option')
+          .data(uniprotIDs) // Data join, find keys from mapped keys
+          .enter() // Enter data selection
+          .append('option') // Append to options
+          .attr('value', function (d) {return d;}) // Add name to option
+          .attr("id", function(d) {return d})
+          .text(function(d){return d})
 
         /*
           Annotate page with information about the domain/transcripts
