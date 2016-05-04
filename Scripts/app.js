@@ -194,9 +194,22 @@ d3.csv('Input/test_single.csv')
         var uniprotIDs = rows.filter(function(d){return d.GENENAME == gene_input})
                              .map(function(d){return d.UniprotID})     
 
+        //Move to set to get unique uniprot id
         var uniprotId = new Set();
         uniprotIDs.map(function(d){uniprotId.add(d)});
         uniprotIDs = Array.from(uniprotId);
+
+        //Filters out based on uniprot id from prior
+        var evidence_array = rows.filter(function(d){return d.UniprotID == uniprotIDs})
+                                 .map(function(d){return d.Evidence})
+
+        //Create new array and set to take in the evidence
+        var evidence = new Array();
+        var single_evid = new Set();
+        evidence_array.map(function(d){single_evid.add(d)});
+        single_evid.forEach(function(v){evidence.push(v)});     
+
+
 
         //Annotate page with information about the domain/transcripts
         //Shows current gene
@@ -210,12 +223,9 @@ d3.csv('Input/test_single.csv')
                       .attr("class", "annot")
 
         //Shows the type of review this transcript has
-        annot_review.data(rows)
-                  .enter()
-                  .append("p")
-                  .filter(function(d){return d.GENENAME == gene_input})
-                  .text(function(d){return d.Reviewed})
-                  .attr("class", "annot")
+        annot_review.append("p")
+                    .text(evidence)
+                    .attr("class", "annot")
 
         //Shows the uniprotID
         annot_uniprot.data(rows)
