@@ -181,17 +181,20 @@ d3.csv('Input/test_single.csv')
         */
 
         var curr_gene = d3.keys(genenames);
-
         var uniprotIDs = d3.nest()
                            .key(function(d) {return d.UniprotID})
                            .map(rows);        
         uniprotIDs = d3.keys(uniprotIDs);
 
-        annot_gene.data(rows)
-                  .enter()
-                  .append("p")
-                  .filter(function(d){return d.GENENAME == gene_input})
-                  .text(function(d){return d.GENENAME})
+        //Filter to check if a gene is the same as the input value
+        function contain_gene(gene){
+          return(gene == gene_input);
+        }
+
+        curr_gene = curr_gene.filter(contain_gene);
+
+        annot_gene.append("p")
+                  .text(curr_gene)
                   .attr("class", "annot")
 
 
