@@ -1,0 +1,14 @@
+GENENAME,UniprotID,Reviewed,Evidence,Features,Start,End,Descriptions
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,909,1005,Ig-like (immunoglobulin-like)
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,1198,1292,Ig-like (immunoglobulin-like)
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,1298,1392,Ig-like (immunoglobulin-like)
+Adamtsl3,G3UXC7,Unreviewed,protein,Domain,1670,1706,PLAC
+Adck5,E9PUK2,Unreviewed,protein,Domain,189,304,ABC1
+Adck5,Q80V03,Reviewed,transcript,Domain,179,419,Protein kinase
+Adcy6,F8VQ52,Unreviewed,protein,Domain,377,506,Guanylate cyclase
+Adcy6,F8VQ52,Unreviewed,protein,Domain,979,1118,Guanylate cyclase
+Adcy6,Q01341,NA,NA,NA,NA,NA,NA
+Adcy8,Q3UUN2,Unreviewed,transcript,Domain,412,539,Guanylate cyclase
+Adcy8,Q3UUN2,Unreviewed,transcript,Domain,950,1090,Guanylate cyclase
+Adcy8,Q3UUN2,Unreviewed,transcript,Coiled coil,898,921,NA
+Adcy8,P97490,NA,NA,NA,NA,NA,NA

@@ -180,31 +180,29 @@ d3.csv('Input/test_single.csv')
           Annotate data about gene name/UniprotID/Reviewed/Evidence
         */
 
-        var curr_gene = d3.keys(genenames);
-        var uniprotIDs = d3.nest()
-                           .key(function(d) {return d.UniprotID})
-                           .map(rows);        
-        uniprotIDs = d3.keys(uniprotIDs);
-
         //Filter to check if a gene is the same as the input value
         function contain_gene(gene){
           return(gene == gene_input);
         }
 
+        var curr_gene = d3.keys(genenames);
         curr_gene = curr_gene.filter(contain_gene);
 
+        var uniprotIDs = d3.nest()
+                           .key(function(d) {return d.UniprotID})
+                           .entries(rows);        
+        uniprotIDs = d3.keys(uniprotIDs);
+        uniprotIDs = uniprotIDs.filter(contain_gene);
+
+console.log(uniprotIDs);
+        //Annotate page with information about the domain/transcripts
         annot_gene.append("p")
                   .text(curr_gene)
                   .attr("class", "annot")
 
-
-
-        anont_evidence.data(rows)
-                  .enter()
-                  .append("p")
-                  .filter(function(d){return d.GENENAME == gene_input})
-                  .text(function(d){return d.Evidence})
-                  .attr("class", "annot")
+        anont_evidence.append("p")
+                      .text(uniprotIDs)
+                      .attr("class", "annot")
 
         annot_review.data(rows)
                   .enter()
