@@ -96,6 +96,13 @@ d3.csv("Input/test_mini.csv")
         update_gene_name(this.value);
     });
 
+    //Detects the different transcripts element from options
+    d3.select(".transcript").on('change', function(){
+        console.log(this.value);
+        //update_transcript();
+    });
+
+
     //Init the element to display the gene being searched for
     var gene_title = d3.selectAll("form").append("p");
 
@@ -232,7 +239,7 @@ d3.csv("Input/test_mini.csv")
           .data(uniprotIDs) // Data join, find keys from mapped keys
           .enter() // Enter data selection
           .append('option') // Append to options
-          .attr('value', function (d) {return d;}) // Add name to option
+          .attr('value', function (d) {return d}) // Add name to option
           .attr("id", function(d) {return d})
           .text(function(d){return d})
 
