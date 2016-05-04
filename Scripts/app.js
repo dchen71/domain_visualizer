@@ -22,6 +22,7 @@ var spacer = 20;
 d3.csv('Input/test_single.csv')
 //d3.csv('Input/test_multiple.csv')
 //d3.csv('Input/test_na.csv')
+//d3.csv("Input/test_mini.csv")
   .row(function (d) { return d })
   .get(function (error, rows) {
 
@@ -185,25 +186,30 @@ d3.csv('Input/test_single.csv')
           return(gene == gene_input);
         }
 
+        //Filters current gene
         var curr_gene = d3.keys(genenames);
         curr_gene = curr_gene.filter(contain_gene);
 
-        var uniprotIDs = d3.nest()
-                           .key(function(d) {return d.UniprotID})
-                           .entries(rows);        
-        uniprotIDs = d3.keys(uniprotIDs);
-        uniprotIDs = uniprotIDs.filter(contain_gene);
+        //Filters out the uniprotID
+        var uniprotIDs = rows.filter(function(d){return d.GENENAME == gene_input})
+                             .map(function(d){return d.UniprotID})     
 
-console.log(uniprotIDs);
+        var uniprotId = new Set();
+        uniprotIDs.map(function(d){uniprotId.add(d)});
+        uniprotIDs = Array.from(uniprotId);
+
         //Annotate page with information about the domain/transcripts
+        //Shows current gene
         annot_gene.append("p")
                   .text(curr_gene)
                   .attr("class", "annot")
 
+        //Shows transcript
         anont_evidence.append("p")
                       .text(uniprotIDs)
                       .attr("class", "annot")
 
+        //Shows the type of review this transcript has
         annot_review.data(rows)
                   .enter()
                   .append("p")
@@ -211,6 +217,7 @@ console.log(uniprotIDs);
                   .text(function(d){return d.Reviewed})
                   .attr("class", "annot")
 
+        //Shows the uniprotID
         annot_uniprot.data(rows)
                   .enter()
                   .append("p")
