@@ -200,14 +200,18 @@ d3.csv('Input/test_multiple.csv')
         uniprotIDs = Array.from(uniprotId);
 
         //Filters out based on uniprot id from prior
-        var evidence_array = rows.filter(function(d){return d.UniprotID.toLowerCase() == uniprotIDs})
-                                 .map(function(d){return d.Evidence})
-
-        //Create new array and set to take in the evidence
         var evidence = new Array();
-        var single_evid = new Set();
-        evidence_array.map(function(d){single_evid.add(d)});
-        single_evid.forEach(function(v){evidence.push(v)});     
+
+        uniprotIDs.map(function(e){
+          var evidence_array = rows.filter(function(d){return d.UniprotID == e})
+                                           .map(function(d){return d.Evidence})
+
+          //Create new array and set to take in the evidence
+          var single_evid = new Set();
+          evidence_array.map(function(d){single_evid.add(d)});
+          single_evid.forEach(function(v){evidence.push(v)});  
+        });
+  
 
         //Filters out based on uniprot id from prior
         var review_array = rows.filter(function(d){return d.UniprotID.toLowerCase() == uniprotIDs})
@@ -218,8 +222,6 @@ d3.csv('Input/test_multiple.csv')
         var single_review = new Set();
         review_array.map(function(d){single_review.add(d)});
         single_review.forEach(function(v){review.push(v)}); 
-
-        console.log(curr_gene);
 
         /*
           Annotate page with information about the domain/transcripts
