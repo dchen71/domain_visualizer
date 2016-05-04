@@ -202,6 +202,7 @@ d3.csv('Input/test_multiple.csv')
         //Filters out based on uniprot id from prior
         var evidence = new Array();
 
+        //Checks each protein id for evidence
         uniprotIDs.map(function(e){
           var evidence_array = rows.filter(function(d){return d.UniprotID == e})
                                            .map(function(d){return d.Evidence})
@@ -212,16 +213,20 @@ d3.csv('Input/test_multiple.csv')
           single_evid.forEach(function(v){evidence.push(v)});  
         });
   
-
-        //Filters out based on uniprot id from prior
-        var review_array = rows.filter(function(d){return d.UniprotID.toLowerCase() == uniprotIDs})
-                                 .map(function(d){return d.Reviewed})
-
-        //Create new array and set to take in the evidence
+        //Checks each protein id for review
         var review = new Array();
-        var single_review = new Set();
-        review_array.map(function(d){single_review.add(d)});
-        single_review.forEach(function(v){review.push(v)}); 
+        uniprotIDs.map(function(e){
+          //Filters out based on uniprot id from prior
+          var review_array = rows.filter(function(d){return d.UniprotID == e})
+                                   .map(function(d){return d.Reviewed})
+
+          //Create new array and set to take in the evidence
+          var single_review = new Set();
+          review_array.map(function(d){single_review.add(d)});
+          single_review.forEach(function(v){review.push(v)});  
+        });
+
+        console.log(review);
 
         /*
           Annotate page with information about the domain/transcripts
