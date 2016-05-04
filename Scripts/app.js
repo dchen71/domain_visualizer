@@ -1,11 +1,7 @@
 /*
 	D3 Visualization of Protein domains from Uniprot
-*/
 
-/*
-1. Build data based on search entry
-2. Build data based on multiple transcripts
-4. Style
+  This uses a precompiled csv file containing all the major elements from Uniprot needed to visualize the domains. This plot will show the domains in a linear fashion with the ability to mark a specific location.
 */
 
 //Setup width of chart and bar height
@@ -20,9 +16,9 @@ var spacer = 20;
 //Read domain data
 //d3.csv('Input/domain_data.csv')
 //d3.csv('Input/test_single.csv')
-//d3.csv('Input/test_multiple.csv')
+d3.csv('Input/test_multiple.csv')
 //d3.csv('Input/test_na.csv')
-d3.csv("Input/test_mini.csv")
+//d3.csv("Input/test_mini.csv")
   .row(function (d) { return d })
   .get(function (error, rows) {
 
@@ -114,83 +110,23 @@ d3.csv("Input/test_mini.csv")
         Prep chart
       */
 
-      //Find the max range + 100 of the chart
-      var max = d3.max(rows, function(d) { 
-        if(d.End != "NA"){
-          return +d.End + 100; 
-        }
-        else{
-          return 0;
-        }
-      });
-      
-      //Create scale for x in the chart
-      var scale = d3.scale.linear()
-          .domain([0,5000])
-          .range([0, max]) //range will vary on max for subset
-
-      //Draw line 0 to max protein length
-      var domain_length = chart.append("line")
-                               .attr("x1", scale(spacer))
-                               .attr("y1", 100)
-                               .attr("x2", width)
-                               .attr("y2", 100)
-                               .style("stroke", "rgb(255,0,0)")
-                               .style("stroke-width", 2)
-
-      //Draw line cutting into specified area
-      var protein_loc = chart.append("line")
-                             .attr("x1", scale(start_x))
-                             .attr("y1", 50)
-                             .attr("x2", scale(start_x)) 
-                             .attr("y2", 150)
-                             .style("stroke", "rgb(255,0,0)")
-                             .style("stroke-width", 2)
-
-
-      /* 
-        Location Element
-      */
-
-      //Find the #loc element and take the value of it on input
-      d3.select("#loc")
-        .attr("max", max)
-        .on("input", function(){
-          if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
-            update_protein(0);
-          } 
-          else {
-            if(this.value > max){ //Checks to make sure that it is in the limit
-              update_protein(max);
-            }
-            else{
-              update_protein(+this.value);
-              console.log(scale(+this.value + spacer));
-            }
-          }
-          
-        });
-
-
-      //Updates the position of x1 and x2 for the protein location search
-      function update_protein(nValue){
-        protein_loc.attr("x1", scale(nValue + spacer))
-                   .attr("x2", scale(nValue + spacer)) 
-      }
+      //Prepare all the major elements of the chart such as scaling and line to intersect protein location
+      var scale = prep_chart(rows);
 
       /*
         Annotate data about gene name/UniprotID/Reviewed/Evidence
       */
-/*
-      //Filter to check if a gene is the same as the input value
-      function contain_gene(gene){
-        return(gene == gene_input);
-      }
+      
+      //Find the gene name
+      var geneids = rows.filter(function(d){return d["UniprotID"] == transcript_input})
+                        .map(function(d){return d["GENENAME"]})     
 
-      //Filters current gene
-      var curr_gene = d3.keys(genenames);
-      curr_gene = curr_gene.filter(contain_gene);
-*/curr_gene = "Cat";
+      //Move to set to get unique uniprot id
+      var geneid_set = new Set();
+      geneids.map(function(d){geneid_set.add(d)});
+      curr_gene = Array.from(geneid_set);
+      curr_gene = curr_gene[0];
+
       //Filters out the uniprotID
       var uniprotIDs = rows.filter(function(d){return d["UniprotID"] == transcript_input})
                            .map(function(d){return d["UniprotID"]})     
@@ -302,16 +238,15 @@ d3.csv("Input/test_mini.csv")
       }
     }
 
-    //Update the gene name to be displayed
-    function update_gene_name(gene_input){
 
-      //Clear entries
-      clearGraph();
-           
-      /*
-        Prep chart
-      */
+    //Updates the position of x1 and x2 for the protein location search
+    function update_protein(nValue){
+      protein_loc.attr("x1", scale(nValue + spacer))
+                 .attr("x2", scale(nValue + spacer)) 
+    }
 
+    //Prepares all the prepartory phases of the graph such as returning the scale, finding the max, as well as drawing the intersecting line/horizontal line
+    function prep_chart(rows){
       //Find the max range + 100 of the chart
       var max = d3.max(rows, function(d) { 
         if(d.End != "NA"){
@@ -369,12 +304,21 @@ d3.csv("Input/test_mini.csv")
           
         });
 
+        return(scale);
+    }
 
-      //Updates the position of x1 and x2 for the protein location search
-      function update_protein(nValue){
-        protein_loc.attr("x1", scale(nValue + spacer))
-                   .attr("x2", scale(nValue + spacer)) 
-      }
+    //Update the gene name to be displayed
+    function update_gene_name(gene_input){
+      //Clear entries
+      clearGraph();
+           
+      /*
+        Prep chart
+      */
+
+      //Prep the lines as well as get the scale
+      var scale = prep_chart(rows);
+
 
       /*
         Annotate data about gene name/UniprotID/Reviewed/Evidence
@@ -440,22 +384,22 @@ d3.csv("Input/test_mini.csv")
         
       //Shows current gene
       annot_gene.append("p")
-                .text(curr_gene)
+                .text(curr_gene[0])
                 .attr("class", "annot")
 
       //Shows transcript evidence
       anont_evidence.append("p")
-                    .text(evidence)
+                    .text(evidence[0])
                     .attr("class", "annot")
 
       //Shows the type of review this transcript has
       annot_review.append("p")
-                  .text(review)
+                  .text(review[0])
                   .attr("class", "annot")
 
       //Shows the uniprotID
       annot_uniprot.append("p")
-                   .text(uniprotIDs)
+                   .text(uniprotIDs[0])
                    .attr("class", "annot")
 
       /*
@@ -465,7 +409,7 @@ d3.csv("Input/test_mini.csv")
 
       //Builds based on entry
       domains.append("rect")
-             .filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
+             .filter(function(d){return d.UniprotID == uniprotIDs[0]})
              .attr("x", function(d){
                 if(d.Start == "NA"){
                   return(scale(0))
