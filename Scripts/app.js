@@ -239,12 +239,6 @@ d3.csv('Input/test_multiple.csv')
     }
 
 
-    //Updates the position of x1 and x2 for the protein location search
-    function update_protein(nValue){
-      protein_loc.attr("x1", scale(nValue + spacer))
-                 .attr("x2", scale(nValue + spacer)) 
-    }
-
     //Prepares all the prepartory phases of the graph such as returning the scale, finding the max, as well as drawing the intersecting line/horizontal line
     function prep_chart(rows){
       //Find the max range + 100 of the chart
@@ -280,6 +274,12 @@ d3.csv('Input/test_multiple.csv')
                              .style("stroke", "rgb(255,0,0)")
                              .style("stroke-width", 2)
 
+
+      //Updates the position of x1 and x2 for the protein location search
+      function update_protein(nValue){
+        protein_loc.attr("x1", scale(nValue + spacer))
+                   .attr("x2", scale(nValue + spacer)) 
+      }
 
       /* 
         Location Element
