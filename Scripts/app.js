@@ -99,209 +99,396 @@ d3.csv("Input/test_mini.csv")
     //Detects the different transcripts element from options
     d3.select(".transcript").on('change', function(){
         console.log(this.value);
-        //update_transcript();
+        update_transcript(this.value);
     });
-
 
     //Init the element to display the gene being searched for
     var gene_title = d3.selectAll("form").append("p");
 
-    //Update the gene name to be displayed
-    function update_gene_name(gene_input){
+    //Update the graph based on transcript
+    function update_transcript(transcript_input){
+      d3.selectAll("rect").remove(); //Clean svg on entry
+      d3.selectAll("line").remove(); //Clean lines on entry
+      d3.selectAll(".annot").remove(); //Clean text on entry
+
+      /*
+        Prep chart
+      */
+
+      //Find the max range + 100 of the chart
+      var max = d3.max(rows, function(d) { 
+        if(d.End != "NA"){
+          return +d.End + 100; 
+        }
+        else{
+          return 0;
+        }
+      });
+      
+      //Create scale for x in the chart
+      var scale = d3.scale.linear()
+          .domain([0,5000])
+          .range([0, max]) //range will vary on max for subset
+
+      //Draw line 0 to max protein length
+      var domain_length = chart.append("line")
+                               .attr("x1", scale(spacer))
+                               .attr("y1", 100)
+                               .attr("x2", width)
+                               .attr("y2", 100)
+                               .style("stroke", "rgb(255,0,0)")
+                               .style("stroke-width", 2)
+
+      //Draw line cutting into specified area
+      var protein_loc = chart.append("line")
+                             .attr("x1", scale(start_x))
+                             .attr("y1", 50)
+                             .attr("x2", scale(start_x)) 
+                             .attr("y2", 150)
+                             .style("stroke", "rgb(255,0,0)")
+                             .style("stroke-width", 2)
+
+
+      /* 
+        Location Element
+      */
+
+      //Find the #loc element and take the value of it on input
+      d3.select("#loc")
+        .attr("max", max)
+        .on("input", function(){
+          if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
+            update_protein(0);
+          } 
+          else {
+            if(this.value > max){ //Checks to make sure that it is in the limit
+              update_protein(max);
+            }
+            else{
+              update_protein(+this.value);
+              console.log(scale(+this.value + spacer));
+            }
+          }
+          
+        });
+
+
+      //Updates the position of x1 and x2 for the protein location search
+      function update_protein(nValue){
+        protein_loc.attr("x1", scale(nValue + spacer))
+                   .attr("x2", scale(nValue + spacer)) 
+      }
+
+      /*
+        Annotate data about gene name/UniprotID/Reviewed/Evidence
+      */
+/*
+      //Filter to check if a gene is the same as the input value
+      function contain_gene(gene){
+        return(gene == gene_input);
+      }
+
+      //Filters current gene
+      var curr_gene = d3.keys(genenames);
+      curr_gene = curr_gene.filter(contain_gene);
+*/curr_gene = "Cat";
+      //Filters out the uniprotID
+      var uniprotIDs = rows.filter(function(d){return d["UniprotID"] == transcript_input})
+                           .map(function(d){return d["UniprotID"]})     
+
+      //Move to set to get unique uniprot id
+      var uniprotId = new Set();
+      uniprotIDs.map(function(d){uniprotId.add(d)});
+      uniprotIDs = Array.from(uniprotId);
+
+      //Filters out based on uniprot id from prior
+      var evidence = new Array();
+
+      //Checks each protein id for evidence
+      uniprotIDs.map(function(e){
+        var evidence_array = rows.filter(function(d){return d.UniprotID == e})
+                                         .map(function(d){return d.Evidence})
+
+        //Create new array and set to take in the evidence
+        var single_evid = new Set();
+        evidence_array.map(function(d){single_evid.add(d)});
+        single_evid.forEach(function(v){evidence.push(v)});  
+      });
+      
+      //Checks each protein id for review
+      var review = new Array();
+      uniprotIDs.map(function(e){
+        //Filters out based on uniprot id from prior
+        var review_array = rows.filter(function(d){return d.UniprotID == e})
+                                 .map(function(d){return d.Reviewed})
+
+        //Create new array and set to take in the evidence
+        var single_review = new Set();
+        review_array.map(function(d){single_review.add(d)});
+        single_review.forEach(function(v){review.push(v)});  
+      });
+
+      //Create the options for the transcript dropdown
+      d3.select('.transcript').selectAll('option')
+        .data(uniprotIDs) // Data join, find keys from mapped keys
+        .enter() // Enter data selection
+        .append('option') // Append to options
+        .attr('value', function (d) {return d}) // Add name to option
+        .attr("id", function(d) {return d})
+        .text(function(d){return d})
+
+      /*
+        Annotate page with information about the domain/transcripts
+      */
+      
+      //Shows current gene
+      annot_gene.append("p")
+                .text(curr_gene)
+                .attr("class", "annot")
+
+      //Shows transcript evidence
+      anont_evidence.append("p")
+                    .text(evidence)
+                    .attr("class", "annot")
+
+      //Shows the type of review this transcript has"End"
+      annot_review.append("p")
+                  .text(review)
+                  .attr("class", "annot")
+
+      //Shows the uniprotID
+      annot_uniprot.append("p")
+                   .text(uniprotIDs)
+                   .attr("class", "annot")
+
+      /*
+        Builds the domains on the lines
+      */
+
+
+      //Builds based on entry
+      domains.append("rect")
+             .filter(function(d){return d["UniprotID"] == transcript_input})
+             .attr("x", function(d){
+                if(d.Start == "NA"){
+                  return(scale(0))
+                }
+                else{
+                  return(scale(parseInt(d["Start"]) + parseInt(spacer)))
+                }
+              })
+             .attr("y", 75)
+             .attr("width", function(d){
+                if(d.End == "NA"){
+                  return(scale(0));
+                }
+                else{
+                  return(scale(parseInt(d["End"]) - parseInt(d.Start)))
+                }
+              }) 
+             .attr("height", 50)
+             .style("stroke", "rgb(255,0,0)")
+             .style("stroke-width", 2)
+             .on('mouseover', tip.show)
+             .on('mouseout', tip.hide)
+    }
+
+    //Clears entries
+    function clearGraph(){
       d3.selectAll("rect").remove(); //Clean svg on entry
       d3.selectAll("line").remove(); //Clean lines on entry
       d3.selectAll(".annot").remove(); //Clean text on entry
       d3.selectAll(".transcript option").remove(); //Clean text on entry
-      
-      if(gene_input != ""){
-        gene_title.text("Search for: " + gene_input);
-        
-        
-        /*
-          Prep chart
-        */
+    }
 
-        //Find the max range + 100 of the chart
-        var max = d3.max(rows, function(d) { 
-          if(d.End != "NA"){
-            return +d.End + 100; 
-          }
-          else{
-            return 0;
-          }
-        });
+    //Update the gene name to be displayed
+    function update_gene_name(gene_input){
+
+      //Clear entries
+      clearGraph();
+           
+      /*
+        Prep chart
+      */
+
+      //Find the max range + 100 of the chart
+      var max = d3.max(rows, function(d) { 
+        if(d.End != "NA"){
+          return +d.End + 100; 
+        }
+        else{
+          return 0;
+        }
+      });
         
-        //Create scale for x in the chart
-        var scale = d3.scale.linear()
-            .domain([0,5000])
-            .range([0, max]) //range will vary on max for subset
+      //Create scale for x in the chart
+      var scale = d3.scale.linear()
+          .domain([0,5000])
+          .range([0, max]) //range will vary on max for subset
 
-        //Draw line 0 to max protein length
-        var domain_length = chart.append("line")
-                                 .attr("x1", scale(spacer))
-                                 .attr("y1", 100)
-                                 .attr("x2", width)
-                                 .attr("y2", 100)
-                                 .style("stroke", "rgb(255,0,0)")
-                                 .style("stroke-width", 2)
-
-        //Draw line cutting into specified area
-        var protein_loc = chart.append("line")
-                               .attr("x1", scale(start_x))
-                               .attr("y1", 50)
-                               .attr("x2", scale(start_x)) 
-                               .attr("y2", 150)
+      //Draw line 0 to max protein length
+      var domain_length = chart.append("line")
+                               .attr("x1", scale(spacer))
+                               .attr("y1", 100)
+                               .attr("x2", width)
+                               .attr("y2", 100)
                                .style("stroke", "rgb(255,0,0)")
                                .style("stroke-width", 2)
 
+      //Draw line cutting into specified area
+      var protein_loc = chart.append("line")
+                             .attr("x1", scale(start_x))
+                             .attr("y1", 50)
+                             .attr("x2", scale(start_x)) 
+                             .attr("y2", 150)
+                             .style("stroke", "rgb(255,0,0)")
+                             .style("stroke-width", 2)
 
-        /* 
-          Location Element
-        */
 
-        //Find the #loc element and take the value of it on input
-        d3.select("#loc")
-          .attr("max", max)
-          .on("input", function(){
-            if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
-              update_protein(0);
-            } 
-            else {
-              if(this.value > max){ //Checks to make sure that it is in the limit
-                update_protein(max);
-              }
-              else{
-                update_protein(+this.value);
-                console.log(scale(+this.value + spacer));
-              }
+      /* 
+        Location Element
+      */
+
+      //Find the #loc element and take the value of it on input
+      d3.select("#loc")
+        .attr("max", max)
+        .on("input", function(){
+          if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
+            update_protein(0);
+          } 
+          else {
+            if(this.value > max){ //Checks to make sure that it is in the limit
+              update_protein(max);
             }
-            
-          });
+            else{
+              update_protein(+this.value);
+              console.log(scale(+this.value + spacer));
+            }
+          }
+          
+        });
 
 
-        //Updates the position of x1 and x2 for the protein location search
-        function update_protein(nValue){
-          protein_loc.attr("x1", scale(nValue + spacer))
-                     .attr("x2", scale(nValue + spacer)) 
-        }
+      //Updates the position of x1 and x2 for the protein location search
+      function update_protein(nValue){
+        protein_loc.attr("x1", scale(nValue + spacer))
+                   .attr("x2", scale(nValue + spacer)) 
+      }
 
-        /*
-          Annotate data about gene name/UniprotID/Reviewed/Evidence
-        */
+      /*
+        Annotate data about gene name/UniprotID/Reviewed/Evidence
+      */
 
-        //Filter to check if a gene is the same as the input value
-        function contain_gene(gene){
-          return(gene == gene_input);
-        }
+      //Filter to check if a gene is the same as the input value
+      function contain_gene(gene){
+        return(gene == gene_input);
+      }
 
-        //Filters current gene
-        var curr_gene = d3.keys(genenames);
-        curr_gene = curr_gene.filter(contain_gene);
+      //Filters current gene
+      var curr_gene = d3.keys(genenames);
+      curr_gene = curr_gene.filter(contain_gene);
 
-        //Filters out the uniprotID
-        var uniprotIDs = rows.filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
+      //Filters out the uniprotID
+      var uniprotIDs = rows.filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
                              .map(function(d){return d.UniprotID})     
 
-        //Move to set to get unique uniprot id
-        var uniprotId = new Set();
-        uniprotIDs.map(function(d){uniprotId.add(d)});
-        uniprotIDs = Array.from(uniprotId);
+      //Move to set to get unique uniprot id
+      var uniprotId = new Set();
+      uniprotIDs.map(function(d){uniprotId.add(d)});
+      uniprotIDs = Array.from(uniprotId);
 
-        //Filters out based on uniprot id from prior
-        var evidence = new Array();
+      //Filters out based on uniprot id from prior
+      var evidence = new Array();
 
-        //Checks each protein id for evidence
-        uniprotIDs.map(function(e){
-          var evidence_array = rows.filter(function(d){return d.UniprotID == e})
-                                           .map(function(d){return d.Evidence})
+      //Checks each protein id for evidence
+      uniprotIDs.map(function(e){
+        var evidence_array = rows.filter(function(d){return d.UniprotID == e})
+                                         .map(function(d){return d.Evidence})
 
-          //Create new array and set to take in the evidence
-          var single_evid = new Set();
-          evidence_array.map(function(d){single_evid.add(d)});
-          single_evid.forEach(function(v){evidence.push(v)});  
-        });
+        //Create new array and set to take in the evidence
+        var single_evid = new Set();
+        evidence_array.map(function(d){single_evid.add(d)});
+        single_evid.forEach(function(v){evidence.push(v)});  
+      });
   
-        //Checks each protein id for review
-        var review = new Array();
-        uniprotIDs.map(function(e){
-          //Filters out based on uniprot id from prior
-          var review_array = rows.filter(function(d){return d.UniprotID == e})
-                                   .map(function(d){return d.Reviewed})
+      //Checks each protein id for review
+      var review = new Array();
+      uniprotIDs.map(function(e){
+        //Filters out based on uniprot id from prior
+        var review_array = rows.filter(function(d){return d.UniprotID == e})
+                                 .map(function(d){return d.Reviewed})
 
-          //Create new array and set to take in the evidence
-          var single_review = new Set();
-          review_array.map(function(d){single_review.add(d)});
-          single_review.forEach(function(v){review.push(v)});  
-        });
+        //Create new array and set to take in the evidence
+        var single_review = new Set();
+        review_array.map(function(d){single_review.add(d)});
+        single_review.forEach(function(v){review.push(v)});  
+      });
 
-        //Create the options for the transcript dropdown
-        d3.select('.transcript').selectAll('option')
-          .data(uniprotIDs) // Data join, find keys from mapped keys
-          .enter() // Enter data selection
-          .append('option') // Append to options
-          .attr('value', function (d) {return d}) // Add name to option
-          .attr("id", function(d) {return d})
-          .text(function(d){return d})
+      //Create the options for the transcript dropdown
+      d3.select('.transcript').selectAll('option')
+        .data(uniprotIDs) // Data join, find keys from mapped keys
+        .enter() // Enter data selection
+        .append('option') // Append to options
+        .attr('value', function (d) {return d}) // Add name to option
+        .attr("id", function(d) {return d})
+        .text(function(d){return d})
 
-        /*
-          Annotate page with information about the domain/transcripts
-        */
+      /*
+        Annotate page with information about the domain/transcripts
+      */
         
-        //Shows current gene
-        annot_gene.append("p")
-                  .text(curr_gene)
-                  .attr("class", "annot")
+      //Shows current gene
+      annot_gene.append("p")
+                .text(curr_gene)
+                .attr("class", "annot")
 
-        //Shows transcript evidence
-        anont_evidence.append("p")
-                      .text(evidence)
-                      .attr("class", "annot")
-
-        //Shows the type of review this transcript has
-        annot_review.append("p")
-                    .text(review)
+      //Shows transcript evidence
+      anont_evidence.append("p")
+                    .text(evidence)
                     .attr("class", "annot")
 
-        //Shows the uniprotID
-        annot_uniprot.append("p")
-                     .text(uniprotIDs)
-                     .attr("class", "annot")
+      //Shows the type of review this transcript has
+      annot_review.append("p")
+                  .text(review)
+                  .attr("class", "annot")
 
-        /*
-          Builds the domains on the lines
-        */
+      //Shows the uniprotID
+      annot_uniprot.append("p")
+                   .text(uniprotIDs)
+                   .attr("class", "annot")
+
+      /*
+        Builds the domains on the lines
+      */
 
 
-        //Builds based on entry
-        domains.append("rect")
-               .filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
-               .attr("x", function(d){
-                  if(d.Start == "NA"){
-                    return(scale(0))
-                  }
-                  else{
-                    return(scale(parseInt(d.Start) + parseInt(spacer)))
-                  }
-                })
-               .attr("y", 75)
-               .attr("width", function(d){
-                  if(d.End == "NA"){
-                    return(scale(0));
-                  }
-                  else{
-                    return(scale(parseInt(d.End) - parseInt(d.Start)))
-                  }
-                }) 
-               .attr("height", 50)
-               .style("stroke", "rgb(255,0,0)")
-               .style("stroke-width", 2)
-               .on('mouseover', tip.show)
-               .on('mouseout', tip.hide)
+      //Builds based on entry
+      domains.append("rect")
+             .filter(function(d){return d.GENENAME.toLowerCase() == gene_input.toLowerCase()})
+             .attr("x", function(d){
+                if(d.Start == "NA"){
+                  return(scale(0))
+                }
+                else{
+                  return(scale(parseInt(d.Start) + parseInt(spacer)))
+                }
+              })
+             .attr("y", 75)
+             .attr("width", function(d){
+                if(d.End == "NA"){
+                  return(scale(0));
+                }
+                else{
+                  return(scale(parseInt(d.End) - parseInt(d.Start)))
+                }
+              }) 
+             .attr("height", 50)
+             .style("stroke", "rgb(255,0,0)")
+             .style("stroke-width", 2)
+             .on('mouseover', tip.show)
+             .on('mouseout', tip.hide)
 
-      }
-      else{
-        gene_title.text(gene_input);
-      }
+
     }
 
   });
