@@ -137,6 +137,9 @@ d3.csv('Input/domain_data.csv')
       //Get the review entry
       var review = getReview(uniprotIDs);
 
+      //Get the organism
+      var organism = getOrganism(uniprotIDs);
+
       /*
         Annotate page with information about the domain/transcripts
       */
@@ -152,6 +155,9 @@ d3.csv('Input/domain_data.csv')
 
       //Shows the uniprotID
       append_uniprotID(uniprotIDs);
+
+      //Show the organism
+      append_species(organism);
 
       /*
         Builds the domains on the lines
@@ -198,6 +204,24 @@ d3.csv('Input/domain_data.csv')
       return(review);
     }
 
+    //Get the organism entry
+    function getOrganism(uniprotIDs){
+      //Checks each protein id for review
+      var organism = new Array();
+      uniprotIDs.map(function(e){
+        //Filters out based on uniprot id from prior
+        var organism_array = rows.filter(function(d){return d.UniprotID == e})
+                                 .map(function(d){return d.Organism})
+
+        //Create new array and set to take in the evidence
+        var single_organism = new Set();
+        organism_array.map(function(d){single_organism.add(d)});
+        single_organism.forEach(function(v){organism.push(v)});  
+      });
+
+      return(organism);
+    }
+
     //Clears entries
     function clearGraph(all = true){
       d3.selectAll("rect").remove(); //Clean svg on entry
@@ -226,6 +250,20 @@ d3.csv('Input/domain_data.csv')
     function append_review(review){
       annot_review.append("p")
                   .text(review)
+                  .attr("class", "annot")
+    }
+
+    //Appends type of organism
+    function append_species(species){
+      annot_review.append("p")
+                  .text(species)
+                  .attr("class", "annot")
+    }
+
+    //Appends type of review
+    function append_species(species){
+      annot_review.append("p")
+                  .text(species)
                   .attr("class", "annot")
     }
 
@@ -374,6 +412,10 @@ d3.csv('Input/domain_data.csv')
       //Checks each protein id for review
       review = getReview(uniprotIDs);
 
+      //Get the organism
+      var organism = getOrganism(uniprotIDs);
+
+
       //Create the options for the transcript dropdown
       d3.select('.transcript').selectAll('option')
         .data(uniprotIDs) // Data join, find keys from mapped keys
@@ -400,6 +442,8 @@ d3.csv('Input/domain_data.csv')
       //Shows the uniprotID
       append_uniprotID(uniprotIDs[0]);
 
+      //Show the organism
+      append_species(organism[0]);
 
       /*
         Builds the domains on the lines
