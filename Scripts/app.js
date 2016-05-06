@@ -150,19 +150,8 @@ d3.csv('Input/test_multiple.csv')
         single_evid.forEach(function(v){evidence.push(v)});  
       });
       
-      //Checks each protein id for review
-      var review = new Array();
-      uniprotIDs.map(function(e){
-        //Filters out based on uniprot id from prior
-        var review_array = rows.filter(function(d){return d.UniprotID == e})
-                                 .map(function(d){return d.Reviewed})
-
-        //Create new array and set to take in the evidence
-        var single_review = new Set();
-        review_array.map(function(d){single_review.add(d)});
-        single_review.forEach(function(v){review.push(v)});  
-      });
-
+      //Get the review entry
+      review = getReview(uniprotIDs);
 
       /*
         Annotate page with information about the domain/transcripts
@@ -187,6 +176,24 @@ d3.csv('Input/test_multiple.csv')
       //Builds based on entry
       buildDomains(transcript_input, scale);
 
+    }
+
+    //Get the review entry
+    function getReview(uniprotIDs){
+      //Checks each protein id for review
+      var review = new Array();
+      uniprotIDs.map(function(e){
+        //Filters out based on uniprot id from prior
+        var review_array = rows.filter(function(d){return d.UniprotID == e})
+                                 .map(function(d){return d.Reviewed})
+
+        //Create new array and set to take in the evidence
+        var single_review = new Set();
+        review_array.map(function(d){single_review.add(d)});
+        single_review.forEach(function(v){review.push(v)});  
+      });
+
+      return(review);
     }
 
     //Clears entries
@@ -375,17 +382,7 @@ d3.csv('Input/test_multiple.csv')
       });
   
       //Checks each protein id for review
-      var review = new Array();
-      uniprotIDs.map(function(e){
-        //Filters out based on uniprot id from prior
-        var review_array = rows.filter(function(d){return d.UniprotID == e})
-                                 .map(function(d){return d.Reviewed})
-
-        //Create new array and set to take in the evidence
-        var single_review = new Set();
-        review_array.map(function(d){single_review.add(d)});
-        single_review.forEach(function(v){review.push(v)});  
-      });
+      review = getReview(uniprotIDs);
 
       //Create the options for the transcript dropdown
       d3.select('.transcript').selectAll('option')
