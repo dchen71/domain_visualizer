@@ -44,7 +44,7 @@ d3.csv('Input/test_multiple.csv')
     var annot_gene = d3.select("form");
     var annot_review = d3.select('form');
     var annot_uniprot = d3.select("form");
-    var anont_evidence = d3.select("form");
+    var annot_evidence = d3.select("form");
 
     /*
       Unique genenames for datalist
@@ -177,33 +177,24 @@ d3.csv('Input/test_multiple.csv')
       */
       
       //Shows current gene
-      annot_gene.append("p")
-                .text(curr_gene)
-                .attr("class", "annot")
+      append_gene(curr_gene);
 
       //Shows transcript evidence
-      anont_evidence.append("p")
-                    .text(evidence)
-                    .attr("class", "annot")
+      append_transcript(evidence);
 
-      //Shows the type of review this transcript has"End"
-      annot_review.append("p")
-                  .text(review)
-                  .attr("class", "annot")
+      //Shows the type of review this transcript has
+      append_transcript(review);
 
       //Shows the uniprotID
-      annot_uniprot.append("p")
-                   .text(uniprotIDs)
-                   .attr("class", "annot")
+      append_uniprotID(uniprotIDs);
 
       /*
         Builds the domains on the lines
       */
 
-
       //Builds based on entry
       buildDomains(transcript_input, scale);
-      
+
     }
 
     //Clears entries
@@ -216,6 +207,35 @@ d3.csv('Input/test_multiple.csv')
       }
     }
 
+    //Appends current gene
+    function append_gene(genename){
+      annot_gene.append("p")
+                .text(genename)
+                .attr("class", "annot")
+    }
+
+    //Appends transcript evidence
+    function append_transcript(transcript){
+      annot_evidence.append("p")
+                    .text(transcript)
+                    .attr("class", "annot")
+    }
+
+    //Appends type of review
+    function append_review(review){
+      annot_review.append("p")
+                  .text(review)
+                  .attr("class", "annot")
+    }
+
+    //Appends uniprotID
+    function append_uniprotID(uniprotid){
+      annot_uniprot.append("p")
+                   .text(uniprotid)
+                   .attr("class", "annot")
+    }
+
+    //Builds the domains on the line
     function buildDomains(data, scale){
       //Builds based on entry
       domains.append("rect")
@@ -389,24 +409,16 @@ d3.csv('Input/test_multiple.csv')
       */
         
       //Shows current gene
-      annot_gene.append("p")
-                .text(curr_gene[0])
-                .attr("class", "annot")
+      append_gene(curr_gene[0]);
 
       //Shows transcript evidence
-      anont_evidence.append("p")
-                    .text(evidence[0])
-                    .attr("class", "annot")
+      append_transcript(evidence[0]);
 
       //Shows the type of review this transcript has
-      annot_review.append("p")
-                  .text(review[0])
-                  .attr("class", "annot")
+      append_review(review[0]);
 
       //Shows the uniprotID
-      annot_uniprot.append("p")
-                   .text(uniprotIDs[0])
-                   .attr("class", "annot")
+      append_uniprotID(uniprotIDs[0]);
 
       /*
         Builds the domains on the lines
