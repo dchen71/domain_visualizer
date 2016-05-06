@@ -14,11 +14,7 @@ var start_x = 20;
 var spacer = 20;
 
 //Read domain data
-//d3.csv('Input/domain_data.csv')
-//d3.csv('Input/test_single.csv')
-d3.csv('Input/test_multiple.csv')
-//d3.csv('Input/test_na.csv')
-//d3.csv("Input/test_mini.csv")
+d3.csv('Input/domain_data.csv')
   .row(function (d) { return d })
   .get(function (error, rows) {
 
@@ -94,7 +90,6 @@ d3.csv('Input/test_multiple.csv')
 
     //Detects the different transcripts element from options
     d3.select(".transcript").on('change', function(){
-        console.log(this.value);
         update_transcript(this.value);
     });
 
@@ -285,7 +280,7 @@ d3.csv('Input/test_multiple.csv')
         
       //Create scale for x in the chart
       var scale = d3.scale.linear()
-          .domain([0,5000])
+          .domain([0,max * 2])
           .range([0, max]) //range will vary on max for subset
 
       //Draw line 0 to max protein lengthtranscript
@@ -319,7 +314,7 @@ d3.csv('Input/test_multiple.csv')
 
       //Find the #loc element and take the value of it on input
       d3.select("#loc")
-        .attr("max", max)
+        .attr("max", max + 1000)
         .on("input", function(){
           if(isNaN(parseInt(this.value))){ //Parses and checks if this is a string or not
             update_protein(0);
@@ -330,7 +325,6 @@ d3.csv('Input/test_multiple.csv')
             }
             else{
               update_protein(+this.value);
-              console.log(scale(+this.value + spacer));
             }
           }
           
