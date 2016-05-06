@@ -202,30 +202,8 @@ d3.csv('Input/test_multiple.csv')
 
 
       //Builds based on entry
-      domains.append("rect")
-             .filter(function(d){return d["UniprotID"] == transcript_input})
-             .attr("x", function(d){
-                if(d.Start == "NA"){
-                  return(scale(0))
-                }
-                else{
-                  return(scale(parseInt(d["Start"]) + parseInt(spacer)))
-                }
-              })
-             .attr("y", 75)
-             .attr("width", function(d){
-                if(d.End == "NA"){
-                  return(scale(0));
-                }
-                else{
-                  return(scale(parseInt(d["End"]) - parseInt(d.Start)))
-                }
-              }) 
-             .attr("height", 50)
-             .style("stroke", "rgb(255,0,0)")
-             .style("stroke-width", 2)
-             .on('mouseover', tip.show)
-             .on('mouseout', tip.hide)
+      buildDomains(transcript_input, scale);
+      
     }
 
     //Clears entries
@@ -236,6 +214,34 @@ d3.csv('Input/test_multiple.csv')
       if(all == true){
         d3.selectAll(".transcript option").remove(); //Clean text on entry
       }
+    }
+
+    function buildDomains(data, scale){
+      //Builds based on entry
+      domains.append("rect")
+             .filter(function(d){return d.UniprotID == data})
+             .attr("x", function(d){
+                if(d.Start == "NA"){
+                  return(scale(0))
+                }
+                else{
+                  return(scale(parseInt(d.Start) + parseInt(spacer)))
+                }
+              })
+             .attr("y", 75)
+             .attr("width", function(d){
+                if(d.End == "NA"){
+                  return(scale(0));
+                }
+                else{
+                  return(scale(parseInt(d.End) - parseInt(d.Start)))
+                }
+              }) 
+             .attr("height", 50)
+             .style("stroke", "rgb(255,0,0)")
+             .style("stroke-width", 2)
+             .on('mouseover', tip.show)
+             .on('mouseout', tip.hide)
     }
 
 
@@ -256,7 +262,7 @@ d3.csv('Input/test_multiple.csv')
           .domain([0,5000])
           .range([0, max]) //range will vary on max for subset
 
-      //Draw line 0 to max protein length
+      //Draw line 0 to max protein lengthtranscript
       var domain_length = chart.append("line")
                                .attr("x1", scale(spacer))
                                .attr("y1", 100)
@@ -406,32 +412,7 @@ d3.csv('Input/test_multiple.csv')
         Builds the domains on the lines
       */
 
-
-      //Builds based on entry
-      domains.append("rect")
-             .filter(function(d){return d.UniprotID == uniprotIDs[0]})
-             .attr("x", function(d){
-                if(d.Start == "NA"){
-                  return(scale(0))
-                }
-                else{
-                  return(scale(parseInt(d.Start) + parseInt(spacer)))
-                }
-              })
-             .attr("y", 75)
-             .attr("width", function(d){
-                if(d.End == "NA"){
-                  return(scale(0));
-                }
-                else{
-                  return(scale(parseInt(d.End) - parseInt(d.Start)))
-                }
-              }) 
-             .attr("height", 50)
-             .style("stroke", "rgb(255,0,0)")
-             .style("stroke-width", 2)
-             .on('mouseover', tip.show)
-             .on('mouseout', tip.hide)
+      buildDomains(uniprotIDs[0], scale);
 
 
     }
