@@ -163,14 +163,6 @@ d3.csv('Input/test_multiple.csv')
         single_review.forEach(function(v){review.push(v)});  
       });
 
-      //Create the options for the transcript dropdown
-      d3.select('.transcript').selectAll('option')
-        .data(uniprotIDs) // Data join, find keys from mapped keys
-        .enter() // Enter data selection
-        .append('option') // Append to options
-        .attr('value', function (d) {return d}) // Add name to option
-        .attr("id", function(d) {return d})
-        .text(function(d){return d})
 
       /*
         Annotate page with information about the domain/transcripts
@@ -404,6 +396,7 @@ d3.csv('Input/test_multiple.csv')
         .attr("id", function(d) {return d})
         .text(function(d){return d})
 
+
       /*
         Annotate page with information about the domain/transcripts
       */
@@ -419,6 +412,7 @@ d3.csv('Input/test_multiple.csv')
 
       //Shows the uniprotID
       append_uniprotID(uniprotIDs[0]);
+
 
       /*
         Builds the domains on the lines
