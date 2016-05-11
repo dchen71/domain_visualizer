@@ -1,4 +1,12 @@
 /*
+General
+*/
+
+body {
+  font: 12px sans-serif;
+}
+
+/*
 Tooltips
 */
 
@@ -45,6 +53,9 @@ Tooltips
 /*
 Transcript information
 */
+.chart{
+	margin-bottom: 3em;
+}
 
 .container{
 	display: -webkit-flex;
@@ -53,9 +64,6 @@ Transcript information
 	max-width: 400px;
 }
 
-.trans-info{
-	margin: 10px;
-}
 
 .trans-info p:first-child{
 	margin-top: 1em;
@@ -64,4 +72,9 @@ Transcript information
 .trans-info p{
 	margin-bottom: 0;
 	margin-top: 0;
+	margin-left: 1em;
+}
+
+.trans-info p:last-child{
+	margin-bottom: 1em;
 }

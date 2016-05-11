@@ -287,7 +287,7 @@ d3.csv('Input/domain_data.csv')
                   return(scale(parseInt(d.Start) + parseInt(spacer)))
                 }
               })
-             .attr("y", 75)
+             .attr("y", 85)
              .attr("width", function(d){
                 if(d.End == "NA"){
                   return(scale(0));
@@ -296,9 +296,12 @@ d3.csv('Input/domain_data.csv')
                   return(scale(parseInt(d.End) - parseInt(d.Start)))
                 }
               }) 
-             .attr("height", 50)
-             .style("stroke", "rgb(255,0,0)")
-             .style("stroke-width", 2)
+             .attr("height", 30)
+             .attr("rx", 5)
+             .attr("ry", 5)
+             .style("stroke", "#0099ff")
+             .style("stroke-width", 1)
+             .style("fill", "#80ff80")
              .on('mouseover', tip.show)
              .on('mouseout', tip.hide)
     }
