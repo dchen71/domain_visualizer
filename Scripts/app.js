@@ -85,11 +85,13 @@ d3.csv('Input/domain_data.csv')
 
     //Find the gene element from datalist
     d3.select("input[list=gene]").on('input', function(){
+        d3.select("#loc").property("value", 0);
         update_gene_name(this.value);
     });
 
     //Detects the different transcripts element from options
     d3.select(".transcript").on('change', function(){
+        d3.select("#loc").property("value", 0);
         update_transcript(this.value);
     });
 
