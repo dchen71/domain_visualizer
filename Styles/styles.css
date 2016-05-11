@@ -42,3 +42,26 @@ Tooltips
 	margin-left: -18px;
 }
 
+/*
+Transcript information
+*/
+
+.container{
+	display: -webkit-flex;
+	display: flex;
+	background-color: #F0F0F0;
+	max-width: 400px;
+}
+
+.trans-info{
+	margin: 10px;
+}
+
+.trans-info p:first-child{
+	margin-top: 1em;
+}
+
+.trans-info p{
+	margin-bottom: 0;
+	margin-top: 0;
+}

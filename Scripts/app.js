@@ -37,10 +37,10 @@ d3.csv('Input/domain_data.csv')
                        .enter()
 
     //Shortcut to call element for annotation
-    var annot_gene = d3.select("form");
-    var annot_review = d3.select('form');
-    var annot_uniprot = d3.select("form");
-    var annot_evidence = d3.select("form");
+    var annot_gene = d3.select(".trans-info");
+    var annot_review = d3.select('.trans-info');
+    var annot_uniprot = d3.select(".trans-info");
+    var annot_evidence = d3.select(".trans-info");
 
     /*
       Unique genenames for datalist
