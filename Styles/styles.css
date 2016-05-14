@@ -74,6 +74,7 @@ Transcript information
 .trans-info p{
 	margin: 0;
 	margin-left: 1em;
+	text-transform: capitalize;
 }
 
 .trans-info p:last-child{
