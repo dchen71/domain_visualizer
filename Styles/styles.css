@@ -43,6 +43,7 @@ Tooltips
 	border-width: 15px;
 	margin-left: -15px;
 }
+
 .d3-tip div:before {
 	border-color: rgba(188, 186, 174, 0);
 	border-top-color: #BCBAAE;
@@ -53,6 +54,7 @@ Tooltips
 /*
 Transcript information
 */
+
 .chart{
 	margin-bottom: 3em;
 }
@@ -70,8 +72,7 @@ Transcript information
 }
 
 .trans-info p{
-	margin-bottom: 0;
-	margin-top: 0;
+	margin: 0;
 	margin-left: 1em;
 }
 
