@@ -62,10 +62,15 @@ Transcript information
 .container{
 	display: -webkit-flex;
 	display: flex;
-	background-color: #F0F0F0;
-	max-width: 400px;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	max-width: 10em;
 }
 
+.trans-header{
+	border-bottom: 1px solid #F0F0F0;
+	margin: 1em;
+}
 
 .trans-info p:first-child{
 	margin-top: 1em;
