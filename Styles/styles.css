@@ -64,7 +64,6 @@ Transcript information
 	display: flex;
 	-webkit-flex-direction: column;
 	flex-direction: column;
-	max-width: 10em;
 }
 
 .trans-header{

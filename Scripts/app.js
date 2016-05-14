@@ -237,42 +237,35 @@ d3.csv('Input/domain_data.csv')
     //Appends current gene
     function append_gene(genename){
       annot_gene.append("p")
-                .text(genename)
+                .text("Gene: " + genename)
                 .attr("class", "annot")
     }
 
     //Appends transcript evidence
     function append_transcript(transcript){
       annot_evidence.append("p")
-                    .text(transcript)
+                    .text("Review evidence: " + transcript)
                     .attr("class", "annot")
     }
 
     //Appends type of review
     function append_review(review){
       annot_review.append("p")
-                  .text(review)
+                  .text("Reviewed? " + review)
                   .attr("class", "annot")
     }
 
     //Appends type of organism
     function append_species(species){
       annot_review.append("p")
-                  .text(species)
-                  .attr("class", "annot")
-    }
-
-    //Appends type of review
-    function append_species(species){
-      annot_review.append("p")
-                  .text(species)
+                  .text("Species: " + species)
                   .attr("class", "annot")
     }
 
     //Appends uniprotID
     function append_uniprotID(uniprotid){
       annot_uniprot.append("p")
-                   .text(uniprotid)
+                   .text("UniprotID: " + uniprotid)
                    .attr("class", "annot")
     }
 
